@@ -95,13 +95,10 @@ you for understanding.
 
 ### 1.4 Installation and build
 
-The commands below download the artifact and get you onto the GAZE
-kernel: `setup_env.sh` installs the required packages, builds the
-benchmarks, and configures MySQL; `set_config.sh` sizes the emulated SSD
-and the workloads to your machine's memory; `switch_mode.sh gaze` puts the
-kernel source tree in GAZE mode; and `build_kernel.sh` compiles and
-installs that kernel and marks it as the boot entry. One reboot then lands
-you in it.
+The commands below download the artifact and get your machine ready:
+`setup_env.sh` installs the required packages, builds the benchmarks, and
+configures MySQL; `set_config.sh` sizes the emulated SSD and the workloads
+to your machine's memory.
 
 ```bash
 cd ~
@@ -111,6 +108,42 @@ cd ~/GAZE
 ./set_config.sh         # machine sizing. Pick "paper" on a paper-config
                         # machine; pick "auto" otherwise, it sizes the
                         # emulated SSD and workloads to your RAM.
+```
+
+`set_config.sh` is interactive and asks four questions, in order:
+1. Configuration mode  [1=paper, 2=auto, 3=manual]
+2. Run 'update-grub' now?  [y/N]
+3. Conventional SSD partition: the real disk partition (not the emulated SSD)
+   used as the F2FS metadata device for the ZNS modes
+4. Experiment mount point  [/mnt]
+
+**On the provided server, accept the defaults, in order:**
+
+    Configuration mode           -> Enter (paper)
+    Run 'update-grub'?           -> y
+    Conventional SSD partition   -> Enter (keeps /dev/nvme0n1p1)
+    Experiment mount point       -> Enter (keeps /mnt)
+
+**On a different machine, check each before answering:**
+
+    Configuration mode           -> use `auto` unless this machine has ~320 GB+
+                                    RAM (paper needs a 255 GB emulated SSD);
+                                    `auto` sizes the SSD and workloads to fit
+    Run 'update-grub'?           -> `y` is safe (only adds memmap/isolcpus,
+                                    keeps your default boot entry)
+    Conventional SSD partition   -> confirm the offered path is the disk you
+                                    mean to use as the metadata device; if none
+                                    is offered, create one first (~6% of the
+                                    SSD, e.g. ~15 GB) and enter its path
+    Experiment mount point       -> `/mnt` is fine if nothing important is
+                                    mounted there
+
+Once `set_config.sh` finishes, build and install the GAZE kernel:
+`switch_mode.sh gaze` puts the kernel source tree in GAZE mode, and
+`build_kernel.sh` compiles and installs that kernel and marks it as the
+boot entry. One reboot then lands you in it.
+
+```bash
 cd ~/GAZE/kernel
 ./switch_mode.sh gaze
 ./build_kernel.sh       # ~15-20 min; installs the kernel, sets the boot entry
