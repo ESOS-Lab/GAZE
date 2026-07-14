@@ -105,7 +105,7 @@ you in it.
 
 ```bash
 cd ~
-git clone -b main https://github.com/JuwonKim97/GAZE_AE.git GAZE   # any name works; the commands below assume "GAZE"
+git clone -b main https://github.com/ESOS-Lab/GAZE.git GAZE   # any name works; the commands below assume "GAZE"
 cd ~/GAZE
 ./setup_env.sh          # packages, benchmark builds, MySQL config (details: SETUP.md)
 ./set_config.sh         # machine sizing. Pick "paper" on a paper-config
