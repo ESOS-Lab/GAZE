@@ -1,0 +1,49 @@
+#kiops
+set terminal postscript eps enhanced color dashed dashlength 3 \
+	                linewidth 2 rounded font "Helvetica, 32"
+
+set output "./mem_utilization.eps"
+
+set key inside left top horizontal font "Helvetica, 36"
+#set key inside left bottom vertical Left font "Helvetica, 40" reverse
+
+set key invert
+
+#set yrange [0:605]
+set yrange [0:25]
+#set yrange [0:200]
+set ytics 5 font "Helvetica, 40"
+#set logscale x
+set xlabel "Time (sec)" font "Helvetica, 40" offset 0, 0.2
+set ylabel "Mem. Util.(%)" font "Helvetica, 40" offset 0.1, 0
+set xtics 200 font "Helvetica, 40"
+set xrange[0:1200]
+
+#set key samplen 0.4
+set key samplen 1.5
+#set key width -1
+#set key width -2
+
+#set key at 102.4, 650
+#set key at 102.4, 600
+set key at -1, 24
+
+set border 3
+
+set xtics nomirror
+set ytics nomirror
+
+#set xtics add ("400"  400)
+
+set tmargin at screen 0.95
+set lmargin at screen 0.17
+set rmargin at screen 0.95
+
+#set label font "Helvetica, 45" "Watermark" at 890,22.7
+
+set term postscript size 7.5,3.2
+#set term postscript size 7.5,4.4
+plot \
+ "f2fs_parsed.dat" using ($1-119.563175):($2*4096/64/1024/1024/1024*100) with lines axes x1y1 title 'F2FS' linecolor rgb 'black' lw 2 , \
+ "fastgc_parsed.dat" using ($1-52.370423):($2*4096/64/1024/1024/1024*100) with lines axes x1y1 title 'FastGC' linecolor rgb 'orange' lw 2 , \
+ 20 with lines linecolor 'blue' lw 3 title "Watermark"

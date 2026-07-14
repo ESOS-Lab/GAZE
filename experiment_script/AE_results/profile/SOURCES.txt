@@ -1,0 +1,13 @@
+# How each figure below was produced (2026-07-13 20:52)
+#
+[ablation_gc_lat] Vanilla: fresh -> /home/aec/GAZE/experiment_script/FIO/f2fs_profile_data/fio_20260712_1815
+[ablation_gc_lat] Page: archive (paper run) -> /home/aec/GAZE/experiment_script/AE_results/profile_baseline/ablation_gc_lat_SOSP/f2fs_pgpool_profile_fio_exp_output_4k_20251208_1355/randwrite/f2fs_pgpool_profile/1
+[ablation_gc_lat] Pipe: archive (paper run) -> /home/aec/GAZE/experiment_script/AE_results/profile_baseline/ablation_gc_lat_SOSP/f2fs_4step_profile_fio_exp_output_4k_20251208_0301/f2fs_4step_batchseg_16_profile/1
+[ablation_gc_lat] Pipe+Page: fresh -> /home/aec/GAZE/experiment_script/FIO/gaze_profile_data/fio_20260713_1520
+scanning: /home/aec/GAZE/experiment_script/FIO/f2fs_profile_data/fio_20260712_1815 (fresh run) ...
+scanning: pgc (archive/paper run) ...
+scanning: copy (archive/paper run) ...
+scanning: /home/aec/GAZE/experiment_script/FIO/gaze_profile_data/fio_20260713_1520 (fresh run) ...
+[gc_phase] fresh mode: /home/aec/GAZE/experiment_script/FIO/f2fs_profile_data/fio_20260712_1815
+[gc_phase] Zoned row: fresh -> /home/aec/GAZE/experiment_script/FIO/f2fs_profile_data/fio_20260712_1815
+[gc_phase] Conv. row: archive (paper run) -> /home/aec/GAZE/experiment_script/AE_results/profile_baseline/vanilla_gc_latency_breakdown_accurate/f2fs_vanilla_profile_fio_exp_output_4k_20260105_1955/randwrite/f2fs_vanilla_profile/1 (no fresh conventional-SSD run; set CONV_RUN=... to override)

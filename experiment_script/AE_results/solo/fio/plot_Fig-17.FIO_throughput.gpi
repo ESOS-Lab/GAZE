@@ -1,0 +1,72 @@
+#kiops
+set terminal postscript eps enhanced color dashed dashlength 3 \
+	                linewidth 2 rounded font "Helvetica, 32"
+
+set output "./Fig-17.FIO_throughput.eps"
+
+set key inside right top vertical Left font "Helvetica, 40" reverse
+#set key inside left bottom vertical Left font "Helvetica, 40" reverse
+
+#set key invert
+
+# Paper env: keep the hardcoded y-scale used for the SOSP26 figure so the
+# graph reproduces byte-for-byte. Other envs (auto mode, smaller SSD): let
+# gnuplot autoscale — local kIOPS lives on a different scale.
+if (!exists("PAPER_ENV")) PAPER_ENV = 1
+if (PAPER_ENV == 1) {
+    set yrange [0:250]
+    set ytics 50 font "Helvetica, 40"
+} else {
+    set yrange [0:*]
+    set ytics font "Helvetica, 40"
+}
+#set logscale x
+set xlabel "Time (sec)" font "Helvetica, 40" offset 0, 0.2
+set ylabel "KIOPS" font "Helvetica, 40" offset 0.4, 0
+set xtics 200 font "Helvetica, 40"
+set xrange[0:1200]
+
+
+set key samplen 2
+set key width 1
+#set key width -18
+
+#set key at 102.4, 650
+#set key at 102.4, 600
+set key at 1300, 260  maxrows 3 font  "Helvetica, 35 " 
+
+set border 3
+
+set xtics nomirror
+set ytics nomirror
+
+#set xtics add ("400"  400)
+
+set tmargin at screen 0.925
+set lmargin at screen 0.13
+set rmargin at screen 0.95
+
+set term postscript size 7.5,3.5
+#set term postscript size 7.5,4.4
+
+
+
+# The GC-onset marker position (x=330) is tied to the paper's workload
+# sizing; in other envs (auto mode) the GC start point scales with the
+# workload, so a fixed x=330 marker would be wrong — hide it there.
+if (PAPER_ENV == 1) {
+    set arrow 1 from 330, graph 0 to 330, graph 1 nohead lw 3 lc rgb "dark-green" dt 2
+    set arrow 2 from 330, graph -0.155 to 330, graph 0 head filled size screen 0.04,17 lw 3 lc rgb "dark-green"
+    set label 1 "GC starts." at 330, graph -0.22 center font "Helvetica,40" tc rgb "dark-green"
+}
+
+
+
+plot \
+        "scalelfs_kiops_parsed" with lines axes x1y1 title 'ScaleLFS' linecolor rgb 'dark-violet' lw 5, \
+    "zns_kiops_parsed" with lines axes x1y1 title 'zF2FS' linecolor rgb 'black' lw 5, \
+    "copy_kiops_parsed" with lines axes x1y1 title 'ZNS+' linecolor rgb 'skyblue' lw 5, \
+    "pgc_kiops_parsed" with lines axes x1y1 title 'P-GC' linecolor rgb 'green' lw 5, \
+    "iplfs_kiops_parsed" with lines axes x1y1 title 'IPLFS' linecolor rgb 'orange' lw 5, \
+            "gaze_kiops_parsed" with lines axes x1y1 title 'GAZE' linecolor rgb 'red' lw 5, \
+   

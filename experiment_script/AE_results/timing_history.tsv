@@ -1,0 +1,23 @@
+timestamp	benchmark	fs_mode	duration_sec	status
+2026-07-11T20:08:36+09:00	FIO	gaze	366	completed
+2026-07-11T20:18:42+09:00	Fileserver	gaze	605	completed
+2026-07-11T20:24:46+09:00	YCSB-A	gaze	362	completed
+2026-07-11T20:30:45+09:00	YCSB-F	gaze	358	completed
+2026-07-11T20:36:33+09:00	TPC-C	gaze	347	completed
+2026-07-11T22:06:03+09:00	FIO	gaze	1240	completed	f79bb377
+2026-07-12T01:12:48+09:00	FIO	f2fs	1237	completed	f79bb377
+2026-07-12T01:44:41+09:00	Fileserver	f2fs	1912	completed	8497e0ed
+2026-07-12T02:28:08+09:00	YCSB-A	f2fs	2606	completed	f0cc6e65
+2026-07-12T03:13:06+09:00	YCSB-F	f2fs	2697	completed	ad8710b3
+2026-07-12T10:28:21+09:00	TPC-C	f2fs	2161	completed	def4a6a1
+2026-07-12T10:50:53+09:00	FIO	pgc	1273	completed	f79bb377
+2026-07-12T11:22:49+09:00	Fileserver	pgc	1915	completed	8497e0ed
+2026-07-12T12:13:54+09:00	YCSB-A	pgc	3064	completed	f0cc6e65
+2026-07-12T13:07:28+09:00	YCSB-F	pgc	3212	completed	ad8710b3
+2026-07-12T13:43:35+09:00	TPC-C	pgc	2166	completed	def4a6a1
+2026-07-12T14:35:15+09:00	FIO	scalelfs	1234	completed	f79bb377
+2026-07-12T15:53:53+09:00	FIO	zns_plus	1235	completed	c3812934
+2026-07-12T17:12:01+09:00	FIO	f2fs	1237	completed	c3812934
+2026-07-12T23:54:41+09:00	FIO	iplfs	1388	completed	c3812934
+2026-07-13T00:33:48+09:00	FIO	iplfs	1263	completed	c3812934
+2026-07-13T02:25:16+09:00	YCSB-F	iplfs	4193	completed	ad8710b3

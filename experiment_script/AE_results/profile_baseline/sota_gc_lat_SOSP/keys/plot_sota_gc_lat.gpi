@@ -1,0 +1,71 @@
+#kiops
+set terminal postscript eps enhanced color dashed dashlength 3 \
+                        linewidth 2 rounded font "Helvetica, 32"
+
+fn(v) = sprintf("%.2f", v)
+fnn(v) = sprintf("%d", v)
+
+set output "sota_gc_lat_breakdown_keys.eps"
+set term postscript size 9.96,1.4
+#set term postscript size 9.96,0.29
+#set key outside top vertical reverse Left font "Helvetica, 48"
+set key outside top vertical reverse Left font "Helvetica, 48" maxrows 4
+
+
+set key samplen 2.5 width 0.3
+
+set xtics nomirror
+set ytics nomirror
+
+set xtics font "Helvetica, 28" offset 0, 0.3
+
+set xrange[-0.5:3.5]
+set yrange[0:3]
+#set xrange[0.5:2.5]
+#set yrange[0:100]
+
+set xrange [-1:1]
+set yrange [-1:1]
+
+set key at screen 0.97+0.04 -0.2+0.2, 2 - 0.05
+#set ytics 16 font "Helvetica, 28" offset 0.5, 0
+
+set style data histogram
+set style fill solid 1 border 0
+set style histogram clustered
+set boxwidth -1 absolute
+
+set border 0
+
+set origin 0, 1
+
+#set tmargin at screen 0
+#set bmargin at screen 0
+#set lmargin at screen 0
+#set rmargin at screen 0.7
+set margins 0,0,0,0
+unset xlabel
+unset ylabel
+unset xtics
+unset ytics
+
+total_sum = "($2+$3+$4+$5+$6+$7+$8+$9+$10+$11+$12)"
+plot \
+     'sota_key_name_data' using (1/0) fs pattern 3 noborder lc rgb 'black' t 'Checkpoint', \
+     'sota_key_name_data' using (1/0) fs pattern 3 noborder lc rgb 'green' t 'Preprocess', \
+     'sota_key_name_data' using (1/0) fs pattern 3 noborder lc rgb '#FAC296' t 'Preread', \
+     'sota_key_name_data' using (1/0) fs pattern 3 noborder lc rgb '#B8860B' t 'Preread-Lock', \
+     'sota_key_name_data' using (1/0) fs pattern 3 noborder lc rgb '#EE5760' t 'Read', \
+     'sota_key_name_data' using (1/0) fs pattern 3 noborder lc rgb '#D1E2F1' t 'Prewrite', \
+     'sota_key_name_data' using (1/0) fs pattern 3 noborder lc rgb '#628FCA' t 'Write', \
+     'sota_key_name_data' using (1/0) fs pattern 3 noborder lc rgb '#C1FFC1' t 'Precopy', \
+     'sota_key_name_data' using (1/0) fs pattern 3 noborder lc rgb '#006400' t 'Copy', \
+     'sota_key_name_data' using (1/0) fs pattern 3 noborder lc rgb 'gray' t 'Post-GC CP', \
+     'sota_key_name_data' using (1/0) fs pattern 3 noborder lc rgb 'dark-violet' t 'Pipelined GC'
+
+#plot 'key_name_data' \
+#		  u ($3/$5):xtic(1) noborder t 'GAZE' lc 'red', \
+#		 '' u ($3/$5):xtic(1) noborder t 'IPLFS' lc 'orange', \
+#		 '' u ($3/$5):xtic(1) noborder t 'P-GC' lc 'green', \
+#		 '' u ($3/$5):xtic(1) noborder t 'ZNS+' lc 'skyblue', \
+#		 '' u ($5/$5):xtic(1) noborder t 'zF2FS' lc 'black'

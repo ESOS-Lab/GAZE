@@ -1,0 +1,55 @@
+# plot_mem_util.gpi -- dual-axis memory-utilization vs FIO-throughput figure
+# (paper: "Memory Utilization and FIO Throughput in F2FS" and the
+#  selective-blocking counterpart, eps mem_utilization_{f2fs,gaze}_rev.eps)
+#
+# Called by make_graph.sh with variables:
+#   DAT      dirty-page samples "timestamp_sec nr_pages" (raw kernel time)
+#   KIOPS    throughput samples "sec kiops" (fio-relative time)
+#   OUT      output eps path
+#   T0       timestamp of the first dirty-page sample (x is shifted by -T0)
+#   GCSTART  GC onset in shifted seconds (< 0 to omit the marker)
+#   RAM_GB   machine memory in GByte for the pages->percent conversion (paper: 64)
+#   SOFTPCT / HARDPCT   dirty soft/hard limit lines in percent (paper: 10 / 20)
+
+set terminal postscript eps enhanced color dashed dashlength 3 \
+                linewidth 2 rounded font "Helvetica, 32" size 7.5, 3.2
+set output OUT
+
+set xlabel "Time (sec)" font "Helvetica, 40" offset 0, 0.3
+set ylabel "Mem. Util.(%)" font "Helvetica, 40" offset 0.5, 0
+set y2label "KIOPS" font "Helvetica, 40" offset -1.5, 0
+
+set xrange [0:1200]
+set xtics 200 font "Helvetica, 40" nomirror
+set yrange [0:22]
+set ytics 5 font "Helvetica, 40" nomirror
+set y2range [0:275]
+set y2tics 50 font "Helvetica, 40"
+
+set border 11   # left + bottom + right (y2)
+
+set key outside top center horizontal samplen 1.5 font "Helvetica, 36"
+
+set tmargin at screen 0.82
+set lmargin at screen 0.13
+set rmargin at screen 0.86
+set bmargin at screen 0.28
+
+# Dirty-ratio watermarks
+set label 1 "Hard limit" at 20, (HARDPCT + 1.3) tc rgb 'blue' font "Helvetica, 34"
+set label 2 "Soft limit" at 20, (SOFTPCT + 1.3) tc rgb 'blue' font "Helvetica, 34"
+
+# GC-onset marker (skipped when GCSTART < 0)
+if (GCSTART >= 0) {
+    set arrow 1 from GCSTART, 0 to GCSTART, 22 nohead dashtype 2 lw 2 lc rgb 'dark-green'
+    set arrow 2 from GCSTART, -2.4 to GCSTART, -0.3 lw 3 lc rgb 'dark-green' head filled
+    set label 3 "GC starts." at GCSTART, -4.4 center tc rgb 'dark-green' font "Helvetica, 36"
+}
+
+plot \
+ DAT   using ($1-T0):($2*4096/RAM_GB/1024/1024/1024*100) with lines axes x1y1 \
+       title 'Dirty page ratio (y1)' linecolor rgb 'red' lw 2, \
+ KIOPS using 1:2 with lines axes x1y2 \
+       title 'Throughput (y2)' linecolor rgb 'black' lw 2, \
+ SOFTPCT with lines dashtype 2 linecolor rgb 'blue' lw 3 notitle, \
+ HARDPCT with lines dashtype 2 linecolor rgb 'blue' lw 3 notitle

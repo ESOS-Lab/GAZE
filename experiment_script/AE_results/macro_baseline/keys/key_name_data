@@ -1,0 +1,7 @@
+#throughput
+Xsteps				IPLFS		D2FS		zF2FS		F2FS	zF2FS		F2FS 	
+TPC-C\n(Tx/sec)     159.73      199.39  	140.97		84.53	140.97		84.53	#Tx/sec
+YCSB-A\n(KOPS)		5.478		7.741		6.448		2.972	6.448		2.972 #KIOPS
+YCSB-F\n(KOPS)      5.128		7.793		6.191		2.952	6.191		2.952	#KIOPS
+Fileserver\n(KOPS)  2.675		2.79450		2.08528		2.039	 2.08528		2.03931   	#IOPS
+#rawdata TPC-C               253831      250079      193104      143891		#Transaction Count for 600s

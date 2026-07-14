@@ -1,0 +1,7 @@
+Row	f2fs	gaze	iplfs	pgc	zns_plus
+Fileserver	1.5050	0.8700		1.2600	
+YCSB-A (update)	3.4644	2.3710		4.1897	
+YCSB-A (read)	2.3230	1.6252		2.5704	
+YCSB-F (update)	1.7199	0.5091	2.9817	2.2165	
+YCSB-F (read)	1.9543	1.1282	3.1542	2.2535	
+TPC-C	12.8000	8.7000		12.8000	

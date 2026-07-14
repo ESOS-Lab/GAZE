@@ -1,0 +1,9 @@
+# Data source per series (solo figure) — 2026-07-13 20:49
+# [NEW] = generated on this machine by the AE flow
+# [OLD] = SOSP26 paper baseline data (recorded for the submission)
+fio/gaze: [NEW] /home/aec/GAZE/experiment_script/FIO/gaze_data/fio_20260711_2246
+fio/zns: [NEW] /home/aec/GAZE/experiment_script/FIO/f2fs_data/fio_20260712_0052
+fio/iplfs: (no fresh run — plotted as zero)
+fio/pgc: [NEW] /home/aec/GAZE/experiment_script/FIO/pgc_data/fio_20260712_1029
+fio/copy: [NEW] /home/aec/GAZE/experiment_script/FIO/zns_plus_data/fio_20260712_1533
+fio/scalelfs: [NEW] /home/aec/GAZE/experiment_script/FIO/scalelfs_data/fio_20260712_1414

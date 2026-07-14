@@ -1,0 +1,11 @@
+# Environment snapshot at run start (used by build_graphs.sh to keep runs
+# from different configs out of the same figure). Do not edit.
+PAPER_ENV=1
+SSD_GB=256
+DRAM_GB=64
+FS_MODE=f2fs_sb
+FIO_FILESIZE=180GB
+FILESERVER_NFILES=1800000
+YCSBA_RECORDCOUNT=16000000
+YCSBF_RECORDCOUNT=16000000
+TPCC_WAREHOUSES=1700

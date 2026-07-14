@@ -1,0 +1,74 @@
+#kiops
+set terminal postscript eps enhanced color dashed dashlength 3 \
+	                linewidth 2 rounded font "Helvetica, 32"
+
+#set output "./graph_fio_cmp_kiops.eps"
+
+set output "./graph_chip_util.eps"
+#set output "./graph_read_chip_util.eps"
+#set output "./graph_write_chip_util.eps"
+
+#set key inside right top horizontal font "Helvetica, 28"
+#set key inside left bottom horizontal font "Helvetica, 28"
+#set key inside left bottom vertical reverse Left font "Helvetica, 40"
+
+set key inside left top horizontal Left font "Helvetica, 40" reverse
+#set key inside left bottom vertical Left font "Helvetica, 40" reverse
+
+set key invert
+
+#set yrange [0:605]
+set yrange [0:34]
+#set yrange [0:200]
+set ytics 4 font "Helvetica, 40"
+#set logscale x
+set xlabel "Time (msec)" font "Helvetica, 40" offset 0, 0.2
+set ylabel "Chip No." font "Helvetica, 40" offset 0.4, 0
+#set xtics 10 font "Helvetica, 40"
+set xrange[0:50]
+
+set key samplen 1.5
+
+
+set key samplen 1.5
+set key width 1
+set key width -18
+
+#set key at 102.4, 650
+#set key at 102.4, 600
+set key at 10, 32
+unset key
+
+set border 3
+
+set xtics nomirror
+set ytics nomirror
+
+#set xtics add ("400"  400)
+
+set tmargin at screen 0.95
+set lmargin at screen 0.13
+set rmargin at screen 0.95
+
+set term postscript size 7.5,3.2
+#set term postscript size 100,10
+#set term postscript size 7.5,4.4
+plot \
+ "buf_wait_time_data_WRITE" u ($1/1000000):($2+1) with lines axes x1y1 title 'Buf-Wait' linecolor rgb 'green' lw 2, \
+ "buf_write_time_data_WRITE" u ($1/1000000):($2+1) with lines axes x1y1 title 'Buf-Write' linecolor rgb 'green' lw 2, \
+ "channel_xfer_time_data_WRITE" u ($1/1000000):($2+1) with lines axes x1y1 title 'Channel-Xfer-Write' linecolor rgb 'blue' lw 2, \
+ "chip_write_time_data_WRITE" u ($1/1000000):($2+1) with lines axes x1y1 title 'Chip-Write' linecolor rgb 'blue' lw 2, \
+ "firmware_time_data_READ" u ($1/1000000):($2+1) with lines axes x1y1 title 'Firmware-Read' linecolor rgb 'green' lw 2, \
+ "channel_xfer_time_data_READ" u ($1/1000000):($2+1) with lines axes x1y1 title 'Channel-Xfer-Read' linecolor rgb 'red' lw 2, \
+ "chip_read_time_data_READ" u ($1/1000000):($2+1) with lines axes x1y1 title 'Chip-Read' linecolor rgb 'red' lw 2, \
+# "notgc_buf_wait_time_data_WRITE" u ($1/1000000):($2+1) with lines axes x1y1 title 'Buf-Wait' linecolor rgb 'green' lw 2, \
+# "notgc_buf_write_time_data_WRITE" u ($1/1000000):($2+1) with lines axes x1y1 title 'Buf-Write' linecolor rgb 'green' lw 2, \
+# "notgc_channel_xfer_time_data_WRITE" u ($1/1000000):($2+1) with lines axes x1y1 title 'Channel-Xfer-Write' linecolor rgb 'purple' lw 2, \
+# "notgc_chip_write_time_data_WRITE" u ($1/1000000):($2+1) with lines axes x1y1 title 'Chip-Write' linecolor rgb 'purple' lw 2, \
+# "notgc_firmware_time_data_READ" u ($1/1000000):($2+1) with lines axes x1y1 title 'Firmware-Read' linecolor rgb 'green' lw 2, \
+# "notgc_channel_xfer_time_data_READ" u ($1/1000000):($2+1) with lines axes x1y1 title 'Channel-Xfer-Read' linecolor rgb 'orange' lw 2, \
+# "notgc_chip_read_time_data_READ" u ($1/1000000):($2+1) with lines axes x1y1 title 'Chip-Read' linecolor rgb 'orange' lw 2, \
+
+
+
+# "kiops_sum_realssd" with lines axes x1y1 title 'Samsung 970 Pro' linecolor rgb 'black' lw 2, \

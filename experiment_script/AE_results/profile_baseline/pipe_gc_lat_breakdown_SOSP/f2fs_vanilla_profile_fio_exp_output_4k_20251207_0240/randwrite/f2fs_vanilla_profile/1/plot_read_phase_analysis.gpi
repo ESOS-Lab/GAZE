@@ -1,0 +1,72 @@
+#kiops
+set terminal postscript eps enhanced color dashed dashlength 3 \
+	                linewidth 2 rounded font "Helvetica, 32"
+
+fn(v) = sprintf("%.1f", v)
+fnn(v) = sprintf("%d", v)
+jw_fnn(v) = (v < 100)? fn(v) : fnn(v)
+
+#set output "./graph_fio_cmp_kiops.eps"
+set output "./read_phase_analysis_gc_latency_breakdown_OSDI.eps"
+#set term postscript size 7.5,3.
+set term postscript size 2.7,2.8+0.4+0.4
+set key outside right top vertical reverse invert Left font "Helvetica, 35"
+
+set key samplen 1 width 0.2
+
+set xtics nomirror
+set ytics nomirror
+
+set xtics font "Helvetica, 37" offset 0, 0.3 
+
+set xrange[-0.5:1.5]
+set yrange[0:1.6]
+#set key at 0.775, 1.6
+set key at 1.9, 1.6
+set ytics 0.4 font "Helvetica, 38"
+
+set ylabel font "Helvetica, 38" "GC Elapsed Time (sec)" offset 1.2, -0.5
+#set xlabel font "Helvetica, 38" "Victim Zone Utilization (\%)" offset 0.1, 0.3
+unset ylabel
+unset xlabel
+
+set lmargin at screen 0.2
+set rmargin at screen 0.99
+#set bmargin at screen 0.23
+#set tmargin at screen 0.98 - 0.05
+
+#set style data histogram75#set style fill solid 1.0 border 0
+#set style histogram clustered gap 1
+#set boxwidth 1 absolute
+set boxwidth 0.4 absolute
+
+set style histogram rowstacked title offset character 0, 0, 0
+set style data histograms
+
+set border 1+2
+
+#unset key
+#unset xtics
+
+set label "1.1ms" at screen 0.28, 0.168 font "Helvetica, 35" tc rgb "black"
+
+plot \
+     'graph_data_gc_lat_read_phase' using ($9/1000000):xtic(1) fs pattern 3 lc 'red' t 'Submit Rd I/O', \
+     '' using ($7/1000000) fs pattern 3 lc 'dark-green' t 'Insert. Page', \
+     '' using (($8+$6+$5+$4)/1000000) fs pattern 3 lc 'green' t 'Alloc. Page', \
+     '' using (($3)/1000000) fs pattern 3 lc 'orange' t 'Check Validity', \
+
+#	 ''	using ($3) fs pattern 4 lc 'red' t 'GC', \
+
+#    '' using ($8) fs pattern 3 lc 'red' t 'FS-read', \
+#     '' using ($6) fs pattern 3 lc 'orange' t 'Filemap', \
+#     '' using ($7) fs pattern 3 lc 'yellow' t 'Page-cache', \
+#     '' using ($5) fs pattern 3 lc 'light-green' t 'Meta', \
+#     '' using ($4) fs pattern 3 lc 'dark-violet' t 'Checkpoint', \
+
+#     '' using 0:(($2+$3+$4+$5+$6+$7+$8+$9)/1000+0.5):(fn(($2+$3+$4+$5+$6+$7+$8+$9)/1000)) with labels font "Helvetica, 40"  offset 0, 0.4 notitle
+
+#                 '' u ($0-0.1):($2/$3):(jw_fnn(($2)))  with labels rotate by 90 font "Helvetica, 38" offset 0,1.6 notitle, \
+#                 '' u ($0-0.3):($3/$3):(jw_fnn(($3)))  with labels rotate by 90 font "Helvetica, 38" offset 0,1.6 notitle, \
+#                 '' u ($0+0.1):($4/$3):(jw_fnn(($4)))  with labels rotate by 90 font "Helvetica, 38" offset 0,1.6 notitle, \
+#                 '' u ($0+0.3):($5/$3):(jw_fnn(($5)))  with labels rotate by 90 font "Helvetica, 38" offset 0,1.6 notitle \

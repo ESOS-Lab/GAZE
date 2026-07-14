@@ -1,0 +1,62 @@
+***************************************
+*** ###easy### TPC-C Load Generator ***
+***************************************
+option h with value '127.0.0.1'
+option P with value '3306'
+option d with value 'tpcc1000'
+option u with value 'jw'
+option w with value '1700'
+option c with value '15'
+option r with value '10'
+option l with value '1800'
+option i with value '1800'
+option p with value 'oslab0810'
+<Parameters>
+     [server]: 127.0.0.1
+     [port]: 3306
+     [DBname]: tpcc1000
+       [user]: jw
+       [pass]: oslab0810
+  [warehouse]: 1700
+ [connection]: 15
+     [rampup]: 10 (sec.)
+    [measure]: 1800 (sec.)
+
+RAMP-UP TIME.(10 sec.)
+
+MEASURING START.
+
+1800, trx: 428076, 95%: 29.625, 99%: 64.863 99.90%: 4180.032 99.95%: 4873.239 99.99%: 5955.316, max_rt: 7365.040, 428010|7351.320, 42807|5714.581, 42807|7401.875, 42807|7451.689
+
+STOPPING THREADS...............
+
+<Raw Results>
+  [0] sc:226 lt:427858  rt:0  fl:0 avg_rt: 30.7 (5)
+  [1] sc:257937 lt:170079  rt:0  fl:0 avg_rt: 9.7 (5)
+  [2] sc:34135 lt:8673  rt:0  fl:0 avg_rt: 6.3 (5)
+  [3] sc:39876 lt:2931  rt:0  fl:0 avg_rt: 98.1 (80)
+  [4] sc:6 lt:42801  rt:0  fl:0 avg_rt: 125.8 (20)
+ in 1800 sec.
+
+<Raw Results2(sum ver.)>
+  [0] sc:226  lt:427860  rt:0  fl:0 
+  [1] sc:257977  lt:170105  rt:0  fl:0 
+  [2] sc:34135  lt:8673  rt:0  fl:0 
+  [3] sc:39876  lt:2931  rt:0  fl:0 
+  [4] sc:6  lt:42801  rt:0  fl:0 
+
+<Constraint Check> (all must be [OK])
+ [transaction percentage]
+        Payment: 43.47% (>=43.0%) [OK]
+   Order-Status: 4.35% (>= 4.0%) [OK]
+       Delivery: 4.35% (>= 4.0%) [OK]
+    Stock-Level: 4.35% (>= 4.0%) [OK]
+ [response time (at least 90% passed)]
+      New-Order: 0.05%  [NG] *
+        Payment: 60.26%  [NG] *
+   Order-Status: 79.74%  [NG] *
+       Delivery: 93.15%  [OK]
+    Stock-Level: 0.01%  [NG] *
+
+<TpmC>
+                 14269.467 TpmC

@@ -1,0 +1,57 @@
+# Define a function to divide by 1000.0
+fn(x) = ((x) / 1000000.0)
+
+set terminal postscript eps enhanced color dashed dashlength 3 \
+                     linewidth 2 rounded font "Helvetica, 40"
+
+set output 'per_sec_gc_latency_graph-multi_dogc_only.eps'
+
+set term postscript size 7.5,2.8+0.4+0.2
+
+set grid ytics
+set key outside top center horizontal samplen 1 font "Helvetica, 34"
+
+set xlabel "Time (sec)" offset 0, 0.5
+set ylabel "Latency (sec)" offset 1.4, 0 # y축 단위를 msec로 수정
+
+set xtics 200
+set xtics nomirror
+set ytics nomirror
+set border 3
+set yrange [0:]
+set ytics 1
+unset grid
+set xrange [200:1200] # x축 범위 자동 조정
+
+
+# Define colors for each category
+set style line 1 lc rgb "black"         lw 3 # cp
+set style line 3 lc rgb "dark-violet"   lw 3 # filemap
+set style line 4 lc rgb "blue"          lw 3 # pcache
+set style line 5 lc rgb "red"           lw 3 # read
+set style line 6 lc rgb "green"         lw 3 # write
+set style line 7 lc rgb "orange"        lw 3 # others
+
+# Set box width to be very small and no borders
+set boxwidth 0.1 absolute
+set style fill solid
+
+
+#set tmargin at screen 0.0
+set lmargin at screen 0.1
+#set rmargin at screen 0.91
+set tmargin at screen 0.86
+#set bmargin at screen 0.26
+
+
+
+# Pre-calculate the latency sums and apply the function f(x)
+#set datafile separator ","
+plot \
+    'gc_lat_per_sec' using ($1):(fn($7 + $8 + $9 + $10 + $11 + $12 + $13)) title "Others" with impulses ls 7, \
+    'gc_lat_per_sec' using ($1):(fn($7 + $8 + $9 + $10 + $11 + $12)) title "Write" with impulses ls 6, \
+    'gc_lat_per_sec' using ($1):(fn($7 + $8 + $9 + $10 + $11)) title "Read" with impulses ls 5, \
+    'gc_lat_per_sec' using ($1):(fn($7 + $8 + $9 + $10)) title "Page-cache" with impulses ls 4, \
+    'gc_lat_per_sec' using ($1):(fn($7 + $8 + $9)) title "Filemap" with impulses ls 3, \
+    'gc_lat_per_sec' using ($1):(fn($7)) title "Checkpoint" with impulses ls 1
+

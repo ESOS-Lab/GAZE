@@ -1,0 +1,84 @@
+
+Welcome to fdisk (util-linux 2.34).
+Changes will remain in memory only, until you decide to write them.
+Be careful before using the write command.
+
+
+Command (m for help): 
+Command (m for help): 
+The partition table has been altered.
+Calling ioctl() to re-read partition table.
+Syncing disks.
+
+
+Welcome to fdisk (util-linux 2.34).
+Changes will remain in memory only, until you decide to write them.
+Be careful before using the write command.
+
+
+Command (m for help): Partition type
+   p   primary (0 primary, 0 extended, 4 free)
+   e   extended (container for logical partitions)
+Select (default p): 
+Using default response p.
+Partition number (1-4, default 1): First sector (2048-1000215215, default 2048): Last sector, +/-sectors or +/-size{K,M,G,T,P} (2048-1000215215, default 1000215215): 
+Created a new partition 1 of type 'Linux' and of size 15 GiB.
+
+Command (m for help): 
+Command (m for help): 
+The partition table has been altered.
+Calling ioctl() to re-read partition table.
+Syncing disks.
+
+
+
+==== Start experiment of mysql  ====
+==== Format  on /mnt ====
+
+    F2FS-tools: mkfs.f2fs Ver: 1.15.0 (2022-05-13)
+
+Info: Disable heap-based policy
+Info: Debug level = 0
+Info: Trim is enabled
+Info: Host-managed zoned block device:
+      255 zones, 1073741824 zone size(bytes), 0 randomly writeable zones
+      262144 blocks per zone
+	/dev/nvme2n1p1 appears to contain an existing filesystem (f2fs).
+Info: Segments per section = 512
+Info: Sections per zone = 1
+Info: sector size = 512
+Info: total sectors = 566231040 (276480 MB)
+Info: zone aligned segment0 blkaddr: 262144
+f2fs_prepare_super_block: c.overprovision: 5.000000 f2fs_get_usable_segments: 137216 section_count: 268 c.reserved_segments: 6144 
+Info: format version with
+  "Linux version 6.1.0.copy (root@oslab-PowerEdge-R740xd) (gcc (Ubuntu 9.4.0-1ubuntu1~20.04.2) 9.4.0, GNU ld (GNU Binutils for Ubuntu) 2.34) #36 SMP PREEMPT_DYNAMIC Tue Sep  9 16:44:53 KST 2025"
+Info: [/dev/nvme2n1p1] Discarding device
+Info: This device doesn't support BLKSECDISCARD
+Info: Discarded 15360 MB
+Info: [/dev/nvme3n1] Discarding device
+Info: Discarded 261120 MB
+Info: Overprovision ratio = 5.000%
+Info: Overprovision segments = 12697 (GC reserved = 6144)
+Info: format successful
+==== Format complete ====
+==== Run YCSB-A workload ====
+kernel.randomize_va_space = 0
+==== Workload complete ====
+==== Process Result Data ====
+
+
+
+Welcome to fdisk (util-linux 2.34).
+Changes will remain in memory only, until you decide to write them.
+Be careful before using the write command.
+
+
+Command (m for help): Selected partition 1
+Partition 1 has been deleted.
+
+Command (m for help): The partition table has been altered.
+
+The kernel still uses the old partitions. The new table will be used at the next reboot. 
+Syncing disks.
+
+==== End the experiment ====
