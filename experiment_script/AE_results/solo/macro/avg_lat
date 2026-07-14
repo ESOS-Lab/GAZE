@@ -1,0 +1,7 @@
+Xsteps	IPLFS	GAZE	zF2FS	F2FS	PGC	COPY
+Fileserver	0	0.870	0	1.505	1.260	0	#append (msec)
+YCSB-A	0	2.37096	0	3.46442	4.18969	0	#update (msec)
+YCSB-F	0	0.509134	0	1.71992	2.21647	0	#update (msec)
+YCSB-A	0	1.6252	0	2.323	2.57042	0	#read (msec)
+YCSB-F	0	1.1282	0	1.95426	2.25353	0	#read (msec)
+TPC-C	0	8.7	0	12.8	12.8	0

@@ -1,0 +1,50 @@
+#kiops
+set terminal postscript eps enhanced color dashed dashlength 3 \
+	                linewidth 2 rounded font "Helvetica, 32"
+
+fn(v) = sprintf("%.1f", v)
+fnn(v) = sprintf("%d", v)
+jw_fnn(v) = (v < 100)? fn(v) : fnn(v)
+
+set output "./ablation_gc_lat_compare.eps"
+set term postscript size 9.5,4-0.5
+set key inside right top  vertical reverse Left font "Helvetica, 40"
+
+set key samplen 1.5 width 0.2
+
+set ytics nomirror
+
+
+unset xtics
+set xrange[-0.5:3.5]
+set yrange[0:1.8]
+#set yrange[0:1.4]
+set key at screen 0.96, 1-0.1
+set ytics 0.8 font "Helvetica, 42"
+
+set ylabel font "Helvetica, 42" "GC Elapsed Time (sec)" offset 1.2, -0.5
+unset xlabel
+
+set style fill solid 1.0 border 0
+set boxwidth 0.3 absolute
+
+set style histogram rowstacked title offset character 0, 0, 0
+set style data histograms
+
+set border 11
+
+
+
+total_sum = "($2+$3+$4+$5)"
+
+
+
+plot \
+     'ablation_total_lat_data' using (($2)/1000000) fs pattern 3 noborder lc rgb 'black' t 'Vanilla', \
+     'ablation_total_lat_data' using (($3)/1000000) fs pattern 3 noborder lc rgb '#0072b2' t 'Page', \
+     'ablation_total_lat_data' using (($4)/1000000) fs pattern 3 noborder lc rgb 'forest-green' t 'Pipe', \
+     'ablation_total_lat_data' using (($5)/1000000) fs pattern 3 noborder lc rgb '#e69f00' t 'Pipe+Page', \
+     'ablation_total_lat_data' using ($0):(@total_sum/1000000):(sprintf("%.2f", @total_sum/1000000)) \
+     with labels font "Helvetica, 42" offset 0, 0.7 title "" 
+#     'ablation_total_lat_data' using (($2)/1000000):xtic(1) fs pattern 3 noborder lc rgb '#FAC296' t 'Preread', \
+     

@@ -1,0 +1,19 @@
+[전체 구간]
+  Samples   : 599
+  Mean IOPS : 149.079
+  Stddev    : 57.558
+  Min IOPS  : 0.0
+  Max IOPS  : 250.984
+  25% IOPS  : 95.469
+  75% IOPS  : 204.290
+
+[GC 이후 구간 (time ≥ 400)]
+  Samples   : 400
+  Mean IOPS : 124.151
+  Stddev    : 51.255
+  Min IOPS  : 0.0
+  Max IOPS  : 234.691
+  25% IOPS  : 87.808
+  75% IOPS  : 159.731
+
+→ 결과를 'hs_real_output/result_4k.txt' 파일에 추가했습니다: Pipe+Pg

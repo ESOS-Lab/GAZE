@@ -1,0 +1,10 @@
+# Data source per bar — 2026-07-13 13:36
+# [NEW] = generated on this machine, [OLD] = SOSP26 paper data
+NB+Pipe+Pg (gaze): [NEW] /home/aec/GAZE/experiment_script/FIO/gaze_data/fio_20260711_2246
+NB+Pipe (f2fs_sb_pipe): [NEW] /home/aec/GAZE/experiment_script/FIO/f2fs_sb_pipe_data/fio_20260713_1315
+NB+Pg (f2fs_pool_sb): [NEW] /home/aec/GAZE/experiment_script/FIO/f2fs_pool_sb_data/fio_20260713_1253
+NB (f2fs_sb): [NEW] /home/aec/GAZE/experiment_script/FIO/f2fs_sb_data/fio_20260713_1211
+Pipe+Pg (f2fs_pool_pipe): [NEW] /home/aec/GAZE/experiment_script/FIO/f2fs_pool_pipe_data/fio_20260713_1232
+Pipe (f2fs_pipe): [NEW] /home/aec/GAZE/experiment_script/FIO/f2fs_pipe_data/fio_20260713_1043
+Pg (f2fs_pool): [NEW] /home/aec/GAZE/experiment_script/FIO/f2fs_pool_data/fio_20260713_1013
+Vanilla (f2fs): [NEW] /home/aec/GAZE/experiment_script/FIO/f2fs_data/fio_20260712_0052

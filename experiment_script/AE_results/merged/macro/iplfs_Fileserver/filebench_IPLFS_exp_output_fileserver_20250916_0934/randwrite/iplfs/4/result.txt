@@ -1,0 +1,40 @@
+Filebench Version 1.5-alpha3
+0.000: Allocated 28100MB of shared memory
+0.057: Latency histogram enabled
+0.079: File-server Version 3.0 personality successfully loaded
+0.079: Populating and pre-allocating filesets
+1.427: bigfileset populated: 1800000 files, avg. dir. width = 20, avg. dir. depth = 4.8, 0 leafdirs, 220673.069MB total size
+1.427: Removing bigfileset tree (if exists)
+1.433: Pre-allocating directories in bigfileset tree
+2.476: Pre-allocating files in bigfileset tree
+163.686: Waiting for pre-allocation to finish (in case of a parallel pre-allocation)
+163.687: Population and pre-allocation of filesets completed
+163.687: Starting 1 filereader instances
+164.740: Running...
+1765.344: Run took 1600 seconds...
+1766.170: Per-Operation Breakdown
+statfile1            3690481ops     2306ops/s   0.0mb/s    1.010ms/op [0.001ms - 742.091ms][p95: 1500 , p99: 3000 , p99.9: 307400 , p99.95: 368200 , p99.99: 578100 , p99.999: 668200 , p99.9999: 698800 , p99.99999: 742100 (us)]
+GC statfile1            3343610ops     2229ops/s   0.0mb/s    1.052ms/op [0.000ms - 742.091ms][p95: 1500 , p99: 3000 , p99.9: 313200 , p99.95: 375000 , p99.99: 584800 , p99.999: 668700 , p99.9999: 698800 , p99.99999: 742100 (us)]
+deletefile1          3690478ops     2306ops/s   0.0mb/s    2.261ms/op [0.016ms - 994.031ms][p95: 2900 , p99: 9800 , p99.9: 385100 , p99.95: 448300 , p99.99: 639700 , p99.999: 689300 , p99.9999: 746400 , p99.99999: 994100 (us)]
+GC deletefile1          3343611ops     2229ops/s   0.0mb/s    2.335ms/op [0.000ms - 994.031ms][p95: 2900 , p99: 9900 , p99.9: 391900 , p99.95: 474000 , p99.99: 642400 , p99.999: 689800 , p99.9999: 746400 , p99.99999: 994100 (us)]
+closefile3           3690472ops     2306ops/s   0.0mb/s    0.001ms/op [0.000ms - 3.593ms][p95: 100 , p99: 100 , p99.9: 100 , p99.95: 100 , p99.99: 100 , p99.999: 500 , p99.9999: 1800 , p99.99999: 3600 (us)]
+GC closefile3           3343607ops     2229ops/s   0.0mb/s    0.001ms/op [0.000ms - 3.593ms][p95: 100 , p99: 100 , p99.9: 100 , p99.95: 100 , p99.99: 100 , p99.999: 500 , p99.9999: 700 , p99.99999: 3600 (us)]
+readfile1            3690470ops     2306ops/s 285.3mb/s    0.650ms/op [0.002ms - 678.649ms][p95: 1200 , p99: 1900 , p99.9: 4800 , p99.95: 297500 , p99.99: 381500 , p99.999: 523100 , p99.9999: 646900 , p99.99999: 678700 (us)]
+GC readfile1            3343611ops     2229ops/s 275.9mb/s    0.660ms/op [0.000ms - 678.649ms][p95: 1200 , p99: 1900 , p99.9: 5100 , p99.95: 303000 , p99.99: 385100 , p99.999: 574800 , p99.9999: 646900 , p99.99999: 678700 (us)]
+openfile2            3690470ops     2306ops/s   0.0mb/s    1.030ms/op [0.003ms - 739.766ms][p95: 1500 , p99: 3000 , p99.9: 307300 , p99.95: 367100 , p99.99: 569300 , p99.999: 668000 , p99.9999: 698800 , p99.99999: 739800 (us)]
+GC openfile2            3343608ops     2229ops/s   0.0mb/s    1.074ms/op [0.000ms - 739.766ms][p95: 1500 , p99: 3000 , p99.9: 313300 , p99.95: 373200 , p99.99: 579500 , p99.999: 668400 , p99.9999: 698800 , p99.99999: 739800 (us)]
+closefile2           3690460ops     2306ops/s   0.0mb/s    0.001ms/op [0.001ms - 3.417ms][p95: 100 , p99: 100 , p99.9: 100 , p99.95: 100 , p99.99: 100 , p99.999: 500 , p99.9999: 1700 , p99.99999: 3500 (us)]
+GC closefile2           3343606ops     2229ops/s   0.0mb/s    0.001ms/op [0.000ms - 3.417ms][p95: 100 , p99: 100 , p99.9: 100 , p99.95: 100 , p99.99: 100 , p99.999: 500 , p99.9999: 1100 , p99.99999: 3500 (us)]
+appendfilerand1      3690457ops     2306ops/s   4.5mb/s    0.358ms/op [0.003ms - 600.450ms][p95: 600 , p99: 1000 , p99.9: 11200 , p99.95: 281300 , p99.99: 377900 , p99.999: 435700 , p99.9999: 522500 , p99.99999: 600500 (us)]
+GC appendfilerand1      3343607ops     2229ops/s   4.4mb/s    0.368ms/op [0.000ms - 600.450ms][p95: 600 , p99: 1000 , p99.9: 11300 , p99.95: 290700 , p99.99: 380300 , p99.999: 440600 , p99.9999: 522500 , p99.99999: 600500 (us)]
+openfile1            3690451ops     2306ops/s   0.0mb/s    1.085ms/op [0.003ms - 711.839ms][p95: 1500 , p99: 3100 , p99.9: 314200 , p99.95: 374800 , p99.99: 578500 , p99.999: 676600 , p99.9999: 697000 , p99.99999: 711900 (us)]
+GC openfile1            3343609ops     2229ops/s   0.0mb/s    1.133ms/op [0.000ms - 711.839ms][p95: 1500 , p99: 3000 , p99.9: 325700 , p99.95: 380100 , p99.99: 585200 , p99.999: 678600 , p99.9999: 697000 , p99.99999: 711900 (us)]
+closefile1           3690445ops     2306ops/s   0.0mb/s    0.001ms/op [0.000ms - 3.509ms][p95: 100 , p99: 100 , p99.9: 100 , p99.95: 100 , p99.99: 100 , p99.999: 400 , p99.9999: 1700 , p99.99999: 3600 (us)]
+GC closefile1           3343609ops     2229ops/s   0.0mb/s    0.001ms/op [0.000ms - 3.509ms][p95: 100 , p99: 100 , p99.9: 100 , p99.95: 100 , p99.99: 100 , p99.999: 400 , p99.9999: 500 , p99.99999: 3600 (us)]
+wrtfile1             3690440ops     2306ops/s 282.9mb/s    0.111ms/op [0.004ms - 654.459ms][p95: 300 , p99: 400 , p99.9: 700 , p99.95: 10800 , p99.99: 34300 , p99.999: 393700 , p99.9999: 645200 , p99.99999: 654500 (us)]
+GC wrtfile1             3343609ops     2229ops/s 273.4mb/s    0.112ms/op [0.000ms - 654.459ms][p95: 300 , p99: 400 , p99.9: 700 , p99.95: 10800 , p99.99: 34700 , p99.999: 397200 , p99.9999: 645200 , p99.99999: 654500 (us)]
+createfile1          3690435ops     2306ops/s   0.0mb/s    0.366ms/op [0.013ms - 1015.326ms][p95: 400 , p99: 1000 , p99.9: 48700 , p99.95: 145500 , p99.99: 419600 , p99.999: 671700 , p99.9999: 1001200 , p99.99999: 1015400 (us)]
+GC createfile1          3343609ops     2229ops/s   0.0mb/s    0.377ms/op [0.000ms - 1015.326ms][p95: 400 , p99: 1000 , p99.9: 49500 , p99.95: 248900 , p99.99: 423300 , p99.999: 689100 , p99.9999: 1001200 , p99.99999: 1015400 (us)]
+1766.170: IO Summary: 40595059 ops 25370.135 ops/s 2306/4613 rd/wr 572.6mb/s 0.625ms/op
+1766.170: GC IO Summary: 36779696 ops 24517.966 ops/s 2229/4458 rd/wr 553.7mb/s 0.647ms/op
+1766.170: Shutting down processes

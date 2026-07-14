@@ -1,0 +1,199 @@
+make  all-recursive
+make[1]: 디렉터리 '/home/juwon/filebench' 들어감
+Making all in workloads
+make[2]: 디렉터리 '/home/juwon/filebench/workloads' 들어감
+make[2]: 'all'을(를) 위해 할 일이 없습니다.
+make[2]: 디렉터리 '/home/juwon/filebench/workloads' 나감
+Making all in cvars
+make[2]: 디렉터리 '/home/juwon/filebench/cvars' 들어감
+depbase=`echo cvar-erlang.lo | sed 's|[^/]*$|.deps/&|;s|\.lo$||'`;\
+/bin/bash ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..     -g -O2 -MT cvar-erlang.lo -MD -MP -MF $depbase.Tpo -c -o cvar-erlang.lo cvar-erlang.c &&\
+mv -f $depbase.Tpo $depbase.Plo
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT cvar-erlang.lo -MD -MP -MF .deps/cvar-erlang.Tpo -c cvar-erlang.c  -fPIC -DPIC -o .libs/cvar-erlang.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT cvar-erlang.lo -MD -MP -MF .deps/cvar-erlang.Tpo -c cvar-erlang.c -o cvar-erlang.o >/dev/null 2>&1
+depbase=`echo mtwist/mtwist.lo | sed 's|[^/]*$|.deps/&|;s|\.lo$||'`;\
+/bin/bash ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..     -g -O2 -MT mtwist/mtwist.lo -MD -MP -MF $depbase.Tpo -c -o mtwist/mtwist.lo mtwist/mtwist.c &&\
+mv -f $depbase.Tpo $depbase.Plo
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT mtwist/mtwist.lo -MD -MP -MF mtwist/.deps/mtwist.Tpo -c mtwist/mtwist.c  -fPIC -DPIC -o mtwist/.libs/mtwist.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT mtwist/mtwist.lo -MD -MP -MF mtwist/.deps/mtwist.Tpo -c mtwist/mtwist.c -o mtwist/mtwist.o >/dev/null 2>&1
+depbase=`echo mtwist/randistrs.lo | sed 's|[^/]*$|.deps/&|;s|\.lo$||'`;\
+/bin/bash ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..     -g -O2 -MT mtwist/randistrs.lo -MD -MP -MF $depbase.Tpo -c -o mtwist/randistrs.lo mtwist/randistrs.c &&\
+mv -f $depbase.Tpo $depbase.Plo
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT mtwist/randistrs.lo -MD -MP -MF mtwist/.deps/randistrs.Tpo -c mtwist/randistrs.c  -fPIC -DPIC -o mtwist/.libs/randistrs.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT mtwist/randistrs.lo -MD -MP -MF mtwist/.deps/randistrs.Tpo -c mtwist/randistrs.c -o mtwist/randistrs.o >/dev/null 2>&1
+depbase=`echo cvar_tokens.lo | sed 's|[^/]*$|.deps/&|;s|\.lo$||'`;\
+/bin/bash ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..     -g -O2 -MT cvar_tokens.lo -MD -MP -MF $depbase.Tpo -c -o cvar_tokens.lo cvar_tokens.c &&\
+mv -f $depbase.Tpo $depbase.Plo
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT cvar_tokens.lo -MD -MP -MF .deps/cvar_tokens.Tpo -c cvar_tokens.c  -fPIC -DPIC -o .libs/cvar_tokens.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT cvar_tokens.lo -MD -MP -MF .deps/cvar_tokens.Tpo -c cvar_tokens.c -o cvar_tokens.o >/dev/null 2>&1
+/bin/bash ../libtool  --tag=CC   --mode=link gcc  -g -O2   -o libcvar-erlang.la -rpath /usr/local/lib/filebench cvar-erlang.lo mtwist/mtwist.lo mtwist/randistrs.lo cvar_tokens.lo  -ldl -lpthread -lm -lrt 
+libtool: link: rm -fr  .libs/libcvar-erlang.a .libs/libcvar-erlang.la .libs/libcvar-erlang.lai .libs/libcvar-erlang.so .libs/libcvar-erlang.so.0 .libs/libcvar-erlang.so.0.0.0
+libtool: link: gcc -shared  -fPIC -DPIC  .libs/cvar-erlang.o mtwist/.libs/mtwist.o mtwist/.libs/randistrs.o .libs/cvar_tokens.o   -ldl -lpthread -lm -lrt  -g -O2   -Wl,-soname -Wl,libcvar-erlang.so.0 -o .libs/libcvar-erlang.so.0.0.0
+libtool: link: (cd ".libs" && rm -f "libcvar-erlang.so.0" && ln -s "libcvar-erlang.so.0.0.0" "libcvar-erlang.so.0")
+libtool: link: (cd ".libs" && rm -f "libcvar-erlang.so" && ln -s "libcvar-erlang.so.0.0.0" "libcvar-erlang.so")
+libtool: link: ar cr .libs/libcvar-erlang.a  cvar-erlang.o mtwist/mtwist.o mtwist/randistrs.o cvar_tokens.o
+libtool: link: ranlib .libs/libcvar-erlang.a
+libtool: link: ( cd ".libs" && rm -f "libcvar-erlang.la" && ln -s "../libcvar-erlang.la" "libcvar-erlang.la" )
+depbase=`echo cvar-exponential.lo | sed 's|[^/]*$|.deps/&|;s|\.lo$||'`;\
+/bin/bash ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..     -g -O2 -MT cvar-exponential.lo -MD -MP -MF $depbase.Tpo -c -o cvar-exponential.lo cvar-exponential.c &&\
+mv -f $depbase.Tpo $depbase.Plo
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT cvar-exponential.lo -MD -MP -MF .deps/cvar-exponential.Tpo -c cvar-exponential.c  -fPIC -DPIC -o .libs/cvar-exponential.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT cvar-exponential.lo -MD -MP -MF .deps/cvar-exponential.Tpo -c cvar-exponential.c -o cvar-exponential.o >/dev/null 2>&1
+/bin/bash ../libtool  --tag=CC   --mode=link gcc  -g -O2   -o libcvar-exponential.la -rpath /usr/local/lib/filebench cvar-exponential.lo mtwist/mtwist.lo mtwist/randistrs.lo cvar_tokens.lo  -ldl -lpthread -lm -lrt 
+libtool: link: rm -fr  .libs/libcvar-exponential.a .libs/libcvar-exponential.la .libs/libcvar-exponential.lai .libs/libcvar-exponential.so .libs/libcvar-exponential.so.0 .libs/libcvar-exponential.so.0.0.0
+libtool: link: gcc -shared  -fPIC -DPIC  .libs/cvar-exponential.o mtwist/.libs/mtwist.o mtwist/.libs/randistrs.o .libs/cvar_tokens.o   -ldl -lpthread -lm -lrt  -g -O2   -Wl,-soname -Wl,libcvar-exponential.so.0 -o .libs/libcvar-exponential.so.0.0.0
+libtool: link: (cd ".libs" && rm -f "libcvar-exponential.so.0" && ln -s "libcvar-exponential.so.0.0.0" "libcvar-exponential.so.0")
+libtool: link: (cd ".libs" && rm -f "libcvar-exponential.so" && ln -s "libcvar-exponential.so.0.0.0" "libcvar-exponential.so")
+libtool: link: ar cr .libs/libcvar-exponential.a  cvar-exponential.o mtwist/mtwist.o mtwist/randistrs.o cvar_tokens.o
+libtool: link: ranlib .libs/libcvar-exponential.a
+libtool: link: ( cd ".libs" && rm -f "libcvar-exponential.la" && ln -s "../libcvar-exponential.la" "libcvar-exponential.la" )
+depbase=`echo cvar-lognormal.lo | sed 's|[^/]*$|.deps/&|;s|\.lo$||'`;\
+/bin/bash ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..     -g -O2 -MT cvar-lognormal.lo -MD -MP -MF $depbase.Tpo -c -o cvar-lognormal.lo cvar-lognormal.c &&\
+mv -f $depbase.Tpo $depbase.Plo
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT cvar-lognormal.lo -MD -MP -MF .deps/cvar-lognormal.Tpo -c cvar-lognormal.c  -fPIC -DPIC -o .libs/cvar-lognormal.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT cvar-lognormal.lo -MD -MP -MF .deps/cvar-lognormal.Tpo -c cvar-lognormal.c -o cvar-lognormal.o >/dev/null 2>&1
+/bin/bash ../libtool  --tag=CC   --mode=link gcc  -g -O2   -o libcvar-lognormal.la -rpath /usr/local/lib/filebench cvar-lognormal.lo mtwist/mtwist.lo mtwist/randistrs.lo cvar_tokens.lo  -ldl -lpthread -lm -lrt 
+libtool: link: rm -fr  .libs/libcvar-lognormal.a .libs/libcvar-lognormal.la .libs/libcvar-lognormal.lai .libs/libcvar-lognormal.so .libs/libcvar-lognormal.so.0 .libs/libcvar-lognormal.so.0.0.0
+libtool: link: gcc -shared  -fPIC -DPIC  .libs/cvar-lognormal.o mtwist/.libs/mtwist.o mtwist/.libs/randistrs.o .libs/cvar_tokens.o   -ldl -lpthread -lm -lrt  -g -O2   -Wl,-soname -Wl,libcvar-lognormal.so.0 -o .libs/libcvar-lognormal.so.0.0.0
+libtool: link: (cd ".libs" && rm -f "libcvar-lognormal.so.0" && ln -s "libcvar-lognormal.so.0.0.0" "libcvar-lognormal.so.0")
+libtool: link: (cd ".libs" && rm -f "libcvar-lognormal.so" && ln -s "libcvar-lognormal.so.0.0.0" "libcvar-lognormal.so")
+libtool: link: ar cr .libs/libcvar-lognormal.a  cvar-lognormal.o mtwist/mtwist.o mtwist/randistrs.o cvar_tokens.o
+libtool: link: ranlib .libs/libcvar-lognormal.a
+libtool: link: ( cd ".libs" && rm -f "libcvar-lognormal.la" && ln -s "../libcvar-lognormal.la" "libcvar-lognormal.la" )
+depbase=`echo cvar-normal.lo | sed 's|[^/]*$|.deps/&|;s|\.lo$||'`;\
+/bin/bash ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..     -g -O2 -MT cvar-normal.lo -MD -MP -MF $depbase.Tpo -c -o cvar-normal.lo cvar-normal.c &&\
+mv -f $depbase.Tpo $depbase.Plo
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT cvar-normal.lo -MD -MP -MF .deps/cvar-normal.Tpo -c cvar-normal.c  -fPIC -DPIC -o .libs/cvar-normal.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT cvar-normal.lo -MD -MP -MF .deps/cvar-normal.Tpo -c cvar-normal.c -o cvar-normal.o >/dev/null 2>&1
+/bin/bash ../libtool  --tag=CC   --mode=link gcc  -g -O2   -o libcvar-normal.la -rpath /usr/local/lib/filebench cvar-normal.lo mtwist/mtwist.lo mtwist/randistrs.lo cvar_tokens.lo  -ldl -lpthread -lm -lrt 
+libtool: link: rm -fr  .libs/libcvar-normal.a .libs/libcvar-normal.la .libs/libcvar-normal.lai .libs/libcvar-normal.so .libs/libcvar-normal.so.0 .libs/libcvar-normal.so.0.0.0
+libtool: link: gcc -shared  -fPIC -DPIC  .libs/cvar-normal.o mtwist/.libs/mtwist.o mtwist/.libs/randistrs.o .libs/cvar_tokens.o   -ldl -lpthread -lm -lrt  -g -O2   -Wl,-soname -Wl,libcvar-normal.so.0 -o .libs/libcvar-normal.so.0.0.0
+libtool: link: (cd ".libs" && rm -f "libcvar-normal.so.0" && ln -s "libcvar-normal.so.0.0.0" "libcvar-normal.so.0")
+libtool: link: (cd ".libs" && rm -f "libcvar-normal.so" && ln -s "libcvar-normal.so.0.0.0" "libcvar-normal.so")
+libtool: link: ar cr .libs/libcvar-normal.a  cvar-normal.o mtwist/mtwist.o mtwist/randistrs.o cvar_tokens.o
+libtool: link: ranlib .libs/libcvar-normal.a
+libtool: link: ( cd ".libs" && rm -f "libcvar-normal.la" && ln -s "../libcvar-normal.la" "libcvar-normal.la" )
+depbase=`echo cvar-triangular.lo | sed 's|[^/]*$|.deps/&|;s|\.lo$||'`;\
+/bin/bash ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..     -g -O2 -MT cvar-triangular.lo -MD -MP -MF $depbase.Tpo -c -o cvar-triangular.lo cvar-triangular.c &&\
+mv -f $depbase.Tpo $depbase.Plo
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT cvar-triangular.lo -MD -MP -MF .deps/cvar-triangular.Tpo -c cvar-triangular.c  -fPIC -DPIC -o .libs/cvar-triangular.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT cvar-triangular.lo -MD -MP -MF .deps/cvar-triangular.Tpo -c cvar-triangular.c -o cvar-triangular.o >/dev/null 2>&1
+/bin/bash ../libtool  --tag=CC   --mode=link gcc  -g -O2   -o libcvar-triangular.la -rpath /usr/local/lib/filebench cvar-triangular.lo mtwist/mtwist.lo mtwist/randistrs.lo cvar_tokens.lo  -ldl -lpthread -lm -lrt 
+libtool: link: rm -fr  .libs/libcvar-triangular.a .libs/libcvar-triangular.la .libs/libcvar-triangular.lai .libs/libcvar-triangular.so .libs/libcvar-triangular.so.0 .libs/libcvar-triangular.so.0.0.0
+libtool: link: gcc -shared  -fPIC -DPIC  .libs/cvar-triangular.o mtwist/.libs/mtwist.o mtwist/.libs/randistrs.o .libs/cvar_tokens.o   -ldl -lpthread -lm -lrt  -g -O2   -Wl,-soname -Wl,libcvar-triangular.so.0 -o .libs/libcvar-triangular.so.0.0.0
+libtool: link: (cd ".libs" && rm -f "libcvar-triangular.so.0" && ln -s "libcvar-triangular.so.0.0.0" "libcvar-triangular.so.0")
+libtool: link: (cd ".libs" && rm -f "libcvar-triangular.so" && ln -s "libcvar-triangular.so.0.0.0" "libcvar-triangular.so")
+libtool: link: ar cr .libs/libcvar-triangular.a  cvar-triangular.o mtwist/mtwist.o mtwist/randistrs.o cvar_tokens.o
+libtool: link: ranlib .libs/libcvar-triangular.a
+libtool: link: ( cd ".libs" && rm -f "libcvar-triangular.la" && ln -s "../libcvar-triangular.la" "libcvar-triangular.la" )
+depbase=`echo cvar-uniform.lo | sed 's|[^/]*$|.deps/&|;s|\.lo$||'`;\
+/bin/bash ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..     -g -O2 -MT cvar-uniform.lo -MD -MP -MF $depbase.Tpo -c -o cvar-uniform.lo cvar-uniform.c &&\
+mv -f $depbase.Tpo $depbase.Plo
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT cvar-uniform.lo -MD -MP -MF .deps/cvar-uniform.Tpo -c cvar-uniform.c  -fPIC -DPIC -o .libs/cvar-uniform.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT cvar-uniform.lo -MD -MP -MF .deps/cvar-uniform.Tpo -c cvar-uniform.c -o cvar-uniform.o >/dev/null 2>&1
+/bin/bash ../libtool  --tag=CC   --mode=link gcc  -g -O2   -o libcvar-uniform.la -rpath /usr/local/lib/filebench cvar-uniform.lo mtwist/mtwist.lo mtwist/randistrs.lo cvar_tokens.lo  -ldl -lpthread -lm -lrt 
+libtool: link: rm -fr  .libs/libcvar-uniform.a .libs/libcvar-uniform.la .libs/libcvar-uniform.lai .libs/libcvar-uniform.so .libs/libcvar-uniform.so.0 .libs/libcvar-uniform.so.0.0.0
+libtool: link: gcc -shared  -fPIC -DPIC  .libs/cvar-uniform.o mtwist/.libs/mtwist.o mtwist/.libs/randistrs.o .libs/cvar_tokens.o   -ldl -lpthread -lm -lrt  -g -O2   -Wl,-soname -Wl,libcvar-uniform.so.0 -o .libs/libcvar-uniform.so.0.0.0
+libtool: link: (cd ".libs" && rm -f "libcvar-uniform.so.0" && ln -s "libcvar-uniform.so.0.0.0" "libcvar-uniform.so.0")
+libtool: link: (cd ".libs" && rm -f "libcvar-uniform.so" && ln -s "libcvar-uniform.so.0.0.0" "libcvar-uniform.so")
+libtool: link: ar cr .libs/libcvar-uniform.a  cvar-uniform.o mtwist/mtwist.o mtwist/randistrs.o cvar_tokens.o
+libtool: link: ranlib .libs/libcvar-uniform.a
+libtool: link: ( cd ".libs" && rm -f "libcvar-uniform.la" && ln -s "../libcvar-uniform.la" "libcvar-uniform.la" )
+depbase=`echo cvar-weibull.lo | sed 's|[^/]*$|.deps/&|;s|\.lo$||'`;\
+/bin/bash ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..     -g -O2 -MT cvar-weibull.lo -MD -MP -MF $depbase.Tpo -c -o cvar-weibull.lo cvar-weibull.c &&\
+mv -f $depbase.Tpo $depbase.Plo
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT cvar-weibull.lo -MD -MP -MF .deps/cvar-weibull.Tpo -c cvar-weibull.c  -fPIC -DPIC -o .libs/cvar-weibull.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT cvar-weibull.lo -MD -MP -MF .deps/cvar-weibull.Tpo -c cvar-weibull.c -o cvar-weibull.o >/dev/null 2>&1
+/bin/bash ../libtool  --tag=CC   --mode=link gcc  -g -O2   -o libcvar-weibull.la -rpath /usr/local/lib/filebench cvar-weibull.lo mtwist/mtwist.lo mtwist/randistrs.lo cvar_tokens.lo  -ldl -lpthread -lm -lrt 
+libtool: link: rm -fr  .libs/libcvar-weibull.a .libs/libcvar-weibull.la .libs/libcvar-weibull.lai .libs/libcvar-weibull.so .libs/libcvar-weibull.so.0 .libs/libcvar-weibull.so.0.0.0
+libtool: link: gcc -shared  -fPIC -DPIC  .libs/cvar-weibull.o mtwist/.libs/mtwist.o mtwist/.libs/randistrs.o .libs/cvar_tokens.o   -ldl -lpthread -lm -lrt  -g -O2   -Wl,-soname -Wl,libcvar-weibull.so.0 -o .libs/libcvar-weibull.so.0.0.0
+libtool: link: (cd ".libs" && rm -f "libcvar-weibull.so.0" && ln -s "libcvar-weibull.so.0.0.0" "libcvar-weibull.so.0")
+libtool: link: (cd ".libs" && rm -f "libcvar-weibull.so" && ln -s "libcvar-weibull.so.0.0.0" "libcvar-weibull.so")
+libtool: link: ar cr .libs/libcvar-weibull.a  cvar-weibull.o mtwist/mtwist.o mtwist/randistrs.o cvar_tokens.o
+libtool: link: ranlib .libs/libcvar-weibull.a
+libtool: link: ( cd ".libs" && rm -f "libcvar-weibull.la" && ln -s "../libcvar-weibull.la" "libcvar-weibull.la" )
+depbase=`echo cvar-gamma.lo | sed 's|[^/]*$|.deps/&|;s|\.lo$||'`;\
+/bin/bash ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..     -g -O2 -MT cvar-gamma.lo -MD -MP -MF $depbase.Tpo -c -o cvar-gamma.lo cvar-gamma.c &&\
+mv -f $depbase.Tpo $depbase.Plo
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT cvar-gamma.lo -MD -MP -MF .deps/cvar-gamma.Tpo -c cvar-gamma.c  -fPIC -DPIC -o .libs/cvar-gamma.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT cvar-gamma.lo -MD -MP -MF .deps/cvar-gamma.Tpo -c cvar-gamma.c -o cvar-gamma.o >/dev/null 2>&1
+/bin/bash ../libtool  --tag=CC   --mode=link gcc  -g -O2   -o libcvar-gamma.la -rpath /usr/local/lib/filebench cvar-gamma.lo mtwist/mtwist.lo mtwist/randistrs.lo cvar_tokens.lo  -ldl -lpthread -lm -lrt 
+libtool: link: rm -fr  .libs/libcvar-gamma.a .libs/libcvar-gamma.la .libs/libcvar-gamma.lai .libs/libcvar-gamma.so .libs/libcvar-gamma.so.0 .libs/libcvar-gamma.so.0.0.0
+libtool: link: gcc -shared  -fPIC -DPIC  .libs/cvar-gamma.o mtwist/.libs/mtwist.o mtwist/.libs/randistrs.o .libs/cvar_tokens.o   -ldl -lpthread -lm -lrt  -g -O2   -Wl,-soname -Wl,libcvar-gamma.so.0 -o .libs/libcvar-gamma.so.0.0.0
+libtool: link: (cd ".libs" && rm -f "libcvar-gamma.so.0" && ln -s "libcvar-gamma.so.0.0.0" "libcvar-gamma.so.0")
+libtool: link: (cd ".libs" && rm -f "libcvar-gamma.so" && ln -s "libcvar-gamma.so.0.0.0" "libcvar-gamma.so")
+libtool: link: ar cr .libs/libcvar-gamma.a  cvar-gamma.o mtwist/mtwist.o mtwist/randistrs.o cvar_tokens.o
+libtool: link: ranlib .libs/libcvar-gamma.a
+libtool: link: ( cd ".libs" && rm -f "libcvar-gamma.la" && ln -s "../libcvar-gamma.la" "libcvar-gamma.la" )
+make[2]: 디렉터리 '/home/juwon/filebench/cvars' 나감
+make[2]: 디렉터리 '/home/juwon/filebench' 들어감
+depbase=`echo eventgen.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -D_REENTRANT -DYYDEBUG -DYY_NO_INPUT -DFBLIBDIR=\"/usr/local/lib/filebench\" -D_LARGEFILE64_SOURCE -D_GNU_SOURCE -I.    -Wall -Wno-unknown-pragmas -g -O2 -MT eventgen.o -MD -MP -MF $depbase.Tpo -c -o eventgen.o eventgen.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo fb_avl.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -D_REENTRANT -DYYDEBUG -DYY_NO_INPUT -DFBLIBDIR=\"/usr/local/lib/filebench\" -D_LARGEFILE64_SOURCE -D_GNU_SOURCE -I.    -Wall -Wno-unknown-pragmas -g -O2 -MT fb_avl.o -MD -MP -MF $depbase.Tpo -c -o fb_avl.o fb_avl.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo fb_localfs.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -D_REENTRANT -DYYDEBUG -DYY_NO_INPUT -DFBLIBDIR=\"/usr/local/lib/filebench\" -D_LARGEFILE64_SOURCE -D_GNU_SOURCE -I.    -Wall -Wno-unknown-pragmas -g -O2 -MT fb_localfs.o -MD -MP -MF $depbase.Tpo -c -o fb_localfs.o fb_localfs.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo fb_random.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -D_REENTRANT -DYYDEBUG -DYY_NO_INPUT -DFBLIBDIR=\"/usr/local/lib/filebench\" -D_LARGEFILE64_SOURCE -D_GNU_SOURCE -I.    -Wall -Wno-unknown-pragmas -g -O2 -MT fb_random.o -MD -MP -MF $depbase.Tpo -c -o fb_random.o fb_random.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo fileset.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -D_REENTRANT -DYYDEBUG -DYY_NO_INPUT -DFBLIBDIR=\"/usr/local/lib/filebench\" -D_LARGEFILE64_SOURCE -D_GNU_SOURCE -I.    -Wall -Wno-unknown-pragmas -g -O2 -MT fileset.o -MD -MP -MF $depbase.Tpo -c -o fileset.o fileset.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo flowop.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -D_REENTRANT -DYYDEBUG -DYY_NO_INPUT -DFBLIBDIR=\"/usr/local/lib/filebench\" -D_LARGEFILE64_SOURCE -D_GNU_SOURCE -I.    -Wall -Wno-unknown-pragmas -g -O2 -MT flowop.o -MD -MP -MF $depbase.Tpo -c -o flowop.o flowop.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo flowop_library.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -D_REENTRANT -DYYDEBUG -DYY_NO_INPUT -DFBLIBDIR=\"/usr/local/lib/filebench\" -D_LARGEFILE64_SOURCE -D_GNU_SOURCE -I.    -Wall -Wno-unknown-pragmas -g -O2 -MT flowop_library.o -MD -MP -MF $depbase.Tpo -c -o flowop_library.o flowop_library.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo gamma_dist.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -D_REENTRANT -DYYDEBUG -DYY_NO_INPUT -DFBLIBDIR=\"/usr/local/lib/filebench\" -D_LARGEFILE64_SOURCE -D_GNU_SOURCE -I.    -Wall -Wno-unknown-pragmas -g -O2 -MT gamma_dist.o -MD -MP -MF $depbase.Tpo -c -o gamma_dist.o gamma_dist.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo ipc.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -D_REENTRANT -DYYDEBUG -DYY_NO_INPUT -DFBLIBDIR=\"/usr/local/lib/filebench\" -D_LARGEFILE64_SOURCE -D_GNU_SOURCE -I.    -Wall -Wno-unknown-pragmas -g -O2 -MT ipc.o -MD -MP -MF $depbase.Tpo -c -o ipc.o ipc.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo misc.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -D_REENTRANT -DYYDEBUG -DYY_NO_INPUT -DFBLIBDIR=\"/usr/local/lib/filebench\" -D_LARGEFILE64_SOURCE -D_GNU_SOURCE -I.    -Wall -Wno-unknown-pragmas -g -O2 -MT misc.o -MD -MP -MF $depbase.Tpo -c -o misc.o misc.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo multi_client_sync.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -D_REENTRANT -DYYDEBUG -DYY_NO_INPUT -DFBLIBDIR=\"/usr/local/lib/filebench\" -D_LARGEFILE64_SOURCE -D_GNU_SOURCE -I.    -Wall -Wno-unknown-pragmas -g -O2 -MT multi_client_sync.o -MD -MP -MF $depbase.Tpo -c -o multi_client_sync.o multi_client_sync.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo parser_gram.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -D_REENTRANT -DYYDEBUG -DYY_NO_INPUT -DFBLIBDIR=\"/usr/local/lib/filebench\" -D_LARGEFILE64_SOURCE -D_GNU_SOURCE -I.    -Wall -Wno-unknown-pragmas -g -O2 -MT parser_gram.o -MD -MP -MF $depbase.Tpo -c -o parser_gram.o parser_gram.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo parser_lex.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -D_REENTRANT -DYYDEBUG -DYY_NO_INPUT -DFBLIBDIR=\"/usr/local/lib/filebench\" -D_LARGEFILE64_SOURCE -D_GNU_SOURCE -I.    -Wall -Wno-unknown-pragmas -g -O2 -MT parser_lex.o -MD -MP -MF $depbase.Tpo -c -o parser_lex.o parser_lex.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo procflow.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -D_REENTRANT -DYYDEBUG -DYY_NO_INPUT -DFBLIBDIR=\"/usr/local/lib/filebench\" -D_LARGEFILE64_SOURCE -D_GNU_SOURCE -I.    -Wall -Wno-unknown-pragmas -g -O2 -MT procflow.o -MD -MP -MF $depbase.Tpo -c -o procflow.o procflow.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo stats.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -D_REENTRANT -DYYDEBUG -DYY_NO_INPUT -DFBLIBDIR=\"/usr/local/lib/filebench\" -D_LARGEFILE64_SOURCE -D_GNU_SOURCE -I.    -Wall -Wno-unknown-pragmas -g -O2 -MT stats.o -MD -MP -MF $depbase.Tpo -c -o stats.o stats.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo threadflow.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -D_REENTRANT -DYYDEBUG -DYY_NO_INPUT -DFBLIBDIR=\"/usr/local/lib/filebench\" -D_LARGEFILE64_SOURCE -D_GNU_SOURCE -I.    -Wall -Wno-unknown-pragmas -g -O2 -MT threadflow.o -MD -MP -MF $depbase.Tpo -c -o threadflow.o threadflow.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo utils.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -D_REENTRANT -DYYDEBUG -DYY_NO_INPUT -DFBLIBDIR=\"/usr/local/lib/filebench\" -D_LARGEFILE64_SOURCE -D_GNU_SOURCE -I.    -Wall -Wno-unknown-pragmas -g -O2 -MT utils.o -MD -MP -MF $depbase.Tpo -c -o utils.o utils.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo vars.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -D_REENTRANT -DYYDEBUG -DYY_NO_INPUT -DFBLIBDIR=\"/usr/local/lib/filebench\" -D_LARGEFILE64_SOURCE -D_GNU_SOURCE -I.    -Wall -Wno-unknown-pragmas -g -O2 -MT vars.o -MD -MP -MF $depbase.Tpo -c -o vars.o vars.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo ioprio.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -D_REENTRANT -DYYDEBUG -DYY_NO_INPUT -DFBLIBDIR=\"/usr/local/lib/filebench\" -D_LARGEFILE64_SOURCE -D_GNU_SOURCE -I.    -Wall -Wno-unknown-pragmas -g -O2 -MT ioprio.o -MD -MP -MF $depbase.Tpo -c -o ioprio.o ioprio.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo fbtime.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -D_REENTRANT -DYYDEBUG -DYY_NO_INPUT -DFBLIBDIR=\"/usr/local/lib/filebench\" -D_LARGEFILE64_SOURCE -D_GNU_SOURCE -I.    -Wall -Wno-unknown-pragmas -g -O2 -MT fbtime.o -MD -MP -MF $depbase.Tpo -c -o fbtime.o fbtime.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo fb_cvar.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -D_REENTRANT -DYYDEBUG -DYY_NO_INPUT -DFBLIBDIR=\"/usr/local/lib/filebench\" -D_LARGEFILE64_SOURCE -D_GNU_SOURCE -I.    -Wall -Wno-unknown-pragmas -g -O2 -MT fb_cvar.o -MD -MP -MF $depbase.Tpo -c -o fb_cvar.o fb_cvar.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo aslr.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -D_REENTRANT -DYYDEBUG -DYY_NO_INPUT -DFBLIBDIR=\"/usr/local/lib/filebench\" -D_LARGEFILE64_SOURCE -D_GNU_SOURCE -I.    -Wall -Wno-unknown-pragmas -g -O2 -MT aslr.o -MD -MP -MF $depbase.Tpo -c -o aslr.o aslr.c &&\
+mv -f $depbase.Tpo $depbase.Po
+/bin/bash ./libtool  --tag=CC   --mode=link gcc -Wall -Wno-unknown-pragmas -g -O2   -o filebench eventgen.o fb_avl.o fb_localfs.o fb_random.o fileset.o flowop.o flowop_library.o gamma_dist.o ipc.o misc.o multi_client_sync.o parser_gram.o parser_lex.o procflow.o stats.o threadflow.o utils.o vars.o ioprio.o fbtime.o fb_cvar.o aslr.o cvars/mtwist/mtwist.o  -ldl -lpthread -lm -lrt 
+libtool: link: gcc -Wall -Wno-unknown-pragmas -g -O2 -o filebench eventgen.o fb_avl.o fb_localfs.o fb_random.o fileset.o flowop.o flowop_library.o gamma_dist.o ipc.o misc.o multi_client_sync.o parser_gram.o parser_lex.o procflow.o stats.o threadflow.o utils.o vars.o ioprio.o fbtime.o fb_cvar.o aslr.o cvars/mtwist/mtwist.o  -ldl -lpthread -lm -lrt
+make[2]: 디렉터리 '/home/juwon/filebench' 나감
+make[1]: 디렉터리 '/home/juwon/filebench' 나감

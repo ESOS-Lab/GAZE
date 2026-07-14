@@ -1,0 +1,26 @@
+Adding shard node URL: jdbc:mysql://127.0.0.1:3306/ycsb
+Using shards: 1, batchSize:-1, fetchSize: -1
+[OVERALL], RunTime(ms), 1459486
+[OVERALL], Throughput(ops/sec), 1781.4490854999638
+[TOTAL_GCS_G1_Young_Generation], Count, 316
+[TOTAL_GC_TIME_G1_Young_Generation], Time(ms), 259
+[TOTAL_GC_TIME_%_G1_Young_Generation], Time(%), 0.017745973582480406
+[TOTAL_GCS_G1_Old_Generation], Count, 0
+[TOTAL_GC_TIME_G1_Old_Generation], Time(ms), 0
+[TOTAL_GC_TIME_%_G1_Old_Generation], Time(%), 0.0
+[TOTAL_GCs], Count, 316
+[TOTAL_GC_TIME], Time(ms), 259
+[TOTAL_GC_TIME_%], Time(%), 0.017745973582480406
+[CLEANUP], Operations, 1
+[CLEANUP], AverageLatency(us), 1571.0
+[CLEANUP], MinLatency(us), 1571
+[CLEANUP], MaxLatency(us), 1571
+[CLEANUP], 95thPercentileLatency(us), 1571
+[CLEANUP], 99thPercentileLatency(us), 1571
+[INSERT], Operations, 2600000
+[INSERT], AverageLatency(us), 559.8165138461538
+[INSERT], MinLatency(us), 209
+[INSERT], MaxLatency(us), 129855
+[INSERT], 95thPercentileLatency(us), 1328
+[INSERT], 99thPercentileLatency(us), 4199
+[INSERT], Return=OK, 2600000

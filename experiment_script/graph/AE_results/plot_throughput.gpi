@@ -1,0 +1,17 @@
+set terminal pngcairo size 1000,500 enhanced font "Helvetica,14"
+set output "throughput.png"
+
+set datafile separator "\t"
+set style data histogram
+set style histogram clustered gap 1
+set style fill solid 0.85 border -1
+set boxwidth 0.9
+
+set ylabel "Throughput (KOPS, TPC-C: tx/sec)"
+set xtics rotate by -20
+set grid ytics
+set key outside top horizontal
+
+if (!exists("N")) N = 2  # column count; update_graph.sh passes this via -e
+
+plot for [i=2:N] "throughput.tsv" using i:xtic(1) title columnheader(i)

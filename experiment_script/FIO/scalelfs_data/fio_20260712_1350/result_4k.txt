@@ -1,0 +1,8 @@
+convert_thread_options_to_net: timeout: 0
+convert_thread_options_to_cpu: timeout: 0
+convert_thread_options_to_net: timeout: 0
+test: (g=0): rw=randwrite, bs=(R) 4096B-4096B, (W) 4096B-4096B, (T) 4096B-4096B, ioengine=psync, iodepth=1
+fio-3.32
+Starting 1 process
+test: Laying out IO file (1 file / 184320MiB)
+thread_main: set jw_gcstart: false

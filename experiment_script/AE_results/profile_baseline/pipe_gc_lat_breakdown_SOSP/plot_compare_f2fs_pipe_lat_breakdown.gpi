@@ -1,0 +1,72 @@
+#kiops
+set terminal postscript eps enhanced color dashed dashlength 3 \
+	                linewidth 2 rounded font "Helvetica, 32"
+
+fn(v) = sprintf("%.1f", v)
+fnn(v) = sprintf("%d", v)
+jw_fnn(v) = (v < 100)? fn(v) : fnn(v)
+
+set output "./pipe_gc_lat_breakdown.eps"
+set term postscript size 9.5,4.4
+set key inside right top  vertical reverse invert Left font "Helvetica, 40"
+
+set key samplen 1.5 width 0.2
+
+set xtics nomirror
+set ytics nomirror
+
+set xtics font "Helvetica, 42" offset 0, 0.3 
+
+set xrange[-0.5:5.5]
+set yrange[0:1.8]
+set key at screen 0.96, 1
+set ytics 0.8 font "Helvetica, 42"
+
+set ylabel font "Helvetica, 42" "GC Elapsed Time (sec)" offset 1.2, -0.5
+unset xlabel
+
+set bmargin at screen 0.16
+
+set boxwidth 0.4 absolute
+
+set style histogram rowstacked title offset character 0, 0, 0
+set style data histograms
+
+set border 11
+
+
+
+set arrow from first -0.5, screen 0.00 to first -0.5, screen 0.08 nohead
+set arrow from first -0.5, screen 0.04 to first 0.5, screen 0.04 nohead
+set arrow from first 0.5, screen 0.00 to first 0.5, screen 0.08 nohead
+
+set object 11 rectangle behind at first (-0.5+0.5)/2, screen 0.04 size char strlen("F2FS  "), \
+	 char 0.3 front fillcolor rgb "white" fillstyle solid noborder
+set label "F2FS" at first (-0.5+0.5)/2, screen 0.04 center front font "Helvetica, 42"
+
+set arrow from first 0.5, screen 0.04 to first 5.5, screen 0.04 nohead
+set arrow from first 5.5, screen 0.00 to first 5.5, screen 0.08 nohead
+
+set object 12 rectangle behind at first (5.5+0.5)/2, screen 0.04 size char strlen("F2FS with Pipelined GC  "), \
+	 char 0.3 front fillcolor rgb "white" fillstyle solid noborder
+set label "F2FS with Pipelined GC" at first (5.5+0.5)/2, screen 0.04 center front font "Helvetica, 42"
+
+
+
+
+total_sum = "($2+$3+$4+$5+$6+$7+$8)"
+
+
+
+plot \
+     'pipe_gc_lat_breakdown_data' using (($8)/1000000) fs pattern 3 noborder lc rgb 'dark-violet' t 'Pipelined GC', \
+     'pipe_gc_lat_breakdown_data' using (($7)/1000000) fs pattern 3 noborder lc rgb '#628FCA' t 'Write', \
+     'pipe_gc_lat_breakdown_data' using (($6)/1000000) fs pattern 3 noborder lc rgb '#D1E2F1' t 'Prewrite', \
+     'pipe_gc_lat_breakdown_data' using (($5)/1000000) fs pattern 3 noborder lc rgb '#EE5760' t 'Read', \
+     'pipe_gc_lat_breakdown_data' using (($4)/1000000) fs pattern 3 noborder lc rgb '#FAC296' t 'Preread', \
+     'pipe_gc_lat_breakdown_data' using (($3)/1000000) fs pattern 3 noborder lc rgb 'green' t 'Preprocess', \
+     'pipe_gc_lat_breakdown_data' using (($2)/1000000):xtic(1) fs pattern 3 noborder lc rgb 'black' t 'Checkpoint', \
+     \
+     'pipe_gc_lat_breakdown_data' using ($0):(@total_sum/1000000):(sprintf("%.2f", @total_sum/1000000)) \
+     with labels font "Helvetica, 44" offset 0, 0.7 title "" 
+     

@@ -1,0 +1,80 @@
+/usr/bin/java  -classpath :/home/aec/GAZE/benchmarks/YCSB/mysql-connector-j-8.0.33.jar:/home/aec/GAZE/benchmarks/YCSB/conf:/home/aec/GAZE/benchmarks/YCSB/core/target/core-0.18.0-SNAPSHOT.jar:/home/aec/GAZE/benchmarks/YCSB/core/target/dependency/HdrHistogram-2.1.4.jar:/home/aec/GAZE/benchmarks/YCSB/core/target/dependency/bsh-2.0b4.jar:/home/aec/GAZE/benchmarks/YCSB/core/target/dependency/htrace-core4-4.1.0-incubating.jar:/home/aec/GAZE/benchmarks/YCSB/core/target/dependency/jackson-core-asl-1.9.4.jar:/home/aec/GAZE/benchmarks/YCSB/core/target/dependency/jackson-mapper-asl-1.9.4.jar:/home/aec/GAZE/benchmarks/YCSB/core/target/dependency/jcommander-1.12.jar:/home/aec/GAZE/benchmarks/YCSB/core/target/dependency/junit-3.8.1.jar:/home/aec/GAZE/benchmarks/YCSB/core/target/dependency/snakeyaml-1.6.jar:/home/aec/GAZE/benchmarks/YCSB/core/target/dependency/testng-6.1.1.jar:/home/aec/GAZE/benchmarks/YCSB/jdbc/src/main/conf:/home/aec/GAZE/benchmarks/YCSB/jdbc/target/jdbc-binding-0.18.0-SNAPSHOT.jar:/home/aec/GAZE/benchmarks/YCSB/jdbc/target/dependency/commons-collections-3.2.1.jar:/home/aec/GAZE/benchmarks/YCSB/jdbc/target/dependency/commons-lang-2.4.jar:/home/aec/GAZE/benchmarks/YCSB/jdbc/target/dependency/commons-pool-1.5.4.jar:/home/aec/GAZE/benchmarks/YCSB/jdbc/target/dependency/geronimo-jms_1.1_spec-1.1.1.jar:/home/aec/GAZE/benchmarks/YCSB/jdbc/target/dependency/geronimo-jta_1.1_spec-1.1.1.jar:/home/aec/GAZE/benchmarks/YCSB/jdbc/target/dependency/openjpa-jdbc-2.1.1.jar:/home/aec/GAZE/benchmarks/YCSB/jdbc/target/dependency/openjpa-kernel-2.1.1.jar:/home/aec/GAZE/benchmarks/YCSB/jdbc/target/dependency/openjpa-lib-2.1.1.jar:/home/aec/GAZE/benchmarks/YCSB/jdbc/target/dependency/serp-1.13.1.jar site.ycsb.Client -t -db site.ycsb.db.JdbcDBClient -P /home/aec/GAZE/experiment_script/YCSB-F/workloadf -P db.properties -p recordcount=16000000 -p fieldlength=800 -p operationcount=50000 -p writeallfields=false -threads 15
+Adding shard node URL: jdbc:mysql://127.0.0.1:3306/ycsb
+Adding shard node URL: jdbc:mysql://127.0.0.1:3306/ycsb
+Adding shard node URL: jdbc:mysql://127.0.0.1:3306/ycsb
+Adding shard node URL: jdbc:mysql://127.0.0.1:3306/ycsb
+Adding shard node URL: jdbc:mysql://127.0.0.1:3306/ycsb
+Adding shard node URL: jdbc:mysql://127.0.0.1:3306/ycsb
+Adding shard node URL: jdbc:mysql://127.0.0.1:3306/ycsb
+Adding shard node URL: jdbc:mysql://127.0.0.1:3306/ycsb
+Adding shard node URL: jdbc:mysql://127.0.0.1:3306/ycsb
+Adding shard node URL: jdbc:mysql://127.0.0.1:3306/ycsb
+Adding shard node URL: jdbc:mysql://127.0.0.1:3306/ycsb
+Adding shard node URL: jdbc:mysql://127.0.0.1:3306/ycsb
+Adding shard node URL: jdbc:mysql://127.0.0.1:3306/ycsb
+Adding shard node URL: jdbc:mysql://127.0.0.1:3306/ycsb
+Adding shard node URL: jdbc:mysql://127.0.0.1:3306/ycsb
+Using shards: 1, batchSize:-1, fetchSize: -1
+Using shards: 1, batchSize:-1, fetchSize: -1
+Using shards: 1, batchSize:-1, fetchSize: -1
+Using shards: 1, batchSize:-1, fetchSize: -1
+Using shards: 1, batchSize:-1, fetchSize: -1
+Using shards: 1, batchSize:-1, fetchSize: -1
+Using shards: 1, batchSize:-1, fetchSize: -1
+Using shards: 1, batchSize:-1, fetchSize: -1
+Using shards: 1, batchSize:-1, fetchSize: -1
+Using shards: 1, batchSize:-1, fetchSize: -1
+Using shards: 1, batchSize:-1, fetchSize: -1
+Using shards: 1, batchSize:-1, fetchSize: -1
+Using shards: 1, batchSize:-1, fetchSize: -1
+Using shards: 1, batchSize:-1, fetchSize: -1
+Using shards: 1, batchSize:-1, fetchSize: -1
+[OVERALL], RunTime(ms), 6179
+[OVERALL], Throughput(ops/sec), 8091.92425958893
+[TOTAL_GCS_G1_Young_Generation], Count, 8
+[TOTAL_GC_TIME_G1_Young_Generation], Time(ms), 19
+[TOTAL_GC_TIME_%_G1_Young_Generation], Time(%), 0.3074931218643794
+[TOTAL_GCS_G1_Old_Generation], Count, 0
+[TOTAL_GC_TIME_G1_Old_Generation], Time(ms), 0
+[TOTAL_GC_TIME_%_G1_Old_Generation], Time(%), 0.0
+[TOTAL_GCs], Count, 8
+[TOTAL_GC_TIME], Time(ms), 19
+[TOTAL_GC_TIME_%], Time(%), 0.3074931218643794
+[READ], Operations, 50000
+[READ], AverageLatency(us), 1128.2025
+[READ], MinLatency(us), 175
+[READ], MaxLatency(us), 209023
+[READ], 95thPercentileLatency(us), 1998
+[READ], 99thPercentileLatency(us), 3885
+[READ], 99.9PercentileLatency(us), 23071
+[READ], 99.95PercentileLatency(us), 24431
+[READ], 99.99PercentileLatency(us), 208895
+[READ], Return=OK, 50000
+[READ-MODIFY-WRITE], Operations, 44867
+[READ-MODIFY-WRITE], AverageLatency(us), 1641.2384380502374
+[READ-MODIFY-WRITE], MinLatency(us), 415
+[READ-MODIFY-WRITE], MaxLatency(us), 235263
+[READ-MODIFY-WRITE], 95thPercentileLatency(us), 2851
+[READ-MODIFY-WRITE], 99thPercentileLatency(us), 8119
+[READ-MODIFY-WRITE], 99.9PercentileLatency(us), 25887
+[READ-MODIFY-WRITE], 99.95PercentileLatency(us), 29919
+[READ-MODIFY-WRITE], 99.99PercentileLatency(us), 234751
+[CLEANUP], Operations, 15
+[CLEANUP], AverageLatency(us), 354.3333333333333
+[CLEANUP], MinLatency(us), 170
+[CLEANUP], MaxLatency(us), 2269
+[CLEANUP], 95thPercentileLatency(us), 329
+[CLEANUP], 99thPercentileLatency(us), 2269
+[CLEANUP], 99.9PercentileLatency(us), 2269
+[CLEANUP], 99.95PercentileLatency(us), 2269
+[CLEANUP], 99.99PercentileLatency(us), 2269
+[UPDATE], Operations, 44867
+[UPDATE], AverageLatency(us), 509.13368399937593
+[UPDATE], MinLatency(us), 207
+[UPDATE], MaxLatency(us), 29823
+[UPDATE], 95thPercentileLatency(us), 825
+[UPDATE], 99thPercentileLatency(us), 6171
+[UPDATE], 99.9PercentileLatency(us), 22607
+[UPDATE], 99.95PercentileLatency(us), 26767
+[UPDATE], 99.99PercentileLatency(us), 28863
+[UPDATE], Return=OK, 44867

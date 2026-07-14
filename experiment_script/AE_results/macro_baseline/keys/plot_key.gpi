@@ -1,0 +1,51 @@
+#kiops
+set terminal postscript eps enhanced color dashed dashlength 3 \
+                        linewidth 2 rounded font "Helvetica, 32"
+
+fn(v) = sprintf("%.2f", v)
+fnn(v) = sprintf("%d", v)
+
+#set output "./graph_fio_cmp_kiops.eps"
+set output "keys.eps"
+#set term postscript size 9.96,0.6
+set term postscript size 9.96,0.29
+set key outside top vertical reverse Left font "Helvetica, 48"
+
+
+set key samplen 2 width 1
+
+set xtics nomirror
+set ytics nomirror
+
+set xtics font "Helvetica, 28" offset 0, 0.3
+
+set xrange[0.5:2.5]
+set yrange[0:100]
+set key at screen 0.97+0.04 -0.2+0.2, 2
+set ytics 16 font "Helvetica, 28" offset 0.5, 0
+
+set style data histogram
+set style fill solid 1 border 0
+set style histogram clustered
+set boxwidth -1 absolute
+
+set border 0
+
+set origin 0, 1
+
+set tmargin at screen 0
+set bmargin at screen 0
+set lmargin at screen 0
+set rmargin at screen 0.7
+
+unset xlabel
+unset ylabel
+unset xtics
+unset ytics
+
+plot 'key_name_data' \
+		  u ($3/$5):xtic(1) t 'GAZE' lc 'red', \
+		 '' u ($3/$5):xtic(1) t 'IPLFS' lc 'orange', \
+		 '' u ($3/$5):xtic(1) t 'P-GC' lc 'green', \
+		 '' u ($3/$5):xtic(1) t 'ZNS+' lc 'skyblue', \
+		 '' u ($5/$5):xtic(1) t 'zF2FS' lc 'black'

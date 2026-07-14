@@ -1,0 +1,19 @@
+[전체 구간]
+  Samples   : 599
+  Mean IOPS : 163.170
+  Stddev    : 34.645
+  Min IOPS  : 100.076
+  Max IOPS  : 251.586
+  25% IOPS  : 135.855
+  75% IOPS  : 195.638
+
+[GC 이후 구간 (time ≥ 400)]
+  Samples   : 400
+  Mean IOPS : 142.292
+  Stddev    : 17.568
+  Min IOPS  : 100.076
+  Max IOPS  : 191.979
+  25% IOPS  : 129.861
+  75% IOPS  : 152.557
+
+→ 결과를 'hs_real_output/result_4k.txt' 파일에 추가했습니다: NB+Pipe

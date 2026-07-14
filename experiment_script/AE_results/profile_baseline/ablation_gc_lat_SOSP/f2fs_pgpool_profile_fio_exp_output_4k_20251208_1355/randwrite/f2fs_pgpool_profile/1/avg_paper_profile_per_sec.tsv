@@ -1,0 +1,2 @@
+#cp	do_gc_lat	p0_1_2	p3_prerd	preproc	check1	check2	is_alive	iget	bef_rd	add_inode	put_pg	check_$1	get_free_pg	zerofill	add_$	pg_others1	check_$2	pg_others2
+68.5065	1203.84	82.3462	661.081	348.821	9.60932	263.859	28.8919	9.83037	6.72445	7.20779	0.00939474	30.5246	2.43153	0	4.66163	17.0506	4.16853	8.07424

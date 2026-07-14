@@ -1,0 +1,55 @@
+[  536.691495] STARTTTTTT
+[  878.281520] f2fs_try_wait_discard_bio: reset!!!!!!!!!!!!!!!!
+[  882.823875] f2fs_try_wait_discard_bio: reset!!!!!!!!!!!!!!!!
+[  888.388894] f2fs_try_wait_discard_bio: reset!!!!!!!!!!!!!!!!
+[  892.036506] f2fs_try_wait_discard_bio: reset!!!!!!!!!!!!!!!!
+[  897.630042] f2fs_try_wait_discard_bio: reset!!!!!!!!!!!!!!!!
+[  901.443834] f2fs_try_wait_discard_bio: reset!!!!!!!!!!!!!!!!
+[  907.027395] f2fs_try_wait_discard_bio: reset!!!!!!!!!!!!!!!!
+[  910.992929] f2fs_try_wait_discard_bio: reset!!!!!!!!!!!!!!!!
+[  911.376141] F2FS-fs (nvme0n1p1): Inconsistent error blkaddr:13312518, sit bitmap:0
+[  911.376151] CPU: 2 PID: 4447 Comm: fio Tainted: G           OE      6.1.0.sosp26_ae #8
+[  911.376154] Hardware name: Dell Inc. PowerEdge R740xd/0YNX56, BIOS 2.3.10 08/15/2019
+[  911.376156] Call Trace:
+[  911.376158]  <TASK>
+[  911.376162]  dump_stack_lvl+0x4a/0x65
+[  911.376168]  dump_stack+0x10/0x16
+[  911.376173]  __f2fs_is_valid_blkaddr+0x1f2/0x380 [f2fs]
+[  911.376214]  f2fs_is_valid_blkaddr+0xe/0x20 [f2fs]
+[  911.376243]  f2fs_map_blocks_nonblocking+0x26e/0xc10 [f2fs]
+[  911.376275]  f2fs_file_write_iter+0x204/0xb70 [f2fs]
+[  911.376302]  vfs_write+0x20b/0x3e0
+[  911.376308]  __x64_sys_pwrite64+0x9a/0xd0
+[  911.376311]  do_syscall_64+0x38/0x90
+[  911.376314]  entry_SYSCALL_64_after_hwframe+0x63/0xcd
+[  911.376318] RIP: 0033:0x7ffff7afa555
+[  911.376321] Code: e8 48 89 75 f0 89 7d f8 48 89 4d e0 e8 14 e0 f9 ff 4c 8b 55 e0 48 8b 55 e8 41 89 c0 48 8b 75 f0 8b 7d f8 b8 12 00 00 00 0f 05 <48> 3d 00 f0 ff ff 77 2b 44 89 c7 48 89 45 f8 e8 67 e0 f9 ff 48 8b
+[  911.376323] RSP: 002b:00007fffffff4b60 EFLAGS: 00000293 ORIG_RAX: 0000000000000012
+[  911.376326] RAX: ffffffffffffffda RBX: 00005555557e7e80 RCX: 00007ffff7afa555
+[  911.376327] RDX: 0000000000001000 RSI: 00005555557e5d60 RDI: 0000000000000006
+[  911.376328] RBP: 00007fffffff4b80 R08: 0000000000000000 R09: 0000000213e15000
+[  911.376330] R10: 0000000213e15000 R11: 0000000000000293 R12: 0000000000000001
+[  911.376331] R13: 00005555557e7e80 R14: 0000000000001000 R15: 00007ffff7c34000
+[  911.376333]  </TASK>
+[  911.507727] block nvme1n1: No UUID available providing old NGUID
+[  938.269325] f2fs_put_super !!!!!
+[ 2684.034317] FAT-fs (sdm1): Volume was not properly unmounted. Some data may be corrupt. Please run fsck.
+[ 5144.567086] perf: interrupt took too long (2515 > 2500), lowering kernel.perf_event_max_sample_rate to 79500
+[ 5430.438587] ixgbe 0000:19:00.0 eno1: NIC Link is Down
+[ 5435.614015] ixgbe 0000:19:00.0 eno1: NIC Link is Up 10 Gbps, Flow Control: RX/TX
+[ 5531.678774] ixgbe 0000:19:00.0 eno1: NIC Link is Down
+[ 5536.251575] ixgbe 0000:19:00.0 eno1: NIC Link is Up 10 Gbps, Flow Control: RX/TX
+[ 5584.733681] ixgbe 0000:19:00.0 eno1: NIC Link is Down
+[ 5587.160185] ixgbe 0000:19:00.0 eno1: NIC Link is Up 100 Mbps, Flow Control: RX/TX
+[ 5592.708912] ixgbe 0000:19:00.0 eno1: NIC Link is Down
+[ 5597.248137] ixgbe 0000:19:00.0 eno1: NIC Link is Up 10 Gbps, Flow Control: RX/TX
+[ 5618.930520] ixgbe 0000:19:00.0 eno1: NIC Link is Down
+[ 5623.530919] ixgbe 0000:19:00.0 eno1: NIC Link is Up 10 Gbps, Flow Control: RX/TX
+[ 5706.118338] SGI XFS with ACLs, security attributes, realtime, quota, no debug enabled
+[ 5706.124188] JFS: nTxBlock = 8192, nTxLock = 65536
+[ 5706.137012] ntfs: driver 2.1.32 [Flags: R/O MODULE].
+[ 5706.148945] QNX4 filesystem 0.2.3 registered.
+[ 5718.068514] ixgbe 0000:19:00.0 eno1: NIC Link is Down
+[ 5722.529329] ixgbe 0000:19:00.0 eno1: NIC Link is Up 10 Gbps, Flow Control: RX/TX
+[ 5780.358044] ixgbe 0000:19:00.0 eno1: NIC Link is Down
+[ 5784.809620] ixgbe 0000:19:00.0 eno1: NIC Link is Up 10 Gbps, Flow Control: RX/TX

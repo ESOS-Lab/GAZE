@@ -1,0 +1,58 @@
+# Define a function to divide by 1000.0
+fn(x) = ((x) / 1000.0)
+
+# Transform the y-values to simulate a broken y-axis
+trans_y(y) = (y > 200 ? (y - 170) : (y < 30 ? y : 30)) # Transform y between 30 and 200
+
+set terminal postscript eps enhanced color dashed dashlength 3 \
+                     linewidth 2 rounded font "Helvetica, 40"
+
+set output 'intra_segment_read_lat_broken.eps'
+
+set term postscript size 7.5,2.8+0.2
+
+
+set grid ytics
+set key inside top right horizontal samplen 1 font "Helvetica, 34"
+
+set xlabel "Intra-Segment Block-Read Sequence" offset 0, 0
+set ylabel "Latency (usec)" offset 0, 0
+
+set xtics 64
+set xtics nomirror
+set ytics nomirror
+set border 3
+
+# Configure y-axis range for first plot [0:30]
+set yrange [0:50] # Adjusted y-range after transformation
+set ytics ("0" 0, "10" 10, "20" 20, "30" 30, "210" 40, "220" 50 )
+
+xstart=-20
+set xrange [xstart:512]
+unset grid
+
+# Add 45-degree diagonal breaks on x-axis (indicating omitted range)
+
+set arrow 1 from xstart-4-1,28+5-1 to xstart+4+1,29+5+1 nohead lw 2 lc rgb "black"
+set arrow 2 from xstart-4-1,31+5-1 to xstart+4+1,32+5+1 nohead lw 2 lc rgb "black"
+#set object 1 rectangle from xstart-4, 30 to xstart+4, 35 fillcolor rgb "white" 
+
+#set object 1 rectangle from xstart-4, 28+5 to xstart+4, 31+5 fillcolor rgb "white"
+
+# Define colors for each category
+set style line 1 lc rgb "black"         lw 1. # cp
+set style line 3 lc rgb "dark-violet"   lw 1. # filemap
+set style line 4 lc rgb "blue"          lw 1. # pcache
+set style line 5 lc rgb "red"           lw 1. # read
+set style line 6 lc rgb "green"         lw 1. # write
+set style line 7 lc rgb "orange"        lw 1. # others
+
+set boxwidth 0.1 absolute
+set style fill solid
+
+# Margins
+set lmargin at screen 0.15
+set tmargin at screen 0.86+0.08
+
+plot 'intra_seg_read_lat' using ($9):(trans_y(fn($11))) title "Single Block Read Latency" with impulses ls 1
+replot

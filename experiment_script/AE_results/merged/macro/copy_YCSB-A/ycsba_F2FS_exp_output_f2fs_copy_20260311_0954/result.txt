@@ -1,0 +1,80 @@
+[WARN]  Running against a source checkout. In order to get our runtime dependencies we'll have to invoke Maven. Depending on the state of your system, this may take ~30-45 seconds
+[DEBUG]  Running 'mvn -pl site.ycsb:jdbc-binding -am package -DskipTests dependency:build-classpath -DincludeScope=compile -Dmdep.outputFilterFile=true'
+java -cp mysql-connector-j-8.0.33.jar:/home/juwon/lee/YCSB/jdbc/conf:/home/juwon/lee/YCSB/jdbc/target/jdbc-binding-0.18.0-SNAPSHOT.jar:/root/.m2/repository/org/apache/geronimo/specs/geronimo-jta_1.1_spec/1.1.1/geronimo-jta_1.1_spec-1.1.1.jar:/root/.m2/repository/org/apache/htrace/htrace-core4/4.1.0-incubating/htrace-core4-4.1.0-incubating.jar:/root/.m2/repository/net/sourceforge/serp/serp/1.13.1/serp-1.13.1.jar:/root/.m2/repository/org/hdrhistogram/HdrHistogram/2.1.4/HdrHistogram-2.1.4.jar:/root/.m2/repository/org/apache/openjpa/openjpa-jdbc/2.1.1/openjpa-jdbc-2.1.1.jar:/root/.m2/repository/org/apache/geronimo/specs/geronimo-jms_1.1_spec/1.1.1/geronimo-jms_1.1_spec-1.1.1.jar:/root/.m2/repository/org/apache/openjpa/openjpa-kernel/2.1.1/openjpa-kernel-2.1.1.jar:/root/.m2/repository/org/codehaus/jackson/jackson-core-asl/1.9.4/jackson-core-asl-1.9.4.jar:/home/juwon/lee/YCSB/core/target/core-0.18.0-SNAPSHOT.jar:/root/.m2/repository/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.jar:/root/.m2/repository/commons-lang/commons-lang/2.4/commons-lang-2.4.jar:/root/.m2/repository/org/codehaus/jackson/jackson-mapper-asl/1.9.4/jackson-mapper-asl-1.9.4.jar:/root/.m2/repository/org/apache/openjpa/openjpa-lib/2.1.1/openjpa-lib-2.1.1.jar:/root/.m2/repository/commons-pool/commons-pool/1.5.4/commons-pool-1.5.4.jar site.ycsb.Client -db site.ycsb.db.JdbcDBClient -P /home/juwon/artifact_fastgc/experiment_script/YCSB-A/workloada -P db.properties -p recordcount=16000000 -p fieldlength=800 -p operationcount=10000000 -p writeallfields=false -threads 15 -t
+Command line: -db site.ycsb.db.JdbcDBClient -P /home/juwon/artifact_fastgc/experiment_script/YCSB-A/workloada -P db.properties -p recordcount=16000000 -p fieldlength=800 -p operationcount=10000000 -p writeallfields=false -threads 15 -t
+YCSB Client 0.18.0-SNAPSHOT
+
+Loading workload...
+Starting test.
+Loading class `com.mysql.jdbc.Driver'. This is deprecated. The new driver class is `com.mysql.cj.jdbc.Driver'. The driver is automatically registered via the SPI and manual loading of the driver class is generally unnecessary.
+Adding shard node URL: jdbc:mysql://127.0.0.1:3306/ycsb
+Adding shard node URL: jdbc:mysql://127.0.0.1:3306/ycsb
+Adding shard node URL: jdbc:mysql://127.0.0.1:3306/ycsb
+Adding shard node URL: jdbc:mysql://127.0.0.1:3306/ycsb
+Adding shard node URL: jdbc:mysql://127.0.0.1:3306/ycsb
+Adding shard node URL: jdbc:mysql://127.0.0.1:3306/ycsb
+Adding shard node URL: jdbc:mysql://127.0.0.1:3306/ycsb
+Adding shard node URL: jdbc:mysql://127.0.0.1:3306/ycsb
+Adding shard node URL: jdbc:mysql://127.0.0.1:3306/ycsb
+Adding shard node URL: jdbc:mysql://127.0.0.1:3306/ycsb
+Adding shard node URL: jdbc:mysql://127.0.0.1:3306/ycsb
+Adding shard node URL: jdbc:mysql://127.0.0.1:3306/ycsb
+Adding shard node URL: jdbc:mysql://127.0.0.1:3306/ycsb
+Adding shard node URL: jdbc:mysql://127.0.0.1:3306/ycsb
+Adding shard node URL: jdbc:mysql://127.0.0.1:3306/ycsb
+Using shards: 1, batchSize:-1, fetchSize: -1
+Using shards: 1, batchSize:-1, fetchSize: -1
+Using shards: 1, batchSize:-1, fetchSize: -1
+Using shards: 1, batchSize:-1, fetchSize: -1
+Using shards: 1, batchSize:-1, fetchSize: -1
+Using shards: 1, batchSize:-1, fetchSize: -1
+Using shards: 1, batchSize:-1, fetchSize: -1
+Using shards: 1, batchSize:-1, fetchSize: -1
+Using shards: 1, batchSize:-1, fetchSize: -1
+Using shards: 1, batchSize:-1, fetchSize: -1
+Using shards: 1, batchSize:-1, fetchSize: -1
+Using shards: 1, batchSize:-1, fetchSize: -1
+Using shards: 1, batchSize:-1, fetchSize: -1
+Using shards: 1, batchSize:-1, fetchSize: -1
+Using shards: 1, batchSize:-1, fetchSize: -1
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+[OVERALL], RunTime(ms), 2685976
+[OVERALL], Throughput(ops/sec), 3723.04145681123
+[TOTAL_GCS_G1_Young_Generation], Count, 222
+[TOTAL_GC_TIME_G1_Young_Generation], Time(ms), 223
+[TOTAL_GC_TIME_%_G1_Young_Generation], Time(%), 0.008302382448689043
+[TOTAL_GCS_G1_Old_Generation], Count, 0
+[TOTAL_GC_TIME_G1_Old_Generation], Time(ms), 0
+[TOTAL_GC_TIME_%_G1_Old_Generation], Time(%), 0.0
+[TOTAL_GCs], Count, 222
+[TOTAL_GC_TIME], Time(ms), 223
+[TOTAL_GC_TIME_%], Time(%), 0.008302382448689043
+[READ], Operations, 998266
+[READ], AverageLatency(us), 2797.585308925677
+[READ], MinLatency(us), 166
+[READ], MaxLatency(us), 25804799
+[READ], 95thPercentileLatency(us), 2033
+[READ], 99thPercentileLatency(us), 3187
+[READ], 99.9PercentileLatency(us), 25935
+[READ], 99.95PercentileLatency(us), 38911
+[READ], 99.99PercentileLatency(us), 8122367
+[READ], Return=OK, 998266
+[CLEANUP], Operations, 15
+[CLEANUP], AverageLatency(us), 2480.133333333333
+[CLEANUP], MinLatency(us), 253
+[CLEANUP], MaxLatency(us), 31359
+[CLEANUP], 95thPercentileLatency(us), 551
+[CLEANUP], 99thPercentileLatency(us), 31359
+[CLEANUP], 99.9PercentileLatency(us), 31359
+[CLEANUP], 99.95PercentileLatency(us), 31359
+[CLEANUP], 99.99PercentileLatency(us), 31359
+[UPDATE], Operations, 9001734
+[UPDATE], AverageLatency(us), 4160.992256603005
+[UPDATE], MinLatency(us), 225
+[UPDATE], MaxLatency(us), 25804799
+[UPDATE], 95thPercentileLatency(us), 2349
+[UPDATE], 99thPercentileLatency(us), 9071
+[UPDATE], 99.9PercentileLatency(us), 33151
+[UPDATE], 99.95PercentileLatency(us), 147711
+[UPDATE], 99.99PercentileLatency(us), 10813439
+[UPDATE], Return=OK, 9001734

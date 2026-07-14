@@ -1,0 +1,61 @@
+#kiops
+set terminal postscript eps enhanced color dashed dashlength 3 \
+	                linewidth 2 rounded font "Helvetica, 32"
+
+fn(v) = sprintf("%.1f", v)
+fnn(v) = sprintf("%d", v)
+jw_fnn(v) = (v < 100)? fn(v) : fnn(v)
+
+set output "./sota_gc_lat_graph.eps"
+set term postscript size 9.5,3.8
+set key outside right top vertical maxrows 4 reverse invert Left font "Helvetica, 40"
+
+set key samplen 1.5 width 0.2
+
+set xtics nomirror
+set ytics nomirror
+
+set xtics font "Helvetica, 48" offset 0, 0 
+
+set xrange[-0.5:3.5]
+set yrange[0:2.2]
+set key at screen 0.98, 1
+set ytics 1.1 font "Helvetica, 42"
+
+set ylabel font "Helvetica, 42" "GC Elapsed Time (sec)" offset 1.2, -0.5
+unset xlabel
+
+#set lmargin at screen 0.13 - 0.025
+#set rmargin at screen 0.98
+#set rmargin at screen 0.98
+##set bmargin at screen 0.23
+#set bmargin at screen 0.16
+#set tmargin at screen 0.99
+
+#set style data histogram
+#set style fill solid 1.0 border 0
+#set style histogram clustered gap 1
+#set boxwidth 1 absolute
+set boxwidth 0.4 absolute
+
+set style histogram rowstacked title offset character 0, 0, 0
+set style data histograms
+
+set border 11
+unset key
+
+total_sum = "($2+$3+$4+$5+$6+$7+$8+$9+$10+$11+$12)"
+plot \
+     'sota_gc_lat_data' using (($9)/1000000) fs pattern 3 noborder lc rgb 'dark-violet' t 'Pipelined GC', \
+     'sota_gc_lat_data' using (($12)/1000000) fs pattern 3 noborder lc rgb 'gray' t 'Post-GC CP', \
+     'sota_gc_lat_data' using (($11)/1000000) fs pattern 3 noborder lc rgb '#006400' t 'Copy', \
+     'sota_gc_lat_data' using (($10)/1000000) fs pattern 3 noborder lc rgb '#C1FFC1' t 'Precopy', \
+     'sota_gc_lat_data' using (($8)/1000000) fs pattern 3 noborder lc rgb '#628FCA' t 'Write', \
+     'sota_gc_lat_data' using (($7)/1000000) fs pattern 3 noborder lc rgb '#D1E2F1' t 'Prewrite', \
+     'sota_gc_lat_data' using (($6)/1000000) fs pattern 3 noborder lc rgb '#EE5760' t 'Read', \
+     'sota_gc_lat_data' using (($5)/1000000) fs pattern 3 noborder lc rgb '#B8860B' t 'Preread-Lock', \
+     'sota_gc_lat_data' using (($4)/1000000) fs pattern 3 noborder lc rgb '#FAC296' t 'Preread', \
+     'sota_gc_lat_data' using (($3)/1000000) fs pattern 3 noborder lc rgb 'green' t 'Preprocess', \
+     'sota_gc_lat_data' using (($2)/1000000):xtic(1) fs pattern 3 noborder lc rgb 'black' t 'Checkpoint', \
+     'sota_gc_lat_data' using ($0):(@total_sum/1000000):(sprintf("%.2f", @total_sum/1000000)) \
+     with labels font "Helvetica, 44" offset 0, 0.6 title "" 

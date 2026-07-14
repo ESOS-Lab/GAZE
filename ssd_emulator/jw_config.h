@@ -1,0 +1,13 @@
+#undef GC_REQ_CHIP_UTIL
+#undef CHIP_UTIL
+#define CHIP_UTIL_ZONE_COUNT	260
+
+#define INCREASE_ZONE_WB_SIZE
+#undef INCREASE_MAXIMUM_DATA_TRANSFER_SIZE
+
+
+#define COPY_ENABLED
+#undef JW_DBG_COPY
+
+extern bool copy_start;
+

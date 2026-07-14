@@ -1,0 +1,19 @@
+[전체 구간]
+  Samples   : 599
+  Mean IOPS : 119.410
+  Stddev    : 78.472
+  Min IOPS  : 0.0
+  Max IOPS  : 250.895
+  25% IOPS  : 63.024
+  75% IOPS  : 201.287
+
+[GC 이후 구간 (time ≥ 400)]
+  Samples   : 400
+  Mean IOPS : 83.888
+  Stddev    : 64.912
+  Min IOPS  : 0.0
+  Max IOPS  : 235.066
+  25% IOPS  : 28.097
+  75% IOPS  : 105.694
+
+→ 결과를 'hs_real_output/result_4k.txt' 파일에 추가했습니다: Pg

@@ -1,0 +1,23 @@
+# Data source per series (solo figure) — 2026-07-13 20:49
+# [NEW] = generated on this machine by the AE flow
+# [OLD] = SOSP26 paper baseline data (recorded for the submission)
+macro/gaze_Fileserver: [NEW] /home/aec/GAZE/experiment_script/Fileserver/gaze_data/fileserver_20260711_2308
+macro/f2fs_Fileserver: [NEW] /home/aec/GAZE/experiment_script/Fileserver/f2fs_data/fileserver_20260712_0112
+macro/iplfs_Fileserver: (no fresh run — plotted as zero)
+macro/pgc_Fileserver: [NEW] /home/aec/GAZE/experiment_script/Fileserver/pgc_data/fileserver_20260712_1050
+macro/copy_Fileserver: (no fresh run — plotted as zero)
+macro/gaze_YCSB-A: [NEW] /home/aec/GAZE/experiment_script/YCSB-A/gaze_data/ycsba_20260711_2341
+macro/f2fs_YCSB-A: [NEW] /home/aec/GAZE/experiment_script/YCSB-A/f2fs_data/ycsba_20260712_0144
+macro/iplfs_YCSB-A: (no fresh run — plotted as zero)
+macro/pgc_YCSB-A: [NEW] /home/aec/GAZE/experiment_script/YCSB-A/pgc_data/ycsba_20260712_1122
+macro/copy_YCSB-A: (no fresh run — plotted as zero)
+macro/gaze_YCSB-F: [NEW] /home/aec/GAZE/experiment_script/YCSB-F/gaze_data/ycsbf_20260711_2024
+macro/f2fs_YCSB-F: [NEW] /home/aec/GAZE/experiment_script/YCSB-F/f2fs_data/ycsbf_20260712_0228
+macro/iplfs_YCSB-F: (no fresh run — plotted as zero)
+macro/pgc_YCSB-F: [NEW] /home/aec/GAZE/experiment_script/YCSB-F/pgc_data/ycsbf_20260712_1213
+macro/copy_YCSB-F: (no fresh run — plotted as zero)
+macro/gaze_TPC-C: [NEW] /home/aec/GAZE/experiment_script/TPC-C/gaze_data/tpcc_20260711_2039
+macro/f2fs_TPC-C: [NEW] /home/aec/GAZE/experiment_script/TPC-C/f2fs_data/tpcc_20260712_0952
+macro/iplfs_TPC-C: (no fresh run — plotted as zero)
+macro/pgc_TPC-C: [NEW] /home/aec/GAZE/experiment_script/TPC-C/pgc_data/tpcc_20260712_1307
+macro/copy_TPC-C: (no fresh run — plotted as zero)

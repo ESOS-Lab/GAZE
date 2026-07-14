@@ -1,0 +1,2518 @@
+.tmp_vmlinux.kallsyms2.syms:ffffffff8140b260 t iomap_dio_submit_bio
+.tmp_vmlinux.kallsyms2.syms:ffffffff815ba9c0 T submit_bio_wait
+.tmp_vmlinux.kallsyms2.syms:ffffffff815baa80 t submit_bio_wait_endio
+.tmp_vmlinux.kallsyms2.syms:ffffffff815c13a0 t __submit_bio
+.tmp_vmlinux.kallsyms2.syms:ffffffff815c14d0 t __submit_bio_noacct
+.tmp_vmlinux.kallsyms2.syms:ffffffff815c19f0 T submit_bio_noacct_nocheck
+.tmp_vmlinux.kallsyms2.syms:ffffffff815c1b10 T submit_bio_noacct
+.tmp_vmlinux.kallsyms2.syms:ffffffff815c2000 T submit_bio
+.tmp_vmlinux.kallsyms2.syms:ffffffff815c2080 T jwgc_submit_bio_noacct_nocheck
+.tmp_vmlinux.kallsyms2.syms:ffffffff815c2360 T jwgc_submit_bio_noacct
+.tmp_vmlinux.kallsyms2.syms:ffffffff815c28b0 T jwgc_submit_bio
+.tmp_vmlinux.kallsyms2.syms:ffffffff815d1b40 T blk_mq_submit_bio
+.tmp_vmlinux.kallsyms2.syms:ffffffff815d1f50 T jwgc_blk_mq_submit_bio
+.tmp_vmlinux.kallsyms2.syms:ffffffff819c0f30 t md_submit_bio
+.tmp_vmlinux.kallsyms2.syms:ffffffff819d1a50 T dm_submit_bio_remap
+.tmp_vmlinux.kallsyms2.syms:ffffffff819d3b70 t dm_submit_bio
+.tmp_vmlinux.kallsyms2.syms:ffffffff81c8e538 t submit_bio_noacct.cold
+.tmp_vmlinux.kallsyms2.syms:ffffffff81c8e587 t jwgc_submit_bio_noacct.cold
+.tmp_vmlinux.kallsyms2.syms:ffffffff81c8e831 t jwgc_blk_mq_submit_bio.cold
+.tmp_vmlinux.kallsyms2.syms:ffffffff826c980c r __ksymtab_jwgc_submit_bio
+.tmp_vmlinux.kallsyms2.syms:ffffffff826c9818 r __ksymtab_jwgc_submit_bio_noacct
+.tmp_vmlinux.kallsyms2.syms:ffffffff826cfa34 r __ksymtab_submit_bio
+.tmp_vmlinux.kallsyms2.syms:ffffffff826cfa40 r __ksymtab_submit_bio_noacct
+.tmp_vmlinux.kallsyms2.syms:ffffffff826cfa4c r __ksymtab_submit_bio_wait
+.tmp_vmlinux.kallsyms2.syms:ffffffff826d8b54 r __ksymtab_dm_submit_bio_remap
+.git/objects/pack/pack-975d7db5c8c35f369e93bc17f5678dbe37b7a1d2.pack 바이너리 파일 일치함
+Module.symvers:0x00000000	submit_bio_wait	vmlinux	EXPORT_SYMBOL	
+Module.symvers:0x00000000	submit_bio_noacct	vmlinux	EXPORT_SYMBOL	
+Module.symvers:0x00000000	jwgc_submit_bio_noacct	vmlinux	EXPORT_SYMBOL	
+Module.symvers:0x00000000	submit_bio	vmlinux	EXPORT_SYMBOL	
+Module.symvers:0x00000000	jwgc_submit_bio	vmlinux	EXPORT_SYMBOL	
+Module.symvers:0x00000000	dm_submit_bio_remap	vmlinux	EXPORT_SYMBOL_GPL	
+io_uring/openclose.o 바이너리 파일 일치함
+io_uring/poll.o 바이너리 파일 일치함
+io_uring/advise.o 바이너리 파일 일치함
+io_uring/uring_cmd.o 바이너리 파일 일치함
+io_uring/cancel.o 바이너리 파일 일치함
+io_uring/nop.o 바이너리 파일 일치함
+io_uring/statx.o 바이너리 파일 일치함
+io_uring/sqpoll.o 바이너리 파일 일치함
+io_uring/io-wq.o 바이너리 파일 일치함
+io_uring/rw.o 바이너리 파일 일치함
+io_uring/fdinfo.o 바이너리 파일 일치함
+io_uring/net.o 바이너리 파일 일치함
+io_uring/sync.o 바이너리 파일 일치함
+io_uring/rsrc.o 바이너리 파일 일치함
+io_uring/splice.o 바이너리 파일 일치함
+io_uring/msg_ring.o 바이너리 파일 일치함
+io_uring/epoll.o 바이너리 파일 일치함
+io_uring/fs.o 바이너리 파일 일치함
+io_uring/timeout.o 바이너리 파일 일치함
+io_uring/kbuf.o 바이너리 파일 일치함
+io_uring/filetable.o 바이너리 파일 일치함
+io_uring/tctx.o 바이너리 파일 일치함
+io_uring/io_uring.o 바이너리 파일 일치함
+io_uring/xattr.o 바이너리 파일 일치함
+io_uring/opdef.o 바이너리 파일 일치함
+io_uring/notif.o 바이너리 파일 일치함
+.tmp_vmlinux.kallsyms2 바이너리 파일 일치함
+.tmp_vmlinux.kallsyms1.syms:ffffffff8140b260 t iomap_dio_submit_bio
+.tmp_vmlinux.kallsyms1.syms:ffffffff815ba9c0 T submit_bio_wait
+.tmp_vmlinux.kallsyms1.syms:ffffffff815baa80 t submit_bio_wait_endio
+.tmp_vmlinux.kallsyms1.syms:ffffffff815c13a0 t __submit_bio
+.tmp_vmlinux.kallsyms1.syms:ffffffff815c14d0 t __submit_bio_noacct
+.tmp_vmlinux.kallsyms1.syms:ffffffff815c19f0 T submit_bio_noacct_nocheck
+.tmp_vmlinux.kallsyms1.syms:ffffffff815c1b10 T submit_bio_noacct
+.tmp_vmlinux.kallsyms1.syms:ffffffff815c2000 T submit_bio
+.tmp_vmlinux.kallsyms1.syms:ffffffff815c2080 T jwgc_submit_bio_noacct_nocheck
+.tmp_vmlinux.kallsyms1.syms:ffffffff815c2360 T jwgc_submit_bio_noacct
+.tmp_vmlinux.kallsyms1.syms:ffffffff815c28b0 T jwgc_submit_bio
+.tmp_vmlinux.kallsyms1.syms:ffffffff815d1b40 T blk_mq_submit_bio
+.tmp_vmlinux.kallsyms1.syms:ffffffff815d1f50 T jwgc_blk_mq_submit_bio
+.tmp_vmlinux.kallsyms1.syms:ffffffff819c0f30 t md_submit_bio
+.tmp_vmlinux.kallsyms1.syms:ffffffff819d1a50 T dm_submit_bio_remap
+.tmp_vmlinux.kallsyms1.syms:ffffffff819d3b70 t dm_submit_bio
+.tmp_vmlinux.kallsyms1.syms:ffffffff81c8e538 t submit_bio_noacct.cold
+.tmp_vmlinux.kallsyms1.syms:ffffffff81c8e587 t jwgc_submit_bio_noacct.cold
+.tmp_vmlinux.kallsyms1.syms:ffffffff81c8e831 t jwgc_blk_mq_submit_bio.cold
+.tmp_vmlinux.kallsyms1.syms:ffffffff824e380c r __ksymtab_jwgc_submit_bio
+.tmp_vmlinux.kallsyms1.syms:ffffffff824e3818 r __ksymtab_jwgc_submit_bio_noacct
+.tmp_vmlinux.kallsyms1.syms:ffffffff824e9a34 r __ksymtab_submit_bio
+.tmp_vmlinux.kallsyms1.syms:ffffffff824e9a40 r __ksymtab_submit_bio_noacct
+.tmp_vmlinux.kallsyms1.syms:ffffffff824e9a4c r __ksymtab_submit_bio_wait
+.tmp_vmlinux.kallsyms1.syms:ffffffff824f2b54 r __ksymtab_dm_submit_bio_remap
+tags:________submit_bio_by_bio_add	fs/f2fs/f2fs.h	/^	unsigned long long ________submit_bio_by_bio_add;$/;"	m	struct:gc_profiler_snapshot	access:public
+tags:__jwgc_submit_bio	block/blk-core.c	/^static void __jwgc_submit_bio(struct bio *bio, struct io_profiler *io_profiler)$/;"	f	signature:(struct bio *bio, struct io_profiler *io_profiler)
+tags:__jwgc_submit_bio_noacct_mq	block/blk-core.c	/^static void __jwgc_submit_bio_noacct_mq(struct bio *bio, struct io_profiler *io_profiler)$/;"	f	signature:(struct bio *bio, struct io_profiler *io_profiler)
+tags:__submit_bio	block/blk-core.c	/^static void __submit_bio(struct bio *bio)$/;"	f	signature:(struct bio *bio)
+tags:__submit_bio_noacct	block/blk-core.c	/^static void __submit_bio_noacct(struct bio *bio)$/;"	f	signature:(struct bio *bio)
+tags:__submit_bio_noacct	include/linux/jw_trace.h	/^	unsigned long long __submit_bio_noacct;$/;"	m	struct:io_profiler	access:public
+tags:__submit_bio_noacct_mq	block/blk-core.c	/^static void __submit_bio_noacct_mq(struct bio *bio)$/;"	f	signature:(struct bio *bio)
+tags:__submit_bio_noacct_mq	include/linux/jw_trace.h	/^	unsigned long long __submit_bio_noacct_mq;$/;"	m	struct:io_profiler	access:public
+tags:async_submit_bio	fs/btrfs/disk-io.c	/^struct async_submit_bio {$/;"	s	file:
+tags:async_submit_bio::bio	fs/btrfs/disk-io.c	/^	struct bio *bio;$/;"	m	struct:async_submit_bio	typeref:struct:async_submit_bio::bio	file:	access:public
+tags:async_submit_bio::dio_file_offset	fs/btrfs/disk-io.c	/^	u64 dio_file_offset;$/;"	m	struct:async_submit_bio	file:	access:public
+tags:async_submit_bio::inode	fs/btrfs/disk-io.c	/^	struct inode *inode;$/;"	m	struct:async_submit_bio	typeref:struct:async_submit_bio::inode	file:	access:public
+tags:async_submit_bio::mirror_num	fs/btrfs/disk-io.c	/^	int mirror_num;$/;"	m	struct:async_submit_bio	file:	access:public
+tags:async_submit_bio::status	fs/btrfs/disk-io.c	/^	blk_status_t status;$/;"	m	struct:async_submit_bio	file:	access:public
+tags:async_submit_bio::submit_bio_start	fs/btrfs/disk-io.c	/^	extent_submit_bio_start_t *submit_bio_start;$/;"	m	struct:async_submit_bio	file:	access:public
+tags:async_submit_bio::work	fs/btrfs/disk-io.c	/^	struct btrfs_work work;$/;"	m	struct:async_submit_bio	typeref:struct:async_submit_bio::btrfs_work	file:	access:public
+tags:bio	fs/btrfs/disk-io.c	/^	struct bio *bio;$/;"	m	struct:async_submit_bio	typeref:struct:async_submit_bio::bio	file:	access:public
+tags:bl_submit_bio	fs/nfs/blocklayout/blocklayout.c	/^bl_submit_bio(struct bio *bio)$/;"	f	signature:(struct bio *bio)
+tags:blk_mq_submit_bio	block/blk-mq.c	/^void blk_mq_submit_bio(struct bio *bio)$/;"	f	signature:(struct bio *bio)
+tags:blk_mq_submit_bio	block/blk-mq.h	/^void blk_mq_submit_bio(struct bio *bio);$/;"	p	signature:(struct bio *bio)
+tags:block_device_operations::submit_bio	include/linux/blkdev.h	/^	void (*submit_bio)(struct bio *bio);$/;"	m	struct:block_device_operations	access:public
+tags:brd_submit_bio	drivers/block/brd.c	/^static void brd_submit_bio(struct bio *bio)$/;"	f	signature:(struct bio *bio)
+tags:btree_submit_bio_start	fs/btrfs/disk-io.c	/^static blk_status_t btree_submit_bio_start(struct inode *inode, struct bio *bio,$/;"	f	signature:(struct inode *inode, struct bio *bio, u64 dio_file_offset)
+tags:btrfs_repair_one_sector	fs/btrfs/extent_io.c	/^int btrfs_repair_one_sector(struct inode *inode, struct btrfs_bio *failed_bbio,$/;"	f	signature:(struct inode *inode, struct btrfs_bio *failed_bbio, u32 bio_offset, struct page *page, unsigned int pgoff, submit_bio_hook_t *submit_bio_hook)
+tags:btrfs_repair_one_sector	fs/btrfs/extent_io.h	/^int btrfs_repair_one_sector(struct inode *inode, struct btrfs_bio *failed_bbio,$/;"	p	signature:(struct inode *inode, struct btrfs_bio *failed_bbio, u32 bio_offset, struct page *page, unsigned int pgoff, submit_bio_hook_t *submit_bio_hook)
+tags:btrfs_submit_bio	fs/btrfs/volumes.c	/^void btrfs_submit_bio(struct btrfs_fs_info *fs_info, struct bio *bio, int mirror_num)$/;"	f	signature:(struct btrfs_fs_info *fs_info, struct bio *bio, int mirror_num)
+tags:btrfs_submit_bio	fs/btrfs/volumes.h	/^void btrfs_submit_bio(struct btrfs_fs_info *fs_info, struct bio *bio, int mirror_num);$/;"	p	signature:(struct btrfs_fs_info *fs_info, struct bio *bio, int mirror_num)
+tags:btrfs_submit_bio_done	fs/btrfs/disk-io.h	/^blk_status_t btrfs_submit_bio_done(void *private_data, struct bio *bio,$/;"	p	signature:(void *private_data, struct bio *bio, int mirror_num)
+tags:btrfs_submit_bio_start	fs/btrfs/inode.c	/^static blk_status_t btrfs_submit_bio_start(struct inode *inode, struct bio *bio,$/;"	f	signature:(struct inode *inode, struct bio *bio, u64 dio_file_offset)
+tags:btrfs_submit_bio_start_direct_io	fs/btrfs/inode.c	/^static blk_status_t btrfs_submit_bio_start_direct_io(struct inode *inode,$/;"	f	signature:(struct inode *inode, struct bio *bio, u64 dio_file_offset)
+tags:btrfs_wq_submit_bio	fs/btrfs/disk-io.c	/^bool btrfs_wq_submit_bio(struct inode *inode, struct bio *bio, int mirror_num,$/;"	f	signature:(struct inode *inode, struct bio *bio, int mirror_num, u64 dio_file_offset, extent_submit_bio_start_t *submit_bio_start)
+tags:btrfs_wq_submit_bio	fs/btrfs/disk-io.h	/^bool btrfs_wq_submit_bio(struct inode *inode, struct bio *bio, int mirror_num,$/;"	p	signature:(struct inode *inode, struct bio *bio, int mirror_num, u64 dio_file_offset, extent_submit_bio_start_t *submit_bio_start)
+tags:btrfsic_block::submit_bio_bh_rw	fs/btrfs/check-integrity.c	/^	blk_opf_t submit_bio_bh_rw;$/;"	m	struct:btrfsic_block	file:	access:public
+tags:btrfsic_process_written_block	fs/btrfs/check-integrity.c	/^static void btrfsic_process_written_block(struct btrfsic_dev_state *dev_state,$/;"	f	signature:(struct btrfsic_dev_state *dev_state, u64 dev_bytenr, char **mapped_datav, unsigned int num_pages, struct bio *bio, int *bio_is_patched, blk_opf_t submit_bio_bh_rw)
+tags:btt_submit_bio	drivers/nvdimm/btt.c	/^static void btt_submit_bio(struct bio *bio)$/;"	f	signature:(struct bio *bio)
+tags:cached_dev_submit_bio	drivers/md/bcache/request.c	/^void cached_dev_submit_bio(struct bio *bio)$/;"	f	signature:(struct bio *bio)
+tags:cached_dev_submit_bio	drivers/md/bcache/request.h	/^void cached_dev_submit_bio(struct bio *bio);$/;"	p	signature:(struct bio *bio)
+tags:dcssblk_submit_bio	drivers/s390/block/dcssblk.c	/^dcssblk_submit_bio(struct bio *bio)$/;"	f	signature:(struct bio *bio)
+tags:dcssblk_submit_bio	drivers/s390/block/dcssblk.c	/^static void dcssblk_submit_bio(struct bio *bio);$/;"	p	file:	signature:(struct bio *bio)
+tags:dio_file_offset	fs/btrfs/disk-io.c	/^	u64 dio_file_offset;$/;"	m	struct:async_submit_bio	file:	access:public
+tags:dm_submit_bio	drivers/md/dm.c	/^static void dm_submit_bio(struct bio *bio)$/;"	f	signature:(struct bio *bio)
+tags:dm_submit_bio_remap	drivers/md/dm.c	/^void dm_submit_bio_remap(struct bio *clone, struct bio *tgt_clone)$/;"	f	signature:(struct bio *clone, struct bio *tgt_clone)
+tags:dm_submit_bio_remap	include/linux/device-mapper.h	/^void dm_submit_bio_remap(struct bio *clone, struct bio *tgt_clone);$/;"	p	signature:(struct bio *clone, struct bio *tgt_clone)
+tags:dmz_submit_bio	drivers/md/dm-zoned-target.c	/^static int dmz_submit_bio(struct dmz_target *dmz, struct dm_zone *zone,$/;"	f	signature:(struct dmz_target *dmz, struct dm_zone *zone, struct bio *bio, sector_t chunk_block, unsigned int nr_blocks)
+tags:drbd_submit_bio	drivers/block/drbd/drbd_int.h	/^void drbd_submit_bio(struct bio *bio);$/;"	p	signature:(struct bio *bio)
+tags:drbd_submit_bio	drivers/block/drbd/drbd_req.c	/^void drbd_submit_bio(struct bio *bio)$/;"	f	signature:(struct bio *bio)
+tags:drbd_submit_bio_noacct	drivers/block/drbd/drbd_int.h	/^static inline void drbd_submit_bio_noacct(struct drbd_device *device,$/;"	f	signature:(struct drbd_device *device, int fault_type, struct bio *bio)
+tags:extent_submit_bio_start_t	fs/btrfs/extent_io.h	/^typedef blk_status_t (extent_submit_bio_start_t)(struct inode *inode,$/;"	t
+tags:flash_dev_submit_bio	drivers/md/bcache/request.c	/^void flash_dev_submit_bio(struct bio *bio)$/;"	f	signature:(struct bio *bio)
+tags:flash_dev_submit_bio	drivers/md/bcache/request.h	/^void flash_dev_submit_bio(struct bio *bio);$/;"	p	signature:(struct bio *bio)
+tags:gc_profiler_snapshot::________submit_bio_by_bio_add	fs/f2fs/f2fs.h	/^	unsigned long long ________submit_bio_by_bio_add;$/;"	m	struct:gc_profiler_snapshot	access:public
+tags:gfs2_log_submit_bio	fs/gfs2/lops.c	/^void gfs2_log_submit_bio(struct bio **biop, blk_opf_t opf)$/;"	f	signature:(struct bio **biop, blk_opf_t opf)
+tags:gfs2_log_submit_bio	fs/gfs2/lops.h	/^extern void gfs2_log_submit_bio(struct bio **biop, blk_opf_t opf);$/;"	p	signature:(struct bio **biop, blk_opf_t opf)
+tags:hfsplus_submit_bio	fs/hfsplus/hfsplus_fs.h	/^int hfsplus_submit_bio(struct super_block *sb, sector_t sector, void *buf,$/;"	p	signature:(struct super_block *sb, sector_t sector, void *buf, void **data, blk_opf_t opf)
+tags:hfsplus_submit_bio	fs/hfsplus/wrapper.c	/^int hfsplus_submit_bio(struct super_block *sb, sector_t sector,$/;"	f	signature:(struct super_block *sb, sector_t sector, void *buf, void **data, blk_opf_t opf)
+tags:iblock_submit_bios	drivers/target/target_core_iblock.c	/^static void iblock_submit_bios(struct bio_list *list)$/;"	f	signature:(struct bio_list *list)
+tags:inode	fs/btrfs/disk-io.c	/^	struct inode *inode;$/;"	m	struct:async_submit_bio	typeref:struct:async_submit_bio::inode	file:	access:public
+tags:io_profiler::__submit_bio_noacct	include/linux/jw_trace.h	/^	unsigned long long __submit_bio_noacct;$/;"	m	struct:io_profiler	access:public
+tags:io_profiler::__submit_bio_noacct_mq	include/linux/jw_trace.h	/^	unsigned long long __submit_bio_noacct_mq;$/;"	m	struct:io_profiler	access:public
+tags:iomap_dio_submit_bio	fs/iomap/direct-io.c	/^static void iomap_dio_submit_bio(const struct iomap_iter *iter,$/;"	f	signature:(const struct iomap_iter *iter, struct iomap_dio *dio, struct bio *bio, loff_t pos)
+tags:jwgc_blk_mq_submit_bio	block/blk-mq.c	/^void jwgc_blk_mq_submit_bio(struct bio *bio, struct io_profiler *io_profiler)$/;"	f	signature:(struct bio *bio, struct io_profiler *io_profiler)
+tags:jwgc_submit_bio	block/blk-core.c	/^void jwgc_submit_bio(struct bio *bio, struct io_profiler *io_profiler)$/;"	f	signature:(struct bio *bio, struct io_profiler *io_profiler)
+tags:jwgc_submit_bio	include/linux/bio.h	/^void jwgc_submit_bio(struct bio *bio, struct io_profiler *io_profiler);$/;"	p	signature:(struct bio *bio, struct io_profiler *io_profiler)
+tags:jwgc_submit_bio_noacct	block/blk-core.c	/^void jwgc_submit_bio_noacct(struct bio *bio, struct io_profiler *io_profiler)$/;"	f	signature:(struct bio *bio, struct io_profiler *io_profiler)
+tags:jwgc_submit_bio_noacct_nocheck	block/blk-core.c	/^void jwgc_submit_bio_noacct_nocheck(struct bio *bio, struct io_profiler *io_profiler)$/;"	f	signature:(struct bio *bio, struct io_profiler *io_profiler)
+tags:md_submit_bio	drivers/md/md.c	/^static void md_submit_bio(struct bio *bio)$/;"	f	signature:(struct bio *bio)
+tags:mirror_num	fs/btrfs/disk-io.c	/^	int mirror_num;$/;"	m	struct:async_submit_bio	file:	access:public
+tags:n64cart_submit_bio	drivers/block/n64cart.c	/^static void n64cart_submit_bio(struct bio *bio)$/;"	f	signature:(struct bio *bio)
+tags:nilfs_segbuf_submit_bio	fs/nilfs2/segbuf.c	/^static int nilfs_segbuf_submit_bio(struct nilfs_segment_buffer *segbuf,$/;"	f	signature:(struct nilfs_segment_buffer *segbuf, struct nilfs_write_info *wi)
+tags:null_submit_bio	drivers/block/null_blk/main.c	/^static void null_submit_bio(struct bio *bio)$/;"	f	signature:(struct bio *bio)
+tags:nvme_ns_head_submit_bio	drivers/nvme/host/multipath.c	/^static void nvme_ns_head_submit_bio(struct bio *bio)$/;"	f	signature:(struct bio *bio)
+tags:pkt_submit_bio	drivers/block/pktcdvd.c	/^static void pkt_submit_bio(struct bio *bio)$/;"	f	signature:(struct bio *bio)
+tags:pmem_submit_bio	drivers/nvdimm/pmem.c	/^static void pmem_submit_bio(struct bio *bio)$/;"	f	signature:(struct bio *bio)
+tags:ps3vram_submit_bio	drivers/block/ps3vram.c	/^static void ps3vram_submit_bio(struct bio *bio)$/;"	f	signature:(struct bio *bio)
+tags:status	fs/btrfs/disk-io.c	/^	blk_status_t status;$/;"	m	struct:async_submit_bio	file:	access:public
+tags:submit_bio	block/blk-core.c	/^void submit_bio(struct bio *bio)$/;"	f	signature:(struct bio *bio)
+tags:submit_bio	include/linux/bio.h	/^void submit_bio(struct bio *bio);$/;"	p	signature:(struct bio *bio)
+tags:submit_bio	include/linux/blkdev.h	/^	void (*submit_bio)(struct bio *bio);$/;"	m	struct:block_device_operations	access:public
+tags:submit_bio_bh_rw	fs/btrfs/check-integrity.c	/^	blk_opf_t submit_bio_bh_rw;$/;"	m	struct:btrfsic_block	file:	access:public
+tags:submit_bio_hook_t	fs/btrfs/extent_io.h	/^typedef void (submit_bio_hook_t)(struct inode *inode, struct bio *bio,$/;"	t
+tags:submit_bio_noacct	block/blk-core.c	/^void submit_bio_noacct(struct bio *bio)$/;"	f	signature:(struct bio *bio)
+tags:submit_bio_noacct	include/linux/blkdev.h	/^void submit_bio_noacct(struct bio *bio);$/;"	p	signature:(struct bio *bio)
+tags:submit_bio_noacct_nocheck	block/blk-core.c	/^void submit_bio_noacct_nocheck(struct bio *bio)$/;"	f	signature:(struct bio *bio)
+tags:submit_bio_noacct_nocheck	block/blk.h	/^void submit_bio_noacct_nocheck(struct bio *bio);$/;"	p	signature:(struct bio *bio)
+tags:submit_bio_start	fs/btrfs/disk-io.c	/^	extent_submit_bio_start_t *submit_bio_start;$/;"	m	struct:async_submit_bio	file:	access:public
+tags:submit_bio_wait	block/bio.c	/^int submit_bio_wait(struct bio *bio)$/;"	f	signature:(struct bio *bio)
+tags:submit_bio_wait	include/linux/bio.h	/^extern int submit_bio_wait(struct bio *bio);$/;"	p	signature:(struct bio *bio)
+tags:submit_bio_wait_endio	block/bio.c	/^static void submit_bio_wait_endio(struct bio *bio)$/;"	f	signature:(struct bio *bio)
+tags:submit_bios	drivers/md/dm-clone-target.c	/^static void submit_bios(struct bio_list *bios)$/;"	f	signature:(struct bio_list *bios)
+tags:work	fs/btrfs/disk-io.c	/^	struct btrfs_work work;$/;"	m	struct:async_submit_bio	typeref:struct:async_submit_bio::btrfs_work	file:	access:public
+tags:zram_submit_bio	drivers/block/zram/zram_drv.c	/^static void zram_submit_bio(struct bio *bio)$/;"	f	signature:(struct bio *bio)
+lib/vsprintf.o 바이너리 파일 일치함
+lib/raid6/algos.o 바이너리 파일 일치함
+lib/raid6/int32.o 바이너리 파일 일치함
+lib/raid6/int16.o 바이너리 파일 일치함
+lib/raid6/raid6_pq.ko 바이너리 파일 일치함
+lib/raid6/recov_ssse3.o 바이너리 파일 일치함
+lib/raid6/recov.o 바이너리 파일 일치함
+lib/raid6/int8.o 바이너리 파일 일치함
+lib/raid6/avx2.o 바이너리 파일 일치함
+lib/raid6/tables.o 바이너리 파일 일치함
+lib/raid6/avx512.o 바이너리 파일 일치함
+lib/raid6/int2.o 바이너리 파일 일치함
+lib/raid6/int1.o 바이너리 파일 일치함
+lib/raid6/recov_avx2.o 바이너리 파일 일치함
+lib/raid6/int4.o 바이너리 파일 일치함
+lib/raid6/recov_avx512.o 바이너리 파일 일치함
+lib/raid6/raid6_pq.o 바이너리 파일 일치함
+lib/raid6/sse2.o 바이너리 파일 일치함
+vmlinux.a 바이너리 파일 일치함
+arch/xtensa/platforms/iss/simdisk.c:static void simdisk_submit_bio(struct bio *bio)
+arch/xtensa/platforms/iss/simdisk.c:	.submit_bio	= simdisk_submit_bio,
+arch/x86/boot/compressed/vmlinux.bin 바이너리 파일 일치함
+arch/m68k/emu/nfblock.c:static void nfhd_submit_bio(struct bio *bio)
+arch/m68k/emu/nfblock.c:	.submit_bio = nfhd_submit_bio,
+Documentation/fault-injection/fault-injection.rst:  /sys/block/<device>/<partition>/make-it-fail. (submit_bio_noacct())
+Documentation/filesystems/proc.rst:be fetched from the storage layer. Done at the submit_bio() level, so it is
+Documentation/trace/ftrace.rst:   => submit_bio_noacct
+Documentation/trace/ftrace.rst:   => submit_bio
+Documentation/trace/ftrace.rst:   => submit_bio_noacct
+Documentation/trace/ftrace.rst:   => submit_bio
+Documentation/block/writeback_cache_control.rst:directly below the submit_bio interface.  For remapping drivers the REQ_FUA
+Documentation/block/biodoc.txt:The normal i/o submission interfaces, e.g submit_bio, could be bypassed
+Documentation/block/biodoc.txt:The routine submit_bio() is used to submit a single io. Higher level i/o
+Documentation/block/biodoc.txt:The routine submit_bh() invokes submit_bio() on a bio corresponding to the
+Documentation/block/biodoc.txt:maps the array to one or more multi-page bios, issuing submit_bio() to
+Documentation/block/data-integrity.rst:    be automatically generated by the block layer at submit_bio() time
+drivers/firewire/firewire-sbp2.o 바이너리 파일 일치함
+drivers/firewire/sbp2.o 바이너리 파일 일치함
+drivers/firewire/firewire-sbp2.ko 바이너리 파일 일치함
+drivers/mtd/mtdswap.ko 바이너리 파일 일치함
+drivers/mtd/ubi/ubi.ko 바이너리 파일 일치함
+drivers/mtd/ubi/ubi.o 바이너리 파일 일치함
+drivers/mtd/ubi/block.o 바이너리 파일 일치함
+drivers/mtd/mtdsuper.o 바이너리 파일 일치함
+drivers/mtd/mtdswap.o 바이너리 파일 일치함
+drivers/mtd/nftlcore.o 바이너리 파일 일치함
+drivers/mtd/nftl.o 바이너리 파일 일치함
+drivers/mtd/mtd.ko 바이너리 파일 일치함
+drivers/mtd/mtd.o 바이너리 파일 일치함
+drivers/mtd/devices/block2mtd.o 바이너리 파일 일치함
+drivers/mtd/devices/block2mtd.ko 바이너리 파일 일치함
+drivers/mtd/mtd_blkdevs.o 바이너리 파일 일치함
+drivers/mtd/nftl.ko 바이너리 파일 일치함
+drivers/mtd/mtd_blkdevs.ko 바이너리 파일 일치함
+drivers/dax/super.o 바이너리 파일 일치함
+drivers/dax/pmem.o 바이너리 파일 일치함
+drivers/dax/dax_pmem.o 바이너리 파일 일치함
+drivers/dax/dax_pmem.ko 바이너리 파일 일치함
+drivers/xen/xen-scsiback.ko 바이너리 파일 일치함
+drivers/xen/xen-scsiback.o 바이너리 파일 일치함
+drivers/infiniband/ulp/srp/ib_srp.ko 바이너리 파일 일치함
+drivers/infiniband/ulp/srp/ib_srp.o 바이너리 파일 일치함
+drivers/infiniband/ulp/srpt/ib_srpt.o 바이너리 파일 일치함
+drivers/infiniband/ulp/srpt/ib_srpt.ko 바이너리 파일 일치함
+drivers/infiniband/ulp/iser/iser_memory.o 바이너리 파일 일치함
+drivers/infiniband/ulp/iser/iser_verbs.o 바이너리 파일 일치함
+drivers/infiniband/ulp/iser/iscsi_iser.o 바이너리 파일 일치함
+drivers/infiniband/ulp/iser/ib_iser.ko 바이너리 파일 일치함
+drivers/infiniband/ulp/iser/ib_iser.o 바이너리 파일 일치함
+drivers/infiniband/ulp/iser/iser_initiator.o 바이너리 파일 일치함
+drivers/usb/gadget/function/usb_f_fs.ko 바이너리 파일 일치함
+drivers/usb/gadget/function/f_mass_storage.o 바이너리 파일 일치함
+drivers/usb/gadget/function/f_tcm.o 바이너리 파일 일치함
+drivers/usb/gadget/function/usb_f_tcm.o 바이너리 파일 일치함
+drivers/usb/gadget/function/usb_f_fs.o 바이너리 파일 일치함
+drivers/usb/gadget/function/usb_f_tcm.ko 바이너리 파일 일치함
+drivers/usb/gadget/function/f_fs.o 바이너리 파일 일치함
+drivers/usb/gadget/function/storage_common.o 바이너리 파일 일치함
+drivers/usb/gadget/function/usb_f_mass_storage.ko 바이너리 파일 일치함
+drivers/usb/gadget/function/usb_f_mass_storage.o 바이너리 파일 일치함
+drivers/usb/gadget/legacy/tcm_usb_gadget.ko 바이너리 파일 일치함
+drivers/usb/gadget/legacy/tcm_usb_gadget.o 바이너리 파일 일치함
+drivers/usb/image/microtek.o 바이너리 파일 일치함
+drivers/usb/image/microtek.ko 바이너리 파일 일치함
+drivers/usb/storage/cypress_atacb.o 바이너리 파일 일치함
+drivers/usb/storage/ums-karma.o 바이너리 파일 일치함
+drivers/usb/storage/sddr55.o 바이너리 파일 일치함
+drivers/usb/storage/ums-sddr09.o 바이너리 파일 일치함
+drivers/usb/storage/ums-jumpshot.o 바이너리 파일 일치함
+drivers/usb/storage/initializers.o 바이너리 파일 일치함
+drivers/usb/storage/ums-usbat.ko 바이너리 파일 일치함
+drivers/usb/storage/ums-realtek.ko 바이너리 파일 일치함
+drivers/usb/storage/option_ms.o 바이너리 파일 일치함
+drivers/usb/storage/onetouch.o 바이너리 파일 일치함
+drivers/usb/storage/freecom.o 바이너리 파일 일치함
+drivers/usb/storage/karma.o 바이너리 파일 일치함
+drivers/usb/storage/sddr09.o 바이너리 파일 일치함
+drivers/usb/storage/ums-onetouch.ko 바이너리 파일 일치함
+drivers/usb/storage/sierra_ms.o 바이너리 파일 일치함
+drivers/usb/storage/realtek_cr.o 바이너리 파일 일치함
+drivers/usb/storage/ums-sddr55.ko 바이너리 파일 일치함
+drivers/usb/storage/ums-freecom.o 바이너리 파일 일치함
+drivers/usb/storage/uas.o 바이너리 파일 일치함
+drivers/usb/storage/alauda.o 바이너리 파일 일치함
+drivers/usb/storage/uas.ko 바이너리 파일 일치함
+drivers/usb/storage/isd200.o 바이너리 파일 일치함
+drivers/usb/storage/ums-freecom.ko 바이너리 파일 일치함
+drivers/usb/storage/usb-storage.o 바이너리 파일 일치함
+drivers/usb/storage/ums-sddr09.ko 바이너리 파일 일치함
+drivers/usb/storage/ums-realtek.o 바이너리 파일 일치함
+drivers/usb/storage/ene_ub6250.o 바이너리 파일 일치함
+drivers/usb/storage/jumpshot.o 바이너리 파일 일치함
+drivers/usb/storage/ums-isd200.ko 바이너리 파일 일치함
+drivers/usb/storage/ums-cypress.o 바이너리 파일 일치함
+drivers/usb/storage/ums-alauda.o 바이너리 파일 일치함
+drivers/usb/storage/ums-datafab.o 바이너리 파일 일치함
+drivers/usb/storage/ums-eneub6250.o 바이너리 파일 일치함
+drivers/usb/storage/ums-alauda.ko 바이너리 파일 일치함
+drivers/usb/storage/usb.o 바이너리 파일 일치함
+drivers/usb/storage/ums-karma.ko 바이너리 파일 일치함
+drivers/usb/storage/ums-eneub6250.ko 바이너리 파일 일치함
+drivers/usb/storage/scsiglue.o 바이너리 파일 일치함
+drivers/usb/storage/shuttle_usbat.o 바이너리 파일 일치함
+drivers/usb/storage/ums-cypress.ko 바이너리 파일 일치함
+drivers/usb/storage/transport.o 바이너리 파일 일치함
+drivers/usb/storage/usb-storage.ko 바이너리 파일 일치함
+drivers/usb/storage/datafab.o 바이너리 파일 일치함
+drivers/usb/storage/protocol.o 바이너리 파일 일치함
+drivers/usb/storage/ums-jumpshot.ko 바이너리 파일 일치함
+drivers/usb/storage/ums-datafab.ko 바이너리 파일 일치함
+drivers/usb/storage/ums-sddr55.o 바이너리 파일 일치함
+drivers/usb/storage/ums-onetouch.o 바이너리 파일 일치함
+drivers/usb/storage/ums-isd200.o 바이너리 파일 일치함
+drivers/usb/storage/ums-usbat.o 바이너리 파일 일치함
+drivers/s390/block/dcssblk.c:static void dcssblk_submit_bio(struct bio *bio);
+drivers/s390/block/dcssblk.c:	.submit_bio	= dcssblk_submit_bio,
+drivers/s390/block/dcssblk.c:dcssblk_submit_bio(struct bio *bio)
+drivers/nvdimm/core.o 바이너리 파일 일치함
+drivers/nvdimm/region.o 바이너리 파일 일치함
+drivers/nvdimm/virtio_pmem.o 바이너리 파일 일치함
+drivers/nvdimm/nd_btt.o 바이너리 파일 일치함
+drivers/nvdimm/label.o 바이너리 파일 일치함
+drivers/nvdimm/btt.c:static void btt_submit_bio(struct bio *bio)
+drivers/nvdimm/btt.c:	.submit_bio =		btt_submit_bio,
+drivers/nvdimm/nd_btt.ko 바이너리 파일 일치함
+drivers/nvdimm/nd_pmem.ko 바이너리 파일 일치함
+drivers/nvdimm/btt_devs.o 바이너리 파일 일치함
+drivers/nvdimm/nd_virtio.c:		submit_bio(child);
+drivers/nvdimm/bus.o 바이너리 파일 일치함
+drivers/nvdimm/pfn_devs.o 바이너리 파일 일치함
+drivers/nvdimm/nd_virtio.ko 바이너리 파일 일치함
+drivers/nvdimm/region_devs.o 바이너리 파일 일치함
+drivers/nvdimm/claim.o 바이너리 파일 일치함
+drivers/nvdimm/badrange.o 바이너리 파일 일치함
+drivers/nvdimm/nd_pmem.o 바이너리 파일 일치함
+drivers/nvdimm/dimm_devs.o 바이너리 파일 일치함
+drivers/nvdimm/virtio_pmem.ko 바이너리 파일 일치함
+drivers/nvdimm/dax_devs.o 바이너리 파일 일치함
+drivers/nvdimm/pmem.c:static void pmem_submit_bio(struct bio *bio)
+drivers/nvdimm/pmem.c:	.submit_bio =		pmem_submit_bio,
+drivers/nvdimm/security.o 바이너리 파일 일치함
+drivers/nvdimm/pmem.o 바이너리 파일 일치함
+drivers/nvdimm/dimm.o 바이너리 파일 일치함
+drivers/nvdimm/nd_virtio.o 바이너리 파일 일치함
+drivers/nvdimm/btt.o 바이너리 파일 일치함
+drivers/nvdimm/namespace_devs.o 바이너리 파일 일치함
+drivers/target/target_core_file.ko 바이너리 파일 일치함
+drivers/target/target_core_file.o 바이너리 파일 일치함
+drivers/target/loopback/tcm_loop.ko 바이너리 파일 일치함
+drivers/target/loopback/tcm_loop.o 바이너리 파일 일치함
+drivers/target/target_core_mod.o 바이너리 파일 일치함
+drivers/target/target_core_iblock.o 바이너리 파일 일치함
+drivers/target/target_core_pscsi.ko 바이너리 파일 일치함
+drivers/target/target_core_transport.o 바이너리 파일 일치함
+drivers/target/target_core_iblock.c:static void iblock_submit_bios(struct bio_list *list)
+drivers/target/target_core_iblock.c:		submit_bio(bio);
+drivers/target/target_core_iblock.c:	submit_bio(bio);
+drivers/target/target_core_iblock.c:	iblock_submit_bios(&list);
+drivers/target/target_core_iblock.c:				iblock_submit_bios(&list);
+drivers/target/target_core_iblock.c:	iblock_submit_bios(&list);
+drivers/target/sbp/sbp_target.o 바이너리 파일 일치함
+drivers/target/sbp/sbp_target.ko 바이너리 파일 일치함
+drivers/target/target_core_device.o 바이너리 파일 일치함
+drivers/target/target_core_sbc.o 바이너리 파일 일치함
+drivers/target/target_core_mod.ko 바이너리 파일 일치함
+drivers/target/target_core_pscsi.o 바이너리 파일 일치함
+drivers/target/tcm_fc/tfc_cmd.o 바이너리 파일 일치함
+drivers/target/tcm_fc/tfc_conf.o 바이너리 파일 일치함
+drivers/target/tcm_fc/tcm_fc.o 바이너리 파일 일치함
+drivers/target/tcm_fc/tfc_sess.o 바이너리 파일 일치함
+drivers/target/tcm_fc/tfc_io.o 바이너리 파일 일치함
+drivers/target/tcm_fc/tcm_fc.ko 바이너리 파일 일치함
+drivers/target/target_core_iblock.ko 바이너리 파일 일치함
+drivers/target/iscsi/iscsi_target.o 바이너리 파일 일치함
+drivers/target/iscsi/iscsi_target_util.o 바이너리 파일 일치함
+drivers/target/iscsi/iscsi_target_mod.ko 바이너리 파일 일치함
+drivers/target/iscsi/iscsi_target_mod.o 바이너리 파일 일치함
+drivers/target/target_core_spc.o 바이너리 파일 일치함
+drivers/nvme/target/zns.c:		ret = submit_bio_wait(bio);
+drivers/nvme/target/zns.c:	submit_bio(bio);
+drivers/nvme/target/nvmet-fc.ko 바이너리 파일 일치함
+drivers/nvme/target/nvmet-fc.o 바이너리 파일 일치함
+drivers/nvme/target/core.o 바이너리 파일 일치함
+drivers/nvme/target/nvmet.o 바이너리 파일 일치함
+drivers/nvme/target/rdma.o 바이너리 파일 일치함
+drivers/nvme/target/io-cmd-file.o 바이너리 파일 일치함
+drivers/nvme/target/loop.o 바이너리 파일 일치함
+drivers/nvme/target/configfs.o 바이너리 파일 일치함
+drivers/nvme/target/admin-cmd.o 바이너리 파일 일치함
+drivers/nvme/target/tcp.o 바이너리 파일 일치함
+drivers/nvme/target/io-cmd-bdev.c:			submit_bio(prev);
+drivers/nvme/target/io-cmd-bdev.c:	submit_bio(bio);
+drivers/nvme/target/io-cmd-bdev.c:	submit_bio(bio);
+drivers/nvme/target/io-cmd-bdev.c:			submit_bio(bio);
+drivers/nvme/target/io-cmd-bdev.c:		submit_bio(bio);
+drivers/nvme/target/zns.o 바이너리 파일 일치함
+drivers/nvme/target/discovery.o 바이너리 파일 일치함
+drivers/nvme/target/nvmet-rdma.o 바이너리 파일 일치함
+drivers/nvme/target/nvme-loop.o 바이너리 파일 일치함
+drivers/nvme/target/trace.o 바이너리 파일 일치함
+drivers/nvme/target/nvmet-rdma.ko 바이너리 파일 일치함
+drivers/nvme/target/nvmet.ko 바이너리 파일 일치함
+drivers/nvme/target/nvmet-tcp.o 바이너리 파일 일치함
+drivers/nvme/target/fabrics-cmd.o 바이너리 파일 일치함
+drivers/nvme/target/nvmet-tcp.ko 바이너리 파일 일치함
+drivers/nvme/target/nvme-loop.ko 바이너리 파일 일치함
+drivers/nvme/target/io-cmd-bdev.o 바이너리 파일 일치함
+drivers/nvme/target/fc.o 바이너리 파일 일치함
+drivers/nvme/host/multipath.o 바이너리 파일 일치함
+drivers/nvme/host/core.o 바이너리 파일 일치함
+drivers/nvme/host/rdma.o 바이너리 파일 일치함
+drivers/nvme/host/nvme-tcp.o 바이너리 파일 일치함
+drivers/nvme/host/nvme-core.ko 바이너리 파일 일치함
+drivers/nvme/host/nvme-fc.o 바이너리 파일 일치함
+drivers/nvme/host/fabrics.o 바이너리 파일 일치함
+drivers/nvme/host/tcp.o 바이너리 파일 일치함
+drivers/nvme/host/nvme-fabrics.o 바이너리 파일 일치함
+drivers/nvme/host/nvme-tcp.ko 바이너리 파일 일치함
+drivers/nvme/host/nvme-rdma.o 바이너리 파일 일치함
+drivers/nvme/host/zns.o 바이너리 파일 일치함
+drivers/nvme/host/pci.o 바이너리 파일 일치함
+drivers/nvme/host/nvme-rdma.ko 바이너리 파일 일치함
+drivers/nvme/host/nvme-core.o 바이너리 파일 일치함
+drivers/nvme/host/nvme-fc.ko 바이너리 파일 일치함
+drivers/nvme/host/ioctl.o 바이너리 파일 일치함
+drivers/nvme/host/trace.o 바이너리 파일 일치함
+drivers/nvme/host/nvme.ko 바이너리 파일 일치함
+drivers/nvme/host/multipath.c:static void nvme_ns_head_submit_bio(struct bio *bio)
+drivers/nvme/host/multipath.c:		submit_bio_noacct(bio);
+drivers/nvme/host/multipath.c:	.submit_bio	= nvme_ns_head_submit_bio,
+drivers/nvme/host/multipath.c:		submit_bio_noacct(bio);
+drivers/nvme/host/nvme-fabrics.ko 바이너리 파일 일치함
+drivers/nvme/host/nvme.o 바이너리 파일 일치함
+drivers/nvme/host/fc.o 바이너리 파일 일치함
+drivers/net/wireless/microchip/wilc1000/sdio.o 바이너리 파일 일치함
+drivers/net/wireless/microchip/wilc1000/wilc1000-sdio.o 바이너리 파일 일치함
+drivers/net/wireless/microchip/wilc1000/wilc1000-sdio.ko 바이너리 파일 일치함
+drivers/net/wireless/broadcom/brcm80211/brcmfmac/brcmfmac.o 바이너리 파일 일치함
+drivers/net/wireless/broadcom/brcm80211/brcmfmac/brcmfmac.ko 바이너리 파일 일치함
+drivers/net/wireless/broadcom/brcm80211/brcmfmac/bcmsdh.o 바이너리 파일 일치함
+drivers/net/wireless/st/cw1200/cw1200_wlan_sdio.ko 바이너리 파일 일치함
+drivers/net/wireless/st/cw1200/cw1200_wlan_sdio.o 바이너리 파일 일치함
+drivers/net/wireless/st/cw1200/cw1200_sdio.o 바이너리 파일 일치함
+drivers/net/wireless/ath/ath10k/ath10k_sdio.ko 바이너리 파일 일치함
+drivers/net/wireless/ath/ath10k/sdio.o 바이너리 파일 일치함
+drivers/net/wireless/ath/ath10k/ath10k_sdio.o 바이너리 파일 일치함
+drivers/net/wireless/ath/ath6kl/sdio.o 바이너리 파일 일치함
+drivers/net/wireless/ath/ath6kl/ath6kl_sdio.ko 바이너리 파일 일치함
+drivers/net/wireless/ath/ath6kl/ath6kl_sdio.o 바이너리 파일 일치함
+drivers/net/wireless/marvell/libertas/libertas_sdio.o 바이너리 파일 일치함
+drivers/net/wireless/marvell/libertas/if_sdio.o 바이너리 파일 일치함
+drivers/net/wireless/marvell/libertas/libertas_sdio.ko 바이너리 파일 일치함
+drivers/net/wireless/marvell/mwifiex/pcie.o 바이너리 파일 일치함
+drivers/net/wireless/marvell/mwifiex/scan.o 바이너리 파일 일치함
+drivers/net/wireless/marvell/mwifiex/util.o 바이너리 파일 일치함
+drivers/net/wireless/marvell/mwifiex/ie.o 바이너리 파일 일치함
+drivers/net/wireless/marvell/mwifiex/uap_event.o 바이너리 파일 일치함
+drivers/net/wireless/marvell/mwifiex/sdio.o 바이너리 파일 일치함
+drivers/net/wireless/marvell/mwifiex/mwifiex.ko 바이너리 파일 일치함
+drivers/net/wireless/marvell/mwifiex/wmm.o 바이너리 파일 일치함
+drivers/net/wireless/marvell/mwifiex/mwifiex_usb.o 바이너리 파일 일치함
+drivers/net/wireless/marvell/mwifiex/tdls.o 바이너리 파일 일치함
+drivers/net/wireless/marvell/mwifiex/txrx.o 바이너리 파일 일치함
+drivers/net/wireless/marvell/mwifiex/sta_tx.o 바이너리 파일 일치함
+drivers/net/wireless/marvell/mwifiex/11n.o 바이너리 파일 일치함
+drivers/net/wireless/marvell/mwifiex/sta_rx.o 바이너리 파일 일치함
+drivers/net/wireless/marvell/mwifiex/mwifiex_pcie.o 바이너리 파일 일치함
+drivers/net/wireless/marvell/mwifiex/11n_aggr.o 바이너리 파일 일치함
+drivers/net/wireless/marvell/mwifiex/cfp.o 바이너리 파일 일치함
+drivers/net/wireless/marvell/mwifiex/join.o 바이너리 파일 일치함
+drivers/net/wireless/marvell/mwifiex/uap_txrx.o 바이너리 파일 일치함
+drivers/net/wireless/marvell/mwifiex/11h.o 바이너리 파일 일치함
+drivers/net/wireless/marvell/mwifiex/sta_cmdresp.o 바이너리 파일 일치함
+drivers/net/wireless/marvell/mwifiex/init.o 바이너리 파일 일치함
+drivers/net/wireless/marvell/mwifiex/main.o 바이너리 파일 일치함
+drivers/net/wireless/marvell/mwifiex/usb.o 바이너리 파일 일치함
+drivers/net/wireless/marvell/mwifiex/11ac.o 바이너리 파일 일치함
+drivers/net/wireless/marvell/mwifiex/cfg80211.o 바이너리 파일 일치함
+drivers/net/wireless/marvell/mwifiex/mwifiex_sdio.ko 바이너리 파일 일치함
+drivers/net/wireless/marvell/mwifiex/11n_rxreorder.o 바이너리 파일 일치함
+drivers/net/wireless/marvell/mwifiex/uap_cmd.o 바이너리 파일 일치함
+drivers/net/wireless/marvell/mwifiex/cmdevt.o 바이너리 파일 일치함
+drivers/net/wireless/marvell/mwifiex/mwifiex_sdio.o 바이너리 파일 일치함
+drivers/net/wireless/marvell/mwifiex/sta_event.o 바이너리 파일 일치함
+drivers/net/wireless/marvell/mwifiex/mwifiex_pcie.ko 바이너리 파일 일치함
+drivers/net/wireless/marvell/mwifiex/sta_ioctl.o 바이너리 파일 일치함
+drivers/net/wireless/marvell/mwifiex/ethtool.o 바이너리 파일 일치함
+drivers/net/wireless/marvell/mwifiex/sta_cmd.o 바이너리 파일 일치함
+drivers/net/wireless/marvell/mwifiex/mwifiex_usb.ko 바이너리 파일 일치함
+drivers/net/wireless/marvell/mwifiex/debugfs.o 바이너리 파일 일치함
+drivers/net/wireless/marvell/mwifiex/mwifiex.o 바이너리 파일 일치함
+drivers/net/wireless/marvell/mwifiex/pcie_quirks.o 바이너리 파일 일치함
+drivers/net/wireless/rsi/rsi_sdio.ko 바이너리 파일 일치함
+drivers/net/wireless/rsi/rsi_91x_sdio_ops.o 바이너리 파일 일치함
+drivers/net/wireless/rsi/rsi_91x_hal.o 바이너리 파일 일치함
+drivers/net/wireless/rsi/rsi_sdio.o 바이너리 파일 일치함
+drivers/net/wireless/rsi/rsi_91x_mac80211.o 바이너리 파일 일치함
+drivers/net/wireless/rsi/rsi_91x.ko 바이너리 파일 일치함
+drivers/net/wireless/rsi/rsi_91x_sdio.o 바이너리 파일 일치함
+drivers/net/wireless/rsi/rsi_91x.o 바이너리 파일 일치함
+drivers/net/wireless/ti/wlcore/sdio.o 바이너리 파일 일치함
+drivers/net/wireless/ti/wlcore/wlcore_sdio.o 바이너리 파일 일치함
+drivers/net/wireless/ti/wlcore/wlcore_sdio.ko 바이너리 파일 일치함
+drivers/net/ethernet/chelsio/cxgb4/cxgb4_fcoe.o 바이너리 파일 일치함
+drivers/net/ethernet/chelsio/cxgb4/cxgb4.ko 바이너리 파일 일치함
+drivers/net/ethernet/chelsio/cxgb4/cxgb4.o 바이너리 파일 일치함
+drivers/net/ethernet/intel/ixgbe/ixgbe.ko 바이너리 파일 일치함
+drivers/net/ethernet/intel/ixgbe/ixgbe_fcoe.o 바이너리 파일 일치함
+drivers/net/ethernet/intel/ixgbe/ixgbe.o 바이너리 파일 일치함
+drivers/misc/cb710/core.o 바이너리 파일 일치함
+drivers/misc/cb710/cb710.o 바이너리 파일 일치함
+drivers/misc/cb710/cb710.ko 바이너리 파일 일치함
+drivers/misc/cb710/sgbuf2.o 바이너리 파일 일치함
+drivers/char/random.o 바이너리 파일 일치함
+drivers/cdrom/cdrom.o 바이너리 파일 일치함
+drivers/message/fusion/mptctl.ko 바이너리 파일 일치함
+drivers/message/fusion/mptfc.o 바이너리 파일 일치함
+drivers/message/fusion/mptctl.o 바이너리 파일 일치함
+drivers/message/fusion/mptspi.o 바이너리 파일 일치함
+drivers/message/fusion/mptfc.ko 바이너리 파일 일치함
+drivers/message/fusion/mptscsih.ko 바이너리 파일 일치함
+drivers/message/fusion/mptspi.ko 바이너리 파일 일치함
+drivers/message/fusion/mptsas.o 바이너리 파일 일치함
+drivers/message/fusion/mptbase.o 바이너리 파일 일치함
+drivers/message/fusion/mptbase.ko 바이너리 파일 일치함
+drivers/message/fusion/mptscsih.o 바이너리 파일 일치함
+drivers/message/fusion/mptsas.ko 바이너리 파일 일치함
+drivers/mmc/core/core.o 바이너리 파일 일치함
+drivers/mmc/core/queue.o 바이너리 파일 일치함
+drivers/mmc/core/sdio.o 바이너리 파일 일치함
+drivers/mmc/core/mmc_block.o 바이너리 파일 일치함
+drivers/mmc/core/mmc.o 바이너리 파일 일치함
+drivers/mmc/core/slot-gpio.o 바이너리 파일 일치함
+drivers/mmc/core/sdio_io.o 바이너리 파일 일치함
+drivers/mmc/core/bus.o 바이너리 파일 일치함
+drivers/mmc/core/host.o 바이너리 파일 일치함
+drivers/mmc/core/sdio_irq.o 바이너리 파일 일치함
+drivers/mmc/core/mmc_block.ko 바이너리 파일 일치함
+drivers/mmc/core/sd_ops.o 바이너리 파일 일치함
+drivers/mmc/core/sdio_ops.o 바이너리 파일 일치함
+drivers/mmc/core/mmc_ops.o 바이너리 파일 일치함
+drivers/mmc/core/regulator.o 바이너리 파일 일치함
+drivers/mmc/core/sdio_cis.o 바이너리 파일 일치함
+drivers/mmc/core/sd.o 바이너리 파일 일치함
+drivers/mmc/core/debugfs.o 바이너리 파일 일치함
+drivers/mmc/core/block.o 바이너리 파일 일치함
+drivers/mmc/core/sdio_bus.o 바이너리 파일 일치함
+drivers/mmc/host/tifm_sd.ko 바이너리 파일 일치함
+drivers/mmc/host/mmc_spi.ko 바이너리 파일 일치함
+drivers/mmc/host/vub300.o 바이너리 파일 일치함
+drivers/mmc/host/vub300.ko 바이너리 파일 일치함
+drivers/mmc/host/ushc.o 바이너리 파일 일치함
+drivers/mmc/host/via-sdmmc.ko 바이너리 파일 일치함
+drivers/mmc/host/usdhi6rol0.ko 바이너리 파일 일치함
+drivers/mmc/host/sdhci-pci-arasan.o 바이너리 파일 일치함
+drivers/mmc/host/tifm_sd.o 바이너리 파일 일치함
+drivers/mmc/host/sdhci-pci.ko 바이너리 파일 일치함
+drivers/mmc/host/wbsd.o 바이너리 파일 일치함
+drivers/mmc/host/sdhci-acpi.o 바이너리 파일 일치함
+drivers/mmc/host/sdhci.o 바이너리 파일 일치함
+drivers/mmc/host/toshsd.o 바이너리 파일 일치함
+drivers/mmc/host/cqhci-core.o 바이너리 파일 일치함
+drivers/mmc/host/mmc_spi.o 바이너리 파일 일치함
+drivers/mmc/host/sdhci_f_sdh30.ko 바이너리 파일 일치함
+drivers/mmc/host/sdhci-acpi.ko 바이너리 파일 일치함
+drivers/mmc/host/sdhci-pci-gli.o 바이너리 파일 일치함
+drivers/mmc/host/sdricoh_cs.ko 바이너리 파일 일치함
+drivers/mmc/host/rtsx_pci_sdmmc.ko 바이너리 파일 일치함
+drivers/mmc/host/alcor.o 바이너리 파일 일치함
+drivers/mmc/host/alcor.ko 바이너리 파일 일치함
+drivers/mmc/host/sdhci-xenon-driver.o 바이너리 파일 일치함
+drivers/mmc/host/cqhci.ko 바이너리 파일 일치함
+drivers/mmc/host/sdhci-xenon.o 바이너리 파일 일치함
+drivers/mmc/host/sdricoh_cs.o 바이너리 파일 일치함
+drivers/mmc/host/sdhci-pltfm.o 바이너리 파일 일치함
+drivers/mmc/host/via-sdmmc.o 바이너리 파일 일치함
+drivers/mmc/host/sdhci-xenon-driver.ko 바이너리 파일 일치함
+drivers/mmc/host/sdhci.ko 바이너리 파일 일치함
+drivers/mmc/host/sdhci-pci-o2micro.o 바이너리 파일 일치함
+drivers/mmc/host/sdhci-pci.o 바이너리 파일 일치함
+drivers/mmc/host/usdhi6rol0.o 바이너리 파일 일치함
+drivers/mmc/host/rtsx_pci_sdmmc.o 바이너리 파일 일치함
+drivers/mmc/host/wbsd.ko 바이너리 파일 일치함
+drivers/mmc/host/cqhci.o 바이너리 파일 일치함
+drivers/mmc/host/cb710-mmc.ko 바이너리 파일 일치함
+drivers/mmc/host/toshsd.ko 바이너리 파일 일치함
+drivers/mmc/host/rtsx_usb_sdmmc.o 바이너리 파일 일치함
+drivers/mmc/host/mtk-sd.ko 바이너리 파일 일치함
+drivers/mmc/host/rtsx_usb_sdmmc.ko 바이너리 파일 일치함
+drivers/mmc/host/sdhci_f_sdh30.o 바이너리 파일 일치함
+drivers/mmc/host/ushc.ko 바이너리 파일 일치함
+drivers/mmc/host/sdhci-pltfm.ko 바이너리 파일 일치함
+drivers/mmc/host/cb710-mmc.o 바이너리 파일 일치함
+drivers/mmc/host/sdhci-pci-core.o 바이너리 파일 일치함
+drivers/mmc/host/of_mmc_spi.ko 바이너리 파일 일치함
+drivers/mmc/host/sdhci-xenon-phy.o 바이너리 파일 일치함
+drivers/mmc/host/mtk-sd.o 바이너리 파일 일치함
+drivers/mmc/host/sdhci-pci-dwc-mshc.o 바이너리 파일 일치함
+drivers/mmc/host/of_mmc_spi.o 바이너리 파일 일치함
+drivers/ufs/core/ufs_bsg.o 바이너리 파일 일치함
+drivers/ufs/core/ufs-sysfs.o 바이너리 파일 일치함
+drivers/ufs/core/ufs-debugfs.o 바이너리 파일 일치함
+drivers/ufs/core/ufshcd-core.ko 바이너리 파일 일치함
+drivers/ufs/core/ufshcd-core.o 바이너리 파일 일치함
+drivers/ufs/core/ufshcd.o 바이너리 파일 일치함
+drivers/ufs/host/ufshcd-pltfrm.o 바이너리 파일 일치함
+drivers/ufs/host/cdns-pltfrm.ko 바이너리 파일 일치함
+drivers/ufs/host/tc-dwc-g210.o 바이너리 파일 일치함
+drivers/ufs/host/ufshcd-dwc.ko 바이너리 파일 일치함
+drivers/ufs/host/ufshcd-pltfrm.ko 바이너리 파일 일치함
+drivers/ufs/host/tc-dwc-g210-pci.o 바이너리 파일 일치함
+drivers/ufs/host/tc-dwc-g210-pci.ko 바이너리 파일 일치함
+drivers/ufs/host/ufshcd-pci.ko 바이너리 파일 일치함
+drivers/ufs/host/cdns-pltfrm.o 바이너리 파일 일치함
+drivers/ufs/host/ufshcd-pci.o 바이너리 파일 일치함
+drivers/ufs/host/tc-dwc-g210.ko 바이너리 파일 일치함
+drivers/ufs/host/ufshcd-dwc.o 바이너리 파일 일치함
+drivers/ata/pata_piccolo.o 바이너리 파일 일치함
+drivers/ata/sata_sis.o 바이너리 파일 일치함
+drivers/ata/pata_ns87410.o 바이너리 파일 일치함
+drivers/ata/pata_netcell.ko 바이너리 파일 일치함
+drivers/ata/pata_mpiix.ko 바이너리 파일 일치함
+drivers/ata/pata_mpiix.o 바이너리 파일 일치함
+drivers/ata/ata_generic.o 바이너리 파일 일치함
+drivers/ata/sata_inic162x.ko 바이너리 파일 일치함
+drivers/ata/pata_ali.ko 바이너리 파일 일치함
+drivers/ata/pata_atp867x.ko 바이너리 파일 일치함
+drivers/ata/libata-sata.o 바이너리 파일 일치함
+drivers/ata/pata_via.o 바이너리 파일 일치함
+drivers/ata/pata_cmd640.ko 바이너리 파일 일치함
+drivers/ata/pata_opti.ko 바이너리 파일 일치함
+drivers/ata/pata_sil680.o 바이너리 파일 일치함
+drivers/ata/pata_jmicron.o 바이너리 파일 일치함
+drivers/ata/sata_sx4.o 바이너리 파일 일치함
+drivers/ata/sata_sil24.o 바이너리 파일 일치함
+drivers/ata/sata_qstor.o 바이너리 파일 일치함
+drivers/ata/pata_rz1000.ko 바이너리 파일 일치함
+drivers/ata/pata_radisys.o 바이너리 파일 일치함
+drivers/ata/sata_sil24.ko 바이너리 파일 일치함
+drivers/ata/libata-scsi.o 바이너리 파일 일치함
+drivers/ata/pata_sl82c105.ko 바이너리 파일 일치함
+drivers/ata/pata_radisys.ko 바이너리 파일 일치함
+drivers/ata/libata-core.o 바이너리 파일 일치함
+drivers/ata/libata-pmp.o 바이너리 파일 일치함
+drivers/ata/sata_svw.ko 바이너리 파일 일치함
+drivers/ata/pata_atiixp.o 바이너리 파일 일치함
+drivers/ata/sata_promise.ko 바이너리 파일 일치함
+drivers/ata/pata_hpt3x2n.o 바이너리 파일 일치함
+drivers/ata/pata_amd.ko 바이너리 파일 일치함
+drivers/ata/libahci.o 바이너리 파일 일치함
+drivers/ata/sata_dwc_460ex.o 바이너리 파일 일치함
+drivers/ata/pata_amd.o 바이너리 파일 일치함
+drivers/ata/pata_it821x.ko 바이너리 파일 일치함
+drivers/ata/libahci_platform.ko 바이너리 파일 일치함
+drivers/ata/pata_efar.ko 바이너리 파일 일치함
+drivers/ata/sata_sil.ko 바이너리 파일 일치함
+drivers/ata/sata_nv.ko 바이너리 파일 일치함
+drivers/ata/sata_sis.ko 바이너리 파일 일치함
+drivers/ata/pata_hpt37x.o 바이너리 파일 일치함
+drivers/ata/sata_dwc_460ex.ko 바이너리 파일 일치함
+drivers/ata/sata_inic162x.o 바이너리 파일 일치함
+drivers/ata/pata_marvell.o 바이너리 파일 일치함
+drivers/ata/pata_ns87415.o 바이너리 파일 일치함
+drivers/ata/pata_legacy.o 바이너리 파일 일치함
+drivers/ata/ata_piix.o 바이너리 파일 일치함
+drivers/ata/libata-pata-timings.o 바이너리 파일 일치함
+drivers/ata/pata_oldpiix.ko 바이너리 파일 일치함
+drivers/ata/sata_promise.o 바이너리 파일 일치함
+drivers/ata/libata-trace.o 바이너리 파일 일치함
+drivers/ata/sata_svw.o 바이너리 파일 일치함
+drivers/ata/pata_it8213.o 바이너리 파일 일치함
+drivers/ata/libata-zpodd.o 바이너리 파일 일치함
+drivers/ata/sata_vsc.o 바이너리 파일 일치함
+drivers/ata/pata_pcmcia.ko 바이너리 파일 일치함
+drivers/ata/pata_sl82c105.o 바이너리 파일 일치함
+drivers/ata/pata_piccolo.ko 바이너리 파일 일치함
+drivers/ata/pata_sch.ko 바이너리 파일 일치함
+drivers/ata/pata_via.ko 바이너리 파일 일치함
+drivers/ata/pata_legacy.ko 바이너리 파일 일치함
+drivers/ata/sata_sx4.ko 바이너리 파일 일치함
+drivers/ata/pdc_adma.o 바이너리 파일 일치함
+drivers/ata/pata_cypress.ko 바이너리 파일 일치함
+drivers/ata/sata_uli.o 바이너리 파일 일치함
+drivers/ata/pata_ninja32.o 바이너리 파일 일치함
+drivers/ata/pata_optidma.o 바이너리 파일 일치함
+drivers/ata/libahci.ko 바이너리 파일 일치함
+drivers/ata/sata_sil.o 바이너리 파일 일치함
+drivers/ata/pata_sch.o 바이너리 파일 일치함
+drivers/ata/pata_rdc.o 바이너리 파일 일치함
+drivers/ata/ahci.o 바이너리 파일 일치함
+drivers/ata/pata_optidma.ko 바이너리 파일 일치함
+drivers/ata/pata_netcell.o 바이너리 파일 일치함
+drivers/ata/pdc_adma.ko 바이너리 파일 일치함
+drivers/ata/ahci_platform.ko 바이너리 파일 일치함
+drivers/ata/sata_via.o 바이너리 파일 일치함
+drivers/ata/libata-eh.o 바이너리 파일 일치함
+drivers/ata/pata_marvell.ko 바이너리 파일 일치함
+drivers/ata/libata-acpi.o 바이너리 파일 일치함
+drivers/ata/pata_hpt366.o 바이너리 파일 일치함
+drivers/ata/pata_hpt3x3.o 바이너리 파일 일치함
+drivers/ata/pata_pdc202xx_old.o 바이너리 파일 일치함
+drivers/ata/pata_rz1000.o 바이너리 파일 일치함
+drivers/ata/pata_serverworks.o 바이너리 파일 일치함
+drivers/ata/pata_ns87410.ko 바이너리 파일 일치함
+drivers/ata/pata_rdc.ko 바이너리 파일 일치함
+drivers/ata/sata_uli.ko 바이너리 파일 일치함
+drivers/ata/pata_serverworks.ko 바이너리 파일 일치함
+drivers/ata/sata_qstor.ko 바이너리 파일 일치함
+drivers/ata/acard-ahci.ko 바이너리 파일 일치함
+drivers/ata/pata_cypress.o 바이너리 파일 일치함
+drivers/ata/pata_cmd64x.ko 바이너리 파일 일치함
+drivers/ata/pata_efar.o 바이너리 파일 일치함
+drivers/ata/pata_it821x.o 바이너리 파일 일치함
+drivers/ata/pata_hpt37x.ko 바이너리 파일 일치함
+drivers/ata/pata_cmd640.o 바이너리 파일 일치함
+drivers/ata/pata_atp867x.o 바이너리 파일 일치함
+drivers/ata/acard-ahci.o 바이너리 파일 일치함
+drivers/ata/pata_ninja32.ko 바이너리 파일 일치함
+drivers/ata/pata_artop.ko 바이너리 파일 일치함
+drivers/ata/pata_hpt3x2n.ko 바이너리 파일 일치함
+drivers/ata/pata_pdc2027x.o 바이너리 파일 일치함
+drivers/ata/pata_oldpiix.o 바이너리 파일 일치함
+drivers/ata/pata_sil680.ko 바이너리 파일 일치함
+drivers/ata/libahci_platform.o 바이너리 파일 일치함
+drivers/ata/pata_artop.o 바이너리 파일 일치함
+drivers/ata/sata_mv.ko 바이너리 파일 일치함
+drivers/ata/pata_triflex.ko 바이너리 파일 일치함
+drivers/ata/ahci.ko 바이너리 파일 일치함
+drivers/ata/pata_pdc2027x.ko 바이너리 파일 일치함
+drivers/ata/pata_jmicron.ko 바이너리 파일 일치함
+drivers/ata/pata_hpt366.ko 바이너리 파일 일치함
+drivers/ata/ahci_platform.o 바이너리 파일 일치함
+drivers/ata/pata_acpi.ko 바이너리 파일 일치함
+drivers/ata/pata_atiixp.ko 바이너리 파일 일치함
+drivers/ata/pata_pcmcia.o 바이너리 파일 일치함
+drivers/ata/pata_acpi.o 바이너리 파일 일치함
+drivers/ata/pata_opti.o 바이너리 파일 일치함
+drivers/ata/pata_ali.o 바이너리 파일 일치함
+drivers/ata/pata_hpt3x3.ko 바이너리 파일 일치함
+drivers/ata/pata_cmd64x.o 바이너리 파일 일치함
+drivers/ata/pata_it8213.ko 바이너리 파일 일치함
+drivers/ata/pata_pdc202xx_old.ko 바이너리 파일 일치함
+drivers/ata/sata_mv.o 바이너리 파일 일치함
+drivers/ata/pata_sis.o 바이너리 파일 일치함
+drivers/ata/libata-transport.o 바이너리 파일 일치함
+drivers/ata/sata_via.ko 바이너리 파일 일치함
+drivers/ata/sata_vsc.ko 바이너리 파일 일치함
+drivers/ata/libata-sff.o 바이너리 파일 일치함
+drivers/ata/pata_triflex.o 바이너리 파일 일치함
+drivers/ata/pata_ns87415.ko 바이너리 파일 일치함
+drivers/ata/sata_nv.o 바이너리 파일 일치함
+drivers/staging/greybus/sdio.o 바이너리 파일 일치함
+drivers/staging/greybus/gb-sdio.o 바이너리 파일 일치함
+drivers/staging/greybus/gb-sdio.ko 바이너리 파일 일치함
+drivers/staging/rts5208/spi.o 바이너리 파일 일치함
+drivers/staging/rts5208/rtsx.o 바이너리 파일 일치함
+drivers/staging/rts5208/rts5208.o 바이너리 파일 일치함
+drivers/staging/rts5208/rtsx_transport.o 바이너리 파일 일치함
+drivers/staging/rts5208/rtsx_card.o 바이너리 파일 일치함
+drivers/staging/rts5208/ms.o 바이너리 파일 일치함
+drivers/staging/rts5208/rtsx_chip.o 바이너리 파일 일치함
+drivers/staging/rts5208/general.o 바이너리 파일 일치함
+drivers/staging/rts5208/rts5208.ko 바이너리 파일 일치함
+drivers/staging/rts5208/rtsx_scsi.o 바이너리 파일 일치함
+drivers/staging/rts5208/sd.o 바이너리 파일 일치함
+drivers/staging/rts5208/xd.o 바이너리 파일 일치함
+drivers/memstick/core/mspro_block.o 바이너리 파일 일치함
+drivers/memstick/core/mspro_block.ko 바이너리 파일 일치함
+drivers/memstick/core/ms_block.ko 바이너리 파일 일치함
+drivers/memstick/core/ms_block.o 바이너리 파일 일치함
+drivers/firmware/iscsi_ibft.ko 바이너리 파일 일치함
+drivers/firmware/edd.o 바이너리 파일 일치함
+drivers/firmware/iscsi_ibft_find.o 바이너리 파일 일치함
+drivers/firmware/iscsi_ibft.o 바이너리 파일 일치함
+drivers/scsi/hv_storvsc.ko 바이너리 파일 일치함
+drivers/scsi/atp870u.ko 바이너리 파일 일치함
+drivers/scsi/a100u2w.ko 바이너리 파일 일치함
+drivers/scsi/st.ko 바이너리 파일 일치함
+drivers/scsi/sr_vendor.o 바이너리 파일 일치함
+drivers/scsi/sr_ioctl.o 바이너리 파일 일치함
+drivers/scsi/xen-scsifront.ko 바이너리 파일 일치함
+drivers/scsi/iscsi_tcp.o 바이너리 파일 일치함
+drivers/scsi/bfa/bfa_core.o 바이너리 파일 일치함
+drivers/scsi/bfa/bfa.o 바이너리 파일 일치함
+drivers/scsi/bfa/bfa_hw_ct.o 바이너리 파일 일치함
+drivers/scsi/bfa/bfad_attr.o 바이너리 파일 일치함
+drivers/scsi/bfa/bfa.ko 바이너리 파일 일치함
+drivers/scsi/bfa/bfa_ioc_cb.o 바이너리 파일 일치함
+drivers/scsi/bfa/bfad.o 바이너리 파일 일치함
+drivers/scsi/bfa/bfa_fcpim.o 바이너리 파일 일치함
+drivers/scsi/bfa/bfa_fcs_lport.o 바이너리 파일 일치함
+drivers/scsi/bfa/bfa_svc.o 바이너리 파일 일치함
+drivers/scsi/bfa/bfa_port.o 바이너리 파일 일치함
+drivers/scsi/bfa/bfad_debugfs.o 바이너리 파일 일치함
+drivers/scsi/bfa/bfa_fcs.o 바이너리 파일 일치함
+drivers/scsi/bfa/bfa_hw_cb.o 바이너리 파일 일치함
+drivers/scsi/bfa/bfa_ioc.o 바이너리 파일 일치함
+drivers/scsi/bfa/bfa_fcs_fcpim.o 바이너리 파일 일치함
+drivers/scsi/bfa/bfad_im.o 바이너리 파일 일치함
+drivers/scsi/bfa/bfad_bsg.o 바이너리 파일 일치함
+drivers/scsi/bfa/bfa_fcs_rport.o 바이너리 파일 일치함
+drivers/scsi/bfa/bfa_fcbuild.o 바이너리 파일 일치함
+drivers/scsi/bfa/bfa_ioc_ct.o 바이너리 파일 일치함
+drivers/scsi/mvumi.o 바이너리 파일 일치함
+drivers/scsi/mvumi.ko 바이너리 파일 일치함
+drivers/scsi/qla1280.o 바이너리 파일 일치함
+drivers/scsi/hpsa.o 바이너리 파일 일치함
+drivers/scsi/qla1280.ko 바이너리 파일 일치함
+drivers/scsi/scsi.o 바이너리 파일 일치함
+drivers/scsi/qla4xxx/qla4xxx.o 바이너리 파일 일치함
+drivers/scsi/qla4xxx/ql4_isr.o 바이너리 파일 일치함
+drivers/scsi/qla4xxx/ql4_iocb.o 바이너리 파일 일치함
+drivers/scsi/qla4xxx/ql4_83xx.o 바이너리 파일 일치함
+drivers/scsi/qla4xxx/qla4xxx.ko 바이너리 파일 일치함
+drivers/scsi/qla4xxx/ql4_nvram.o 바이너리 파일 일치함
+drivers/scsi/qla4xxx/ql4_attr.o 바이너리 파일 일치함
+drivers/scsi/qla4xxx/ql4_dbg.o 바이너리 파일 일치함
+drivers/scsi/qla4xxx/ql4_bsg.o 바이너리 파일 일치함
+drivers/scsi/qla4xxx/ql4_os.o 바이너리 파일 일치함
+drivers/scsi/qla4xxx/ql4_init.o 바이너리 파일 일치함
+drivers/scsi/qla4xxx/ql4_mbx.o 바이너리 파일 일치함
+drivers/scsi/qla4xxx/ql4_nx.o 바이너리 파일 일치함
+drivers/scsi/arcmsr/arcmsr_hba.o 바이너리 파일 일치함
+drivers/scsi/arcmsr/arcmsr_attr.o 바이너리 파일 일치함
+drivers/scsi/arcmsr/arcmsr.o 바이너리 파일 일치함
+drivers/scsi/arcmsr/arcmsr.ko 바이너리 파일 일치함
+drivers/scsi/qedi/qedi.o 바이너리 파일 일치함
+drivers/scsi/qedi/qedi_main.o 바이너리 파일 일치함
+drivers/scsi/qedi/qedi_dbg.o 바이너리 파일 일치함
+drivers/scsi/qedi/qedi_fw.o 바이너리 파일 일치함
+drivers/scsi/qedi/qedi_debugfs.o 바이너리 파일 일치함
+drivers/scsi/qedi/qedi_sysfs.o 바이너리 파일 일치함
+drivers/scsi/qedi/qedi_iscsi.o 바이너리 파일 일치함
+drivers/scsi/qedi/qedi.ko 바이너리 파일 일치함
+drivers/scsi/libiscsi_tcp.ko 바이너리 파일 일치함
+drivers/scsi/ch.o 바이너리 파일 일치함
+drivers/scsi/pmcraid.o 바이너리 파일 일치함
+drivers/scsi/megaraid.o 바이너리 파일 일치함
+drivers/scsi/dc395x.o 바이너리 파일 일치함
+drivers/scsi/scsi_proc.o 바이너리 파일 일치함
+drivers/scsi/libiscsi.o 바이너리 파일 일치함
+drivers/scsi/virtio_scsi.o 바이너리 파일 일치함
+drivers/scsi/device_handler/scsi_dh_emc.ko 바이너리 파일 일치함
+drivers/scsi/device_handler/scsi_dh_hp_sw.o 바이너리 파일 일치함
+drivers/scsi/device_handler/scsi_dh_rdac.ko 바이너리 파일 일치함
+drivers/scsi/device_handler/scsi_dh_rdac.o 바이너리 파일 일치함
+drivers/scsi/device_handler/scsi_dh_alua.o 바이너리 파일 일치함
+drivers/scsi/device_handler/scsi_dh_alua.ko 바이너리 파일 일치함
+drivers/scsi/device_handler/scsi_dh_emc.o 바이너리 파일 일치함
+drivers/scsi/device_handler/scsi_dh_hp_sw.ko 바이너리 파일 일치함
+drivers/scsi/scsi_trace.o 바이너리 파일 일치함
+drivers/scsi/scsi_devinfo.o 바이너리 파일 일치함
+drivers/scsi/hpsa.ko 바이너리 파일 일치함
+drivers/scsi/3w-sas.ko 바이너리 파일 일치함
+drivers/scsi/raid_class.o 바이너리 파일 일치함
+drivers/scsi/pcmcia/fdomain_cs.o 바이너리 파일 일치함
+drivers/scsi/pcmcia/sym53c500_cs.ko 바이너리 파일 일치함
+drivers/scsi/pcmcia/qlogic_stub.o 바이너리 파일 일치함
+drivers/scsi/pcmcia/qlogic_cs.ko 바이너리 파일 일치함
+drivers/scsi/pcmcia/qlogic_cs.o 바이너리 파일 일치함
+drivers/scsi/pcmcia/aha152x_core.o 바이너리 파일 일치함
+drivers/scsi/pcmcia/fdomain_cs.ko 바이너리 파일 일치함
+drivers/scsi/pcmcia/aha152x_cs.o 바이너리 파일 일치함
+drivers/scsi/pcmcia/aha152x_cs.ko 바이너리 파일 일치함
+drivers/scsi/pcmcia/aha152x_stub.o 바이너리 파일 일치함
+drivers/scsi/pcmcia/sym53c500_cs.o 바이너리 파일 일치함
+drivers/scsi/scsi_debug.o 바이너리 파일 일치함
+drivers/scsi/sim710.ko 바이너리 파일 일치함
+drivers/scsi/scsi_transport_spi.o 바이너리 파일 일치함
+drivers/scsi/fdomain.ko 바이너리 파일 일치함
+drivers/scsi/aha1740.o 바이너리 파일 일치함
+drivers/scsi/raid_class.ko 바이너리 파일 일치함
+drivers/scsi/ipr.ko 바이너리 파일 일치함
+drivers/scsi/fdomain.o 바이너리 파일 일치함
+drivers/scsi/sd_zbc.o 바이너리 파일 일치함
+drivers/scsi/bnx2i/bnx2i_init.o 바이너리 파일 일치함
+drivers/scsi/bnx2i/bnx2i_iscsi.o 바이너리 파일 일치함
+drivers/scsi/bnx2i/bnx2i_hwi.o 바이너리 파일 일치함
+drivers/scsi/bnx2i/bnx2i.o 바이너리 파일 일치함
+drivers/scsi/bnx2i/bnx2i_sysfs.o 바이너리 파일 일치함
+drivers/scsi/bnx2i/bnx2i.ko 바이너리 파일 일치함
+drivers/scsi/storvsc_drv.o 바이너리 파일 일치함
+drivers/scsi/sr.o 바이너리 파일 일치함
+drivers/scsi/bnx2fc/bnx2fc.ko 바이너리 파일 일치함
+drivers/scsi/bnx2fc/bnx2fc_tgt.o 바이너리 파일 일치함
+drivers/scsi/bnx2fc/bnx2fc_els.o 바이너리 파일 일치함
+drivers/scsi/bnx2fc/bnx2fc.o 바이너리 파일 일치함
+drivers/scsi/bnx2fc/bnx2fc_debug.o 바이너리 파일 일치함
+drivers/scsi/bnx2fc/bnx2fc_fcoe.o 바이너리 파일 일치함
+drivers/scsi/bnx2fc/bnx2fc_io.o 바이너리 파일 일치함
+drivers/scsi/bnx2fc/bnx2fc_hwi.o 바이너리 파일 일치함
+drivers/scsi/3w-sas.o 바이너리 파일 일치함
+drivers/scsi/megaraid/megaraid_sas.ko 바이너리 파일 일치함
+drivers/scsi/megaraid/megaraid_sas_debugfs.o 바이너리 파일 일치함
+drivers/scsi/megaraid/megaraid_sas.o 바이너리 파일 일치함
+drivers/scsi/megaraid/megaraid_sas_fp.o 바이너리 파일 일치함
+drivers/scsi/megaraid/megaraid_mbox.o 바이너리 파일 일치함
+drivers/scsi/megaraid/megaraid_sas_fusion.o 바이너리 파일 일치함
+drivers/scsi/megaraid/megaraid_sas_base.o 바이너리 파일 일치함
+drivers/scsi/megaraid/megaraid_mbox.ko 바이너리 파일 일치함
+drivers/scsi/scsi_error.o 바이너리 파일 일치함
+drivers/scsi/3w-9xxx.o 바이너리 파일 일치함
+drivers/scsi/scsi_scan.o 바이너리 파일 일치함
+drivers/scsi/3w-xxxx.ko 바이너리 파일 일치함
+drivers/scsi/advansys.ko 바이너리 파일 일치함
+drivers/scsi/scsi_transport_srp.o 바이너리 파일 일치함
+drivers/scsi/ips.ko 바이너리 파일 일치함
+drivers/scsi/wd719x.ko 바이너리 파일 일치함
+drivers/scsi/myrs.ko 바이너리 파일 일치함
+drivers/scsi/dc395x.ko 바이너리 파일 일치함
+drivers/scsi/atp870u.o 바이너리 파일 일치함
+drivers/scsi/hv_storvsc.o 바이너리 파일 일치함
+drivers/scsi/vmw_pvscsi.ko 바이너리 파일 일치함
+drivers/scsi/iscsi_tcp.ko 바이너리 파일 일치함
+drivers/scsi/3w-9xxx.ko 바이너리 파일 일치함
+drivers/scsi/ipr.o 바이너리 파일 일치함
+drivers/scsi/csiostor/csio_rnode.o 바이너리 파일 일치함
+drivers/scsi/csiostor/csiostor.o 바이너리 파일 일치함
+drivers/scsi/csiostor/csio_hw_t5.o 바이너리 파일 일치함
+drivers/scsi/csiostor/csio_scsi.o 바이너리 파일 일치함
+drivers/scsi/csiostor/csio_mb.o 바이너리 파일 일치함
+drivers/scsi/csiostor/csio_hw.o 바이너리 파일 일치함
+drivers/scsi/csiostor/csio_lnode.o 바이너리 파일 일치함
+drivers/scsi/csiostor/csio_isr.o 바이너리 파일 일치함
+drivers/scsi/csiostor/csiostor.ko 바이너리 파일 일치함
+drivers/scsi/csiostor/csio_wr.o 바이너리 파일 일치함
+drivers/scsi/csiostor/csio_init.o 바이너리 파일 일치함
+drivers/scsi/csiostor/csio_attr.o 바이너리 파일 일치함
+drivers/scsi/scsi_debug.ko 바이너리 파일 일치함
+drivers/scsi/scsi_netlink.o 바이너리 파일 일치함
+drivers/scsi/stex.ko 바이너리 파일 일치함
+drivers/scsi/constants.o 바이너리 파일 일치함
+drivers/scsi/scsi_lib.o 바이너리 파일 일치함
+drivers/scsi/scsi_ioctl.o 바이너리 파일 일치함
+drivers/scsi/pm8001/pm80xx.o 바이너리 파일 일치함
+drivers/scsi/pm8001/pm8001_hwi.o 바이너리 파일 일치함
+drivers/scsi/pm8001/pm8001_sas.o 바이너리 파일 일치함
+drivers/scsi/pm8001/pm80xx_tracepoints.o 바이너리 파일 일치함
+drivers/scsi/pm8001/pm8001_init.o 바이너리 파일 일치함
+drivers/scsi/pm8001/pm80xx_hwi.o 바이너리 파일 일치함
+drivers/scsi/pm8001/pm8001_ctl.o 바이너리 파일 일치함
+drivers/scsi/pm8001/pm80xx.ko 바이너리 파일 일치함
+drivers/scsi/initio.ko 바이너리 파일 일치함
+drivers/scsi/smartpqi/smartpqi_sis.o 바이너리 파일 일치함
+drivers/scsi/smartpqi/smartpqi.o 바이너리 파일 일치함
+drivers/scsi/smartpqi/smartpqi_init.o 바이너리 파일 일치함
+drivers/scsi/smartpqi/smartpqi_sas_transport.o 바이너리 파일 일치함
+drivers/scsi/smartpqi/smartpqi.ko 바이너리 파일 일치함
+drivers/scsi/myrb.o 바이너리 파일 일치함
+drivers/scsi/scsi_transport_iscsi.o 바이너리 파일 일치함
+drivers/scsi/scsi_transport_spi.ko 바이너리 파일 일치함
+drivers/scsi/hosts.o 바이너리 파일 일치함
+drivers/scsi/imm.o 바이너리 파일 일치함
+drivers/scsi/qlogicfas408.o 바이너리 파일 일치함
+drivers/scsi/qedf/qedf_dbg.o 바이너리 파일 일치함
+drivers/scsi/qedf/qedf_main.o 바이너리 파일 일치함
+drivers/scsi/qedf/qedf_io.o 바이너리 파일 일치함
+drivers/scsi/qedf/qedf_els.o 바이너리 파일 일치함
+drivers/scsi/qedf/qedf.ko 바이너리 파일 일치함
+drivers/scsi/qedf/qedf_fip.o 바이너리 파일 일치함
+drivers/scsi/qedf/qedf_debugfs.o 바이너리 파일 일치함
+drivers/scsi/qedf/qedf_attr.o 바이너리 파일 일치함
+drivers/scsi/qedf/qedf.o 바이너리 파일 일치함
+drivers/scsi/dmx3191d.ko 바이너리 파일 일치함
+drivers/scsi/cxgbi/cxgb4i/cxgb4i.ko 바이너리 파일 일치함
+drivers/scsi/cxgbi/cxgb4i/cxgb4i.o 바이너리 파일 일치함
+drivers/scsi/cxgbi/cxgb3i/cxgb3i.ko 바이너리 파일 일치함
+drivers/scsi/cxgbi/cxgb3i/cxgb3i.o 바이너리 파일 일치함
+drivers/scsi/cxgbi/libcxgbi.ko 바이너리 파일 일치함
+drivers/scsi/cxgbi/libcxgbi.o 바이너리 파일 일치함
+drivers/scsi/hptiop.o 바이너리 파일 일치함
+drivers/scsi/ch.ko 바이너리 파일 일치함
+drivers/scsi/scsi_transport_iscsi.ko 바이너리 파일 일치함
+drivers/scsi/ses.o 바이너리 파일 일치함
+drivers/scsi/mpt3sas/mpt3sas_transport.o 바이너리 파일 일치함
+drivers/scsi/mpt3sas/mpt3sas_config.o 바이너리 파일 일치함
+drivers/scsi/mpt3sas/mpt3sas_ctl.o 바이너리 파일 일치함
+drivers/scsi/mpt3sas/mpt3sas_warpdrive.o 바이너리 파일 일치함
+drivers/scsi/mpt3sas/mpt3sas_base.o 바이너리 파일 일치함
+drivers/scsi/mpt3sas/mpt3sas_trigger_diag.o 바이너리 파일 일치함
+drivers/scsi/mpt3sas/mpt3sas.ko 바이너리 파일 일치함
+drivers/scsi/mpt3sas/mpt3sas_debugfs.o 바이너리 파일 일치함
+drivers/scsi/mpt3sas/mpt3sas.o 바이너리 파일 일치함
+drivers/scsi/mpt3sas/mpt3sas_scsih.o 바이너리 파일 일치함
+drivers/scsi/advansys.o 바이너리 파일 일치함
+drivers/scsi/myrb.ko 바이너리 파일 일치함
+drivers/scsi/vmw_pvscsi.o 바이너리 파일 일치함
+drivers/scsi/libiscsi_tcp.o 바이너리 파일 일치함
+drivers/scsi/53c700.ko 바이너리 파일 일치함
+drivers/scsi/esp_scsi.ko 바이너리 파일 일치함
+drivers/scsi/scsi_lib_dma.o 바이너리 파일 일치함
+drivers/scsi/scsi_sysfs.o 바이너리 파일 일치함
+drivers/scsi/scsi_transport_sas.o 바이너리 파일 일치함
+drivers/scsi/BusLogic.ko 바이너리 파일 일치함
+drivers/scsi/sd_dif.o 바이너리 파일 일치함
+drivers/scsi/aic94xx/aic94xx_task.o 바이너리 파일 일치함
+drivers/scsi/aic94xx/aic94xx_sds.o 바이너리 파일 일치함
+drivers/scsi/aic94xx/aic94xx.ko 바이너리 파일 일치함
+drivers/scsi/aic94xx/aic94xx_init.o 바이너리 파일 일치함
+drivers/scsi/aic94xx/aic94xx_hwi.o 바이너리 파일 일치함
+drivers/scsi/aic94xx/aic94xx_reg.o 바이너리 파일 일치함
+drivers/scsi/aic94xx/aic94xx_tmf.o 바이너리 파일 일치함
+drivers/scsi/aic94xx/aic94xx_scb.o 바이너리 파일 일치함
+drivers/scsi/aic94xx/aic94xx.o 바이너리 파일 일치함
+drivers/scsi/aic94xx/aic94xx_dump.o 바이너리 파일 일치함
+drivers/scsi/aic94xx/aic94xx_seq.o 바이너리 파일 일치함
+drivers/scsi/aic94xx/aic94xx_dev.o 바이너리 파일 일치함
+drivers/scsi/aha1740.ko 바이너리 파일 일치함
+drivers/scsi/scsi_logging.o 바이너리 파일 일치함
+drivers/scsi/libfc/fc_elsct.o 바이너리 파일 일치함
+drivers/scsi/libfc/libfc.ko 바이너리 파일 일치함
+drivers/scsi/libfc/fc_lport.o 바이너리 파일 일치함
+drivers/scsi/libfc/libfc.o 바이너리 파일 일치함
+drivers/scsi/libfc/fc_frame.o 바이너리 파일 일치함
+drivers/scsi/libfc/fc_rport.o 바이너리 파일 일치함
+drivers/scsi/libfc/fc_exch.o 바이너리 파일 일치함
+drivers/scsi/libfc/fc_npiv.o 바이너리 파일 일치함
+drivers/scsi/libfc/fc_fcp.o 바이너리 파일 일치함
+drivers/scsi/libfc/fc_libfc.o 바이너리 파일 일치함
+drivers/scsi/libfc/fc_disc.o 바이너리 파일 일치함
+drivers/scsi/ses.ko 바이너리 파일 일치함
+drivers/scsi/sim710.o 바이너리 파일 일치함
+drivers/scsi/ppa.ko 바이너리 파일 일치함
+drivers/scsi/wd719x.o 바이너리 파일 일치함
+drivers/scsi/scsi_bsg.o 바이너리 파일 일치함
+drivers/scsi/am53c974.ko 바이너리 파일 일치함
+drivers/scsi/stex.o 바이너리 파일 일치함
+drivers/scsi/scsi_pm.o 바이너리 파일 일치함
+drivers/scsi/snic/snic_scsi.o 바이너리 파일 일치함
+drivers/scsi/snic/snic_attrs.o 바이너리 파일 일치함
+drivers/scsi/snic/snic.ko 바이너리 파일 일치함
+drivers/scsi/snic/snic_ctl.o 바이너리 파일 일치함
+drivers/scsi/snic/snic_main.o 바이너리 파일 일치함
+drivers/scsi/snic/snic_res.o 바이너리 파일 일치함
+drivers/scsi/snic/snic_io.o 바이너리 파일 일치함
+drivers/scsi/snic/snic.o 바이너리 파일 일치함
+drivers/scsi/snic/snic_disc.o 바이너리 파일 일치함
+drivers/scsi/snic/snic_isr.o 바이너리 파일 일치함
+drivers/scsi/initio.o 바이너리 파일 일치함
+drivers/scsi/megaraid.ko 바이너리 파일 일치함
+drivers/scsi/aacraid/commsup.o 바이너리 파일 일치함
+drivers/scsi/aacraid/src.o 바이너리 파일 일치함
+drivers/scsi/aacraid/aacraid.ko 바이너리 파일 일치함
+drivers/scsi/aacraid/rx.o 바이너리 파일 일치함
+drivers/scsi/aacraid/commctrl.o 바이너리 파일 일치함
+drivers/scsi/aacraid/dpcsup.o 바이너리 파일 일치함
+drivers/scsi/aacraid/nark.o 바이너리 파일 일치함
+drivers/scsi/aacraid/aachba.o 바이너리 파일 일치함
+drivers/scsi/aacraid/rkt.o 바이너리 파일 일치함
+drivers/scsi/aacraid/aacraid.o 바이너리 파일 일치함
+drivers/scsi/aacraid/comminit.o 바이너리 파일 일치함
+drivers/scsi/aacraid/linit.o 바이너리 파일 일치함
+drivers/scsi/aacraid/sa.o 바이너리 파일 일치함
+drivers/scsi/fnic/fnic_isr.o 바이너리 파일 일치함
+drivers/scsi/fnic/fnic_trace.o 바이너리 파일 일치함
+drivers/scsi/fnic/fnic.ko 바이너리 파일 일치함
+drivers/scsi/fnic/fnic_scsi.o 바이너리 파일 일치함
+drivers/scsi/fnic/fnic_debugfs.o 바이너리 파일 일치함
+drivers/scsi/fnic/fnic_main.o 바이너리 파일 일치함
+drivers/scsi/fnic/fnic_fcs.o 바이너리 파일 일치함
+drivers/scsi/fnic/fnic_res.o 바이너리 파일 일치함
+drivers/scsi/fnic/fnic_attrs.o 바이너리 파일 일치함
+drivers/scsi/fnic/fnic.o 바이너리 파일 일치함
+drivers/scsi/qla2xxx/qla_target.o 바이너리 파일 일치함
+drivers/scsi/qla2xxx/qla_mr.o 바이너리 파일 일치함
+drivers/scsi/qla2xxx/qla_mbx.o 바이너리 파일 일치함
+drivers/scsi/qla2xxx/qla_mid.o 바이너리 파일 일치함
+drivers/scsi/qla2xxx/qla2xxx.ko 바이너리 파일 일치함
+drivers/scsi/qla2xxx/qla_attr.o 바이너리 파일 일치함
+drivers/scsi/qla2xxx/qla_nvme.o 바이너리 파일 일치함
+drivers/scsi/qla2xxx/tcm_qla2xxx.ko 바이너리 파일 일치함
+drivers/scsi/qla2xxx/qla_sup.o 바이너리 파일 일치함
+drivers/scsi/qla2xxx/qla_gs.o 바이너리 파일 일치함
+drivers/scsi/qla2xxx/qla_nx.o 바이너리 파일 일치함
+drivers/scsi/qla2xxx/qla_dfs.o 바이너리 파일 일치함
+drivers/scsi/qla2xxx/qla_tmpl.o 바이너리 파일 일치함
+drivers/scsi/qla2xxx/qla_bsg.o 바이너리 파일 일치함
+drivers/scsi/qla2xxx/qla_edif.o 바이너리 파일 일치함
+drivers/scsi/qla2xxx/qla_isr.o 바이너리 파일 일치함
+drivers/scsi/qla2xxx/qla_init.o 바이너리 파일 일치함
+drivers/scsi/qla2xxx/tcm_qla2xxx.o 바이너리 파일 일치함
+drivers/scsi/qla2xxx/qla2xxx.o 바이너리 파일 일치함
+drivers/scsi/qla2xxx/qla_os.o 바이너리 파일 일치함
+drivers/scsi/qla2xxx/qla_nx2.o 바이너리 파일 일치함
+drivers/scsi/qla2xxx/qla_dbg.o 바이너리 파일 일치함
+drivers/scsi/qla2xxx/qla_iocb.o 바이너리 파일 일치함
+drivers/scsi/libiscsi.ko 바이너리 파일 일치함
+drivers/scsi/53c700.o 바이너리 파일 일치함
+drivers/scsi/isci/request.o 바이너리 파일 일치함
+drivers/scsi/isci/host.o 바이너리 파일 일치함
+drivers/scsi/isci/isci.ko 바이너리 파일 일치함
+drivers/scsi/isci/port_config.o 바이너리 파일 일치함
+drivers/scsi/isci/remote_node_context.o 바이너리 파일 일치함
+drivers/scsi/isci/probe_roms.o 바이너리 파일 일치함
+drivers/scsi/isci/task.o 바이너리 파일 일치함
+drivers/scsi/isci/init.o 바이너리 파일 일치함
+drivers/scsi/isci/isci.o 바이너리 파일 일치함
+drivers/scsi/isci/remote_device.o 바이너리 파일 일치함
+drivers/scsi/isci/unsolicited_frame_control.o 바이너리 파일 일치함
+drivers/scsi/isci/phy.o 바이너리 파일 일치함
+drivers/scsi/isci/port.o 바이너리 파일 일치함
+drivers/scsi/xen-scsifront.o 바이너리 파일 일치함
+drivers/scsi/scsicam.o 바이너리 파일 일치함
+drivers/scsi/sd.o 바이너리 파일 일치함
+drivers/scsi/imm.ko 바이너리 파일 일치함
+drivers/scsi/sym53c8xx_2/sym_fw.o 바이너리 파일 일치함
+drivers/scsi/sym53c8xx_2/sym_malloc.o 바이너리 파일 일치함
+drivers/scsi/sym53c8xx_2/sym_nvram.o 바이너리 파일 일치함
+drivers/scsi/sym53c8xx_2/sym53c8xx.ko 바이너리 파일 일치함
+drivers/scsi/sym53c8xx_2/sym_hipd.o 바이너리 파일 일치함
+drivers/scsi/sym53c8xx_2/sym53c8xx.o 바이너리 파일 일치함
+drivers/scsi/sym53c8xx_2/sym_glue.o 바이너리 파일 일치함
+drivers/scsi/aic7xxx/aic79xx_osm_pci.o 바이너리 파일 일치함
+drivers/scsi/aic7xxx/aic79xx.ko 바이너리 파일 일치함
+drivers/scsi/aic7xxx/aic79xx_reg_print.o 바이너리 파일 일치함
+drivers/scsi/aic7xxx/aic7xxx_osm.o 바이너리 파일 일치함
+drivers/scsi/aic7xxx/aic79xx_osm.o 바이너리 파일 일치함
+drivers/scsi/aic7xxx/aic7xxx.o 바이너리 파일 일치함
+drivers/scsi/aic7xxx/aic7770_osm.o 바이너리 파일 일치함
+drivers/scsi/aic7xxx/aic7xxx_pci.o 바이너리 파일 일치함
+drivers/scsi/aic7xxx/aic79xx_proc.o 바이너리 파일 일치함
+drivers/scsi/aic7xxx/aic79xx_core.o 바이너리 파일 일치함
+drivers/scsi/aic7xxx/aic7xxx_proc.o 바이너리 파일 일치함
+drivers/scsi/aic7xxx/aic79xx.o 바이너리 파일 일치함
+drivers/scsi/aic7xxx/aic7xxx_93cx6.o 바이너리 파일 일치함
+drivers/scsi/aic7xxx/aic7xxx.ko 바이너리 파일 일치함
+drivers/scsi/aic7xxx/aic7770.o 바이너리 파일 일치함
+drivers/scsi/aic7xxx/aic7xxx_reg_print.o 바이너리 파일 일치함
+drivers/scsi/aic7xxx/aic79xx_pci.o 바이너리 파일 일치함
+drivers/scsi/aic7xxx/aic7xxx_core.o 바이너리 파일 일치함
+drivers/scsi/aic7xxx/aic7xxx_osm_pci.o 바이너리 파일 일치함
+drivers/scsi/a100u2w.o 바이너리 파일 일치함
+drivers/scsi/am53c974.o 바이너리 파일 일치함
+drivers/scsi/sg.o 바이너리 파일 일치함
+drivers/scsi/esas2r/esas2r.o 바이너리 파일 일치함
+drivers/scsi/esas2r/esas2r_log.o 바이너리 파일 일치함
+drivers/scsi/esas2r/esas2r_disc.o 바이너리 파일 일치함
+drivers/scsi/esas2r/esas2r_targdb.o 바이너리 파일 일치함
+drivers/scsi/esas2r/esas2r_flash.o 바이너리 파일 일치함
+drivers/scsi/esas2r/esas2r.ko 바이너리 파일 일치함
+drivers/scsi/esas2r/esas2r_ioctl.o 바이너리 파일 일치함
+drivers/scsi/esas2r/esas2r_init.o 바이너리 파일 일치함
+drivers/scsi/esas2r/esas2r_main.o 바이너리 파일 일치함
+drivers/scsi/esas2r/esas2r_io.o 바이너리 파일 일치함
+drivers/scsi/esas2r/esas2r_int.o 바이너리 파일 일치함
+drivers/scsi/esas2r/esas2r_vda.o 바이너리 파일 일치함
+drivers/scsi/esp_scsi.o 바이너리 파일 일치함
+drivers/scsi/hptiop.ko 바이너리 파일 일치함
+drivers/scsi/scsi_transport_fc.ko 바이너리 파일 일치함
+drivers/scsi/scsi_transport_fc.o 바이너리 파일 일치함
+drivers/scsi/BusLogic.o 바이너리 파일 일치함
+drivers/scsi/scsi_debugfs.o 바이너리 파일 일치함
+drivers/scsi/qlogicfas408.ko 바이너리 파일 일치함
+drivers/scsi/myrs.o 바이너리 파일 일치함
+drivers/scsi/lpfc/lpfc_nvme.o 바이너리 파일 일치함
+drivers/scsi/lpfc/lpfc_init.o 바이너리 파일 일치함
+drivers/scsi/lpfc/lpfc_ct.o 바이너리 파일 일치함
+drivers/scsi/lpfc/lpfc_vmid.o 바이너리 파일 일치함
+drivers/scsi/lpfc/lpfc.ko 바이너리 파일 일치함
+drivers/scsi/lpfc/lpfc.o 바이너리 파일 일치함
+drivers/scsi/lpfc/lpfc_hbadisc.o 바이너리 파일 일치함
+drivers/scsi/lpfc/lpfc_sli.o 바이너리 파일 일치함
+drivers/scsi/lpfc/lpfc_mbox.o 바이너리 파일 일치함
+drivers/scsi/lpfc/lpfc_vport.o 바이너리 파일 일치함
+drivers/scsi/lpfc/lpfc_attr.o 바이너리 파일 일치함
+drivers/scsi/lpfc/lpfc_debugfs.o 바이너리 파일 일치함
+drivers/scsi/lpfc/lpfc_bsg.o 바이너리 파일 일치함
+drivers/scsi/lpfc/lpfc_nportdisc.o 바이너리 파일 일치함
+drivers/scsi/lpfc/lpfc_els.o 바이너리 파일 일치함
+drivers/scsi/lpfc/lpfc_nvmet.o 바이너리 파일 일치함
+drivers/scsi/lpfc/lpfc_scsi.o 바이너리 파일 일치함
+drivers/scsi/lpfc/lpfc_mem.o 바이너리 파일 일치함
+drivers/scsi/dmx3191d.o 바이너리 파일 일치함
+drivers/scsi/scsi_transport_sas.ko 바이너리 파일 일치함
+drivers/scsi/fcoe/libfcoe.o 바이너리 파일 일치함
+drivers/scsi/fcoe/libfcoe.ko 바이너리 파일 일치함
+drivers/scsi/fcoe/fcoe.o 바이너리 파일 일치함
+drivers/scsi/fcoe/fcoe_transport.o 바이너리 파일 일치함
+drivers/scsi/fcoe/fcoe.ko 바이너리 파일 일치함
+drivers/scsi/fcoe/fcoe_ctlr.o 바이너리 파일 일치함
+drivers/scsi/fcoe/fcoe_sysfs.o 바이너리 파일 일치함
+drivers/scsi/ips.o 바이너리 파일 일치함
+drivers/scsi/pmcraid.ko 바이너리 파일 일치함
+drivers/scsi/scsi_dh.o 바이너리 파일 일치함
+drivers/scsi/ppa.o 바이너리 파일 일치함
+drivers/scsi/be2iscsi/be2iscsi.o 바이너리 파일 일치함
+drivers/scsi/be2iscsi/be_main.o 바이너리 파일 일치함
+drivers/scsi/be2iscsi/be2iscsi.ko 바이너리 파일 일치함
+drivers/scsi/be2iscsi/be_mgmt.o 바이너리 파일 일치함
+drivers/scsi/be2iscsi/be_cmds.o 바이너리 파일 일치함
+drivers/scsi/be2iscsi/be_iscsi.o 바이너리 파일 일치함
+drivers/scsi/mvsas/mvsas.o 바이너리 파일 일치함
+drivers/scsi/mvsas/mv_64xx.o 바이너리 파일 일치함
+drivers/scsi/mvsas/mv_94xx.o 바이너리 파일 일치함
+drivers/scsi/mvsas/mv_init.o 바이너리 파일 일치함
+drivers/scsi/mvsas/mvsas.ko 바이너리 파일 일치함
+drivers/scsi/mvsas/mv_sas.o 바이너리 파일 일치함
+drivers/scsi/st.o 바이너리 파일 일치함
+drivers/scsi/3w-xxxx.o 바이너리 파일 일치함
+drivers/scsi/libsas/sas_scsi_host.o 바이너리 파일 일치함
+drivers/scsi/libsas/sas_event.o 바이너리 파일 일치함
+drivers/scsi/libsas/sas_init.o 바이너리 파일 일치함
+drivers/scsi/libsas/sas_expander.o 바이너리 파일 일치함
+drivers/scsi/libsas/sas_phy.o 바이너리 파일 일치함
+drivers/scsi/libsas/sas_host_smp.o 바이너리 파일 일치함
+drivers/scsi/libsas/sas_ata.o 바이너리 파일 일치함
+drivers/scsi/libsas/sas_discover.o 바이너리 파일 일치함
+drivers/scsi/libsas/sas_port.o 바이너리 파일 일치함
+drivers/scsi/libsas/sas_task.o 바이너리 파일 일치함
+drivers/scsi/libsas/libsas.ko 바이너리 파일 일치함
+drivers/scsi/libsas/libsas.o 바이너리 파일 일치함
+drivers/scsi/virtio_scsi.ko 바이너리 파일 일치함
+drivers/scsi/scsi_transport_srp.ko 바이너리 파일 일치함
+drivers/scsi/scsi_sysctl.o 바이너리 파일 일치함
+drivers/pnp/resource.o 바이너리 파일 일치함
+drivers/base/core.o 바이너리 파일 일치함
+drivers/base/devtmpfs.o 바이너리 파일 일치함
+drivers/base/class.o 바이너리 파일 일치함
+drivers/md/dm-bufio.c:	submit_bio(bio);
+drivers/md/dm-switch.ko 바이너리 파일 일치함
+drivers/md/md-autodetect.o 바이너리 파일 일치함
+drivers/md/dm-crypt.ko 바이너리 파일 일치함
+drivers/md/dm-zoned-metadata.c:	submit_bio(bio);
+drivers/md/dm-zoned-metadata.c:	submit_bio(bio);
+drivers/md/dm-zoned-metadata.c:	ret = submit_bio_wait(bio);
+drivers/md/multipath.o 바이너리 파일 일치함
+drivers/md/dm-clone-target.c:static void submit_bios(struct bio_list *bios)
+drivers/md/dm-clone-target.c:		submit_bio_noacct(bio);
+drivers/md/dm-clone-target.c:		submit_bio_noacct(bio);
+drivers/md/dm-clone-target.c:		submit_bio_noacct(bio);
+drivers/md/dm-clone-target.c:	submit_bio_noacct(bio);
+drivers/md/dm-clone-target.c:	submit_bios(&bios);
+drivers/md/dm-clone-target.c:			submit_bio_noacct(bio);
+drivers/md/dm-bio-prison.o 바이너리 파일 일치함
+drivers/md/dm-uevent.o 바이너리 파일 일치함
+drivers/md/persistent-data/dm-transaction-manager.o 바이너리 파일 일치함
+drivers/md/persistent-data/dm-block-manager.o 바이너리 파일 일치함
+drivers/md/persistent-data/dm-space-map-common.o 바이너리 파일 일치함
+drivers/md/persistent-data/dm-btree-remove.o 바이너리 파일 일치함
+drivers/md/persistent-data/dm-btree.o 바이너리 파일 일치함
+drivers/md/persistent-data/dm-space-map-disk.o 바이너리 파일 일치함
+drivers/md/persistent-data/dm-persistent-data.ko 바이너리 파일 일치함
+drivers/md/persistent-data/dm-bitset.o 바이너리 파일 일치함
+drivers/md/persistent-data/dm-persistent-data.o 바이너리 파일 일치함
+drivers/md/persistent-data/dm-array.o 바이너리 파일 일치함
+drivers/md/persistent-data/dm-space-map-metadata.o 바이너리 파일 일치함
+drivers/md/persistent-data/dm-btree-spine.o 바이너리 파일 일치함
+drivers/md/dm-audit.o 바이너리 파일 일치함
+drivers/md/dm-clone-target.o 바이너리 파일 일치함
+drivers/md/dm-snap-persistent.o 바이너리 파일 일치함
+drivers/md/md-faulty.o 바이너리 파일 일치함
+drivers/md/dm-era.o 바이너리 파일 일치함
+drivers/md/dm-round-robin.ko 바이너리 파일 일치함
+drivers/md/dm-cache-smq.o 바이너리 파일 일치함
+drivers/md/dm-thin.c:		submit_bio(op->bio);
+drivers/md/dm-thin.c:		dm_submit_bio_remap(bio, NULL);
+drivers/md/dm-thin.c:			dm_submit_bio_remap(bio, NULL);
+drivers/md/raid5.c:		submit_bio_noacct(bio);
+drivers/md/raid5.c:				submit_bio_noacct(bi);
+drivers/md/raid5.c:				submit_bio_noacct(rbi);
+drivers/md/raid5.c:	submit_bio_noacct(align_bio);
+drivers/md/raid5.c:		submit_bio_noacct(raid_bio);
+drivers/md/raid0.c:		submit_bio_noacct(bio);
+drivers/md/raid0.c:		submit_bio_noacct(bio);
+drivers/md/raid0.c:	submit_bio_noacct(bio);
+drivers/md/dm-zoned-reclaim.o 바이너리 파일 일치함
+drivers/md/dm-writecache.c:			submit_bio_noacct(bio);
+drivers/md/dm-writecache.c:			submit_bio(bio);
+drivers/md/dm-log-userspace.ko 바이너리 파일 일치함
+drivers/md/md-cluster.o 바이너리 파일 일치함
+drivers/md/dm-log-writes.c:	submit_bio(bio);
+drivers/md/dm-log-writes.c:		submit_bio(bio);
+drivers/md/dm-log-writes.c:			submit_bio(bio);
+drivers/md/dm-log-writes.c:	submit_bio(bio);
+drivers/md/dm-io-rewind.o 바이너리 파일 일치함
+drivers/md/dm-mirror.o 바이너리 파일 일치함
+drivers/md/dm-thin.o 바이너리 파일 일치함
+drivers/md/dm-zoned-target.o 바이너리 파일 일치함
+drivers/md/dm-bio-prison.ko 바이너리 파일 일치함
+drivers/md/dm-log-writes.o 바이너리 파일 일치함
+drivers/md/linear.o 바이너리 파일 일치함
+drivers/md/bcache/super.c:	submit_bio(bio);
+drivers/md/bcache/super.c:	.submit_bio	= cached_dev_submit_bio,
+drivers/md/bcache/super.c:	.submit_bio	= flash_dev_submit_bio,
+drivers/md/bcache/stats.o 바이너리 파일 일치함
+drivers/md/bcache/super.o 바이너리 파일 일치함
+drivers/md/bcache/request.o 바이너리 파일 일치함
+drivers/md/bcache/util.o 바이너리 파일 일치함
+drivers/md/bcache/btree.o 바이너리 파일 일치함
+drivers/md/bcache/sysfs.o 바이너리 파일 일치함
+drivers/md/bcache/bcache.h:	submit_bio_noacct(bio);
+drivers/md/bcache/writeback.o 바이너리 파일 일치함
+drivers/md/bcache/bcache.o 바이너리 파일 일치함
+drivers/md/bcache/extents.o 바이너리 파일 일치함
+drivers/md/bcache/bset.o 바이너리 파일 일치함
+drivers/md/bcache/movinggc.o 바이너리 파일 일치함
+drivers/md/bcache/journal.c:	submit_bio(&ja->discard_bio);
+drivers/md/bcache/request.c:		submit_bio_noacct(bio);
+drivers/md/bcache/request.c:void cached_dev_submit_bio(struct bio *bio)
+drivers/md/bcache/request.c:			 * submit_bio_noacct
+drivers/md/bcache/request.c:void flash_dev_submit_bio(struct bio *bio)
+drivers/md/bcache/request.c:		 * can't call bch_journal_meta from under submit_bio_noacct
+drivers/md/bcache/btree.c: * If IO is necessary and running under submit_bio_noacct, returns -EAGAIN.
+drivers/md/bcache/debug.o 바이너리 파일 일치함
+drivers/md/bcache/debug.c:	submit_bio_wait(bio);
+drivers/md/bcache/debug.c:	submit_bio_wait(check);
+drivers/md/bcache/io.o 바이너리 파일 일치함
+drivers/md/bcache/trace.o 바이너리 파일 일치함
+drivers/md/bcache/features.o 바이너리 파일 일치함
+drivers/md/bcache/journal.o 바이너리 파일 일치함
+drivers/md/bcache/request.h:void cached_dev_submit_bio(struct bio *bio);
+drivers/md/bcache/request.h:void flash_dev_submit_bio(struct bio *bio);
+drivers/md/bcache/alloc.o 바이너리 파일 일치함
+drivers/md/bcache/bcache.ko 바이너리 파일 일치함
+drivers/md/raid10.o 바이너리 파일 일치함
+drivers/md/dm-cache-target.o 바이너리 파일 일치함
+drivers/md/faulty.ko 바이너리 파일 일치함
+drivers/md/dm-cache-metadata.o 바이너리 파일 일치함
+drivers/md/dm-verity.o 바이너리 파일 일치함
+drivers/md/md.o 바이너리 파일 일치함
+drivers/md/dm-service-time.o 바이너리 파일 일치함
+drivers/md/dm-init.o 바이너리 파일 일치함
+drivers/md/dm-io.o 바이너리 파일 일치함
+drivers/md/dm-log-writes.ko 바이너리 파일 일치함
+drivers/md/dm-raid.ko 바이너리 파일 일치함
+drivers/md/dm-zero.o 바이너리 파일 일치함
+drivers/md/dm-target.o 바이너리 파일 일치함
+drivers/md/dm-cache-target.c:	dm_submit_bio_remap(bio, NULL);
+drivers/md/dm-cache-target.c:	submit_bio(origin_bio);
+drivers/md/dm-cache-target.c:		dm_submit_bio_remap(bio, NULL);
+drivers/md/dm-cache-target.c:		dm_submit_bio_remap(bio, NULL);
+drivers/md/dm-bufio.ko 바이너리 파일 일치함
+drivers/md/dm-cache-smq.ko 바이너리 파일 일치함
+drivers/md/dm-raid.o 바이너리 파일 일치함
+drivers/md/dm-unstripe.ko 바이너리 파일 일치함
+drivers/md/dm-zoned.ko 바이너리 파일 일치함
+drivers/md/faulty.o 바이너리 파일 일치함
+drivers/md/dm-ps-round-robin.o 바이너리 파일 일치함
+drivers/md/dm-multipath.ko 바이너리 파일 일치함
+drivers/md/dm-kcopyd.o 바이너리 파일 일치함
+drivers/md/dm-integrity.ko 바이너리 파일 일치함
+drivers/md/dm-exception-store.o 바이너리 파일 일치함
+drivers/md/dm-integrity.o 바이너리 파일 일치함
+drivers/md/dm-log-userspace-base.o 바이너리 파일 일치함
+drivers/md/dm-crypt.o 바이너리 파일 일치함
+drivers/md/md-faulty.c:			/* special case - don't decrement, don't submit_bio_noacct,
+drivers/md/md-faulty.c:	submit_bio_noacct(bio);
+drivers/md/dm-verity-verify-sig.o 바이너리 파일 일치함
+drivers/md/dm-region-hash.ko 바이너리 파일 일치함
+drivers/md/dm-delay.c:		dm_submit_bio_remap(bio, NULL);
+drivers/md/raid5-ppl.o 바이너리 파일 일치함
+drivers/md/dm-io.c:		submit_bio(bio);
+drivers/md/dm-bufio.o 바이너리 파일 일치함
+drivers/md/dm-ima.o 바이너리 파일 일치함
+drivers/md/dm-verity.ko 바이너리 파일 일치함
+drivers/md/dm-raid1.o 바이너리 파일 일치함
+drivers/md/md-multipath.c:	submit_bio_noacct(&mp_bh->bio);
+drivers/md/md-multipath.c:			submit_bio_noacct(bio);
+drivers/md/md-bitmap.o 바이너리 파일 일치함
+drivers/md/dm-snapshot.o 바이너리 파일 일치함
+drivers/md/dm-service-time.ko 바이너리 파일 일치함
+drivers/md/dm-stripe.o 바이너리 파일 일치함
+drivers/md/dm-flakey.ko 바이너리 파일 일치함
+drivers/md/raid0.ko 바이너리 파일 일치함
+drivers/md/dm-queue-length.ko 바이너리 파일 일치함
+drivers/md/dm-thin-pool.o 바이너리 파일 일치함
+drivers/md/dm.c:		 * then bio_endio() rather than dm_submit_bio_remap()
+drivers/md/dm.c:void dm_submit_bio_remap(struct bio *clone, struct bio *tgt_clone)
+drivers/md/dm.c:	submit_bio_noacct(tgt_clone);
+drivers/md/dm.c:EXPORT_SYMBOL_GPL(dm_submit_bio_remap);
+drivers/md/dm.c:		dm_submit_bio_remap(clone, NULL);
+drivers/md/dm.c:	 * Remainder must be passed to submit_bio_noacct() so it gets handled
+drivers/md/dm.c:	submit_bio_noacct(bio);
+drivers/md/dm.c:static void dm_submit_bio(struct bio *bio)
+drivers/md/dm.c:	 * submitted via submit_bio_noacct()'s depth-first submission.
+drivers/md/dm.c:		submit_bio_noacct(bio);
+drivers/md/dm.c:	 * dm_split_and_process_bio from dm_submit_bio.
+drivers/md/dm.c:	 * To get all processes out of dm_split_and_process_bio in dm_submit_bio,
+drivers/md/dm.c:	 * dm_split_and_process_bio from dm_submit_bio and quiesce the thread
+drivers/md/dm.c:	.submit_bio = dm_submit_bio,
+drivers/md/dm-builtin.o 바이너리 파일 일치함
+drivers/md/md-linear.c:		submit_bio_noacct(bio);
+drivers/md/md-linear.c:		submit_bio_noacct(bio);
+drivers/md/dm-linear.o 바이너리 파일 일치함
+drivers/md/multipath.ko 바이너리 파일 일치함
+drivers/md/dm-table.o 바이너리 파일 일치함
+drivers/md/dm-rq.o 바이너리 파일 일치함
+drivers/md/dm-clone-metadata.o 바이너리 파일 일치함
+drivers/md/dm-era.ko 바이너리 파일 일치함
+drivers/md/dm-sysfs.o 바이너리 파일 일치함
+drivers/md/dm-zone.o 바이너리 파일 일치함
+drivers/md/md.c:static void md_submit_bio(struct bio *bio)
+drivers/md/md.c:			submit_bio(bi);
+drivers/md/md.c:	submit_bio(bio);
+drivers/md/md.c:	submit_bio_wait(&bio);
+drivers/md/md.c:	.submit_bio	= md_submit_bio,
+drivers/md/md.c:	submit_bio_noacct(discard_bio);
+drivers/md/dm-verity-target.o 바이너리 파일 일치함
+drivers/md/raid5-cache.c:	 * In case of journal device failures, submit_bio will get error
+drivers/md/raid5-cache.c:		submit_bio(io->split_bio);
+drivers/md/raid5-cache.c:	submit_bio(io->current_bio);
+drivers/md/raid5-cache.c:	submit_bio(&log->flush_bio);
+drivers/md/raid5-cache.c:	ret = submit_bio_wait(&bio);
+drivers/md/dm-unstripe.o 바이너리 파일 일치함
+drivers/md/md-cluster.ko 바이너리 파일 일치함
+drivers/md/raid5-ppl.c:	submit_bio(bio);
+drivers/md/raid5-ppl.c:			submit_bio(bio);
+drivers/md/dm-bio-prison-v2.o 바이너리 파일 일치함
+drivers/md/dm-stats.o 바이너리 파일 일치함
+drivers/md/raid10.ko 바이너리 파일 일치함
+drivers/md/dm-crypt.c:	dm_submit_bio_remap(io->base_bio, clone);
+drivers/md/dm-crypt.c:	dm_submit_bio_remap(io->base_bio, clone);
+drivers/md/dm-crypt.c:		dm_submit_bio_remap(io->base_bio, clone);
+drivers/md/dm-era-target.c:			submit_bio_noacct(bio);
+drivers/md/dm-clone.ko 바이너리 파일 일치함
+drivers/md/dm-clone.o 바이너리 파일 일치함
+drivers/md/dm-log-userspace-transfer.o 바이너리 파일 일치함
+drivers/md/dm-integrity.c:		submit_bio_noacct(bio);
+drivers/md/dm-integrity.c:	submit_bio_noacct(bio);
+drivers/md/dm-cache.ko 바이너리 파일 일치함
+drivers/md/raid456.o 바이너리 파일 일치함
+drivers/md/dm-cache-policy.o 바이너리 파일 일치함
+drivers/md/dm-writecache.ko 바이너리 파일 일치함
+drivers/md/dm.o 바이너리 파일 일치함
+drivers/md/dm-zoned-target.c:static int dmz_submit_bio(struct dmz_target *dmz, struct dm_zone *zone,
+drivers/md/dm-zoned-target.c:	submit_bio_noacct(clone);
+drivers/md/dm-zoned-target.c:			ret = dmz_submit_bio(dmz, rzone, bio,
+drivers/md/dm-zoned-target.c:	ret = dmz_submit_bio(dmz, zone, bio, chunk_block, nr_blocks);
+drivers/md/dm-zoned-target.c:	ret = dmz_submit_bio(dmz, bzone, bio, chunk_block, nr_blocks);
+drivers/md/raid1.c:			submit_bio_noacct(bio);
+drivers/md/raid1.c:		submit_bio_noacct(bio);
+drivers/md/raid1.c:	submit_bio_noacct(read_bio);
+drivers/md/raid1.c:		submit_bio_noacct(bio);
+drivers/md/raid1.c:		submit_bio_noacct(wbio);
+drivers/md/raid1.c:		if (submit_bio_wait(wbio) < 0)
+drivers/md/raid1.c:				submit_bio_noacct(bio);
+drivers/md/raid1.c:		submit_bio_noacct(bio);
+drivers/md/dm-delay.ko 바이너리 파일 일치함
+drivers/md/raid1.o 바이너리 파일 일치함
+drivers/md/dm-round-robin.o 바이너리 파일 일치함
+drivers/md/dm-bio-prison-v1.o 바이너리 파일 일치함
+drivers/md/dm-raid1.c:			submit_bio_noacct(bio);
+drivers/md/dm-switch.o 바이너리 파일 일치함
+drivers/md/dm-cache-policy-smq.o 바이너리 파일 일치함
+drivers/md/dm-snap.c:		submit_bio_noacct(bio);
+drivers/md/dm-snap.c:			submit_bio_noacct(bio);
+drivers/md/dm-snap.c:	submit_bio_noacct(bio);
+drivers/md/dm-mpath.o 바이너리 파일 일치함
+drivers/md/raid5-cache.o 바이너리 파일 일치함
+drivers/md/dm-log-userspace.o 바이너리 파일 일치함
+drivers/md/dm-zoned.o 바이너리 파일 일치함
+drivers/md/raid5.o 바이너리 파일 일치함
+drivers/md/dm-snap-transient.o 바이너리 파일 일치함
+drivers/md/dm-path-selector.o 바이너리 파일 일치함
+drivers/md/dm-ps-queue-length.o 바이너리 파일 일치함
+drivers/md/dm-snap-persistent.c:	 * to avoid submit_bio_noacct recursion.
+drivers/md/raid456.ko 바이너리 파일 일치함
+drivers/md/dm-mpath.c:			submit_bio_noacct(bio);
+drivers/md/dm-mirror.ko 바이너리 파일 일치함
+drivers/md/dm-era-target.o 바이너리 파일 일치함
+drivers/md/dm-ioctl.o 바이너리 파일 일치함
+drivers/md/dm-thin-metadata.o 바이너리 파일 일치함
+drivers/md/dm-multipath.o 바이너리 파일 일치함
+drivers/md/raid1.ko 바이너리 파일 일치함
+drivers/md/md-multipath.o 바이너리 파일 일치함
+drivers/md/dm-writecache.o 바이너리 파일 일치함
+drivers/md/dm-cache-background-tracker.o 바이너리 파일 일치함
+drivers/md/dm-zero.ko 바이너리 파일 일치함
+drivers/md/md-linear.o 바이너리 파일 일치함
+drivers/md/raid0.o 바이너리 파일 일치함
+drivers/md/dm-ps-service-time.o 바이너리 파일 일치함
+drivers/md/dm-verity-target.c:	submit_bio_noacct(bio);
+drivers/md/dm-queue-length.o 바이너리 파일 일치함
+drivers/md/dm-zoned-metadata.o 바이너리 파일 일치함
+drivers/md/dm-snapshot.ko 바이너리 파일 일치함
+drivers/md/dm-cache.o 바이너리 파일 일치함
+drivers/md/dm-thin-pool.ko 바이너리 파일 일치함
+drivers/md/raid10.c:				submit_bio_noacct(bio);
+drivers/md/raid10.c:			submit_bio_noacct(bio);
+drivers/md/raid10.c:		submit_bio_noacct(bio);
+drivers/md/raid10.c:	submit_bio_noacct(read_bio);
+drivers/md/raid10.c:		submit_bio_noacct(bio);
+drivers/md/raid10.c:		submit_bio_noacct(split);
+drivers/md/raid10.c:		submit_bio_noacct(bio);
+drivers/md/raid10.c:		submit_bio_noacct(tbio);
+drivers/md/raid10.c:		submit_bio_noacct(tbio);
+drivers/md/raid10.c:	 * submit_bio_noacct as if the former is NULL,
+drivers/md/raid10.c:		submit_bio_noacct(wbio);
+drivers/md/raid10.c:		submit_bio_noacct(wbio2);
+drivers/md/raid10.c:		if (submit_bio_wait(wbio) < 0)
+drivers/md/raid10.c: * to pass to submit_bio_noacct.
+drivers/md/raid10.c:			submit_bio_noacct(bio);
+drivers/md/raid10.c:	submit_bio_noacct(read_bio);
+drivers/md/raid10.c:		submit_bio_noacct(b);
+drivers/md/dm-region-hash.o 바이너리 파일 일치함
+drivers/md/dm-log.o 바이너리 파일 일치함
+drivers/md/dm-delay.o 바이너리 파일 일치함
+drivers/md/dm-log.ko 바이너리 파일 일치함
+drivers/md/dm-snap.o 바이너리 파일 일치함
+drivers/md/dm-flakey.o 바이너리 파일 일치함
+drivers/md/linear.ko 바이너리 파일 일치함
+drivers/block/xen-blkfront.o 바이너리 파일 일치함
+drivers/block/nbd.ko 바이너리 파일 일치함
+drivers/block/xen-blkfront.c:		submit_bio(bio);
+drivers/block/floppy.c:	submit_bio(&bio);
+drivers/block/brd.c:static void brd_submit_bio(struct bio *bio)
+drivers/block/brd.c:	.submit_bio =		brd_submit_bio,
+drivers/block/loop.o 바이너리 파일 일치함
+drivers/block/ps3vram.c:static void ps3vram_submit_bio(struct bio *bio)
+drivers/block/ps3vram.c:	.submit_bio	= ps3vram_submit_bio,
+drivers/block/rbd.o 바이너리 파일 일치함
+drivers/block/mtip32xx/mtip32xx.ko 바이너리 파일 일치함
+drivers/block/mtip32xx/mtip32xx.o 바이너리 파일 일치함
+drivers/block/virtio_blk.o 바이너리 파일 일치함
+drivers/block/null_blk/null_blk.ko 바이너리 파일 일치함
+drivers/block/null_blk/main.c:static void null_submit_bio(struct bio *bio)
+drivers/block/null_blk/main.c:	.submit_bio	= null_submit_bio,
+drivers/block/null_blk/zoned.o 바이너리 파일 일치함
+drivers/block/null_blk/main.o 바이너리 파일 일치함
+drivers/block/null_blk/trace.o 바이너리 파일 일치함
+drivers/block/null_blk/null_blk.o 바이너리 파일 일치함
+drivers/block/rbd.ko 바이너리 파일 일치함
+drivers/block/floppy.o 바이너리 파일 일치함
+drivers/block/floppy.ko 바이너리 파일 일치함
+drivers/block/rnbd/rnbd-srv.c:	submit_bio(bio);
+drivers/block/xen-blkback/xenbus.o 바이너리 파일 일치함
+drivers/block/xen-blkback/xen-blkback.o 바이너리 파일 일치함
+drivers/block/xen-blkback/blkback.o 바이너리 파일 일치함
+drivers/block/xen-blkback/xen-blkback.ko 바이너리 파일 일치함
+drivers/block/xen-blkback/blkback.c: * and call the 'submit_bio' to pass it to the underlying storage.
+drivers/block/xen-blkback/blkback.c:		submit_bio(biolist[i]);
+drivers/block/virtio_blk.ko 바이너리 파일 일치함
+drivers/block/aoe/aoecmd.o 바이너리 파일 일치함
+drivers/block/aoe/aoemain.o 바이너리 파일 일치함
+drivers/block/aoe/aoechr.o 바이너리 파일 일치함
+drivers/block/aoe/aoenet.o 바이너리 파일 일치함
+drivers/block/aoe/aoe.ko 바이너리 파일 일치함
+drivers/block/aoe/aoeblk.o 바이너리 파일 일치함
+drivers/block/aoe/aoe.o 바이너리 파일 일치함
+drivers/block/aoe/aoedev.o 바이너리 파일 일치함
+drivers/block/nbd.o 바이너리 파일 일치함
+drivers/block/brd.ko 바이너리 파일 일치함
+drivers/block/pktcdvd.o 바이너리 파일 일치함
+drivers/block/n64cart.c:static void n64cart_submit_bio(struct bio *bio)
+drivers/block/n64cart.c:	.submit_bio	= n64cart_submit_bio,
+drivers/block/pktcdvd.ko 바이너리 파일 일치함
+drivers/block/brd.o 바이너리 파일 일치함
+drivers/block/zram/zram.ko 바이너리 파일 일치함
+drivers/block/zram/zram_drv.o 바이너리 파일 일치함
+drivers/block/zram/zram_drv.c:	submit_bio(bio);
+drivers/block/zram/zram_drv.c:		err = submit_bio_wait(&bio);
+drivers/block/zram/zram_drv.c: * Block layer want one ->submit_bio to be active at a time, so if we use
+drivers/block/zram/zram_drv.c:static void zram_submit_bio(struct bio *bio)
+drivers/block/zram/zram_drv.c:	.submit_bio = zram_submit_bio,
+drivers/block/zram/zram.o 바이너리 파일 일치함
+drivers/block/pktcdvd.c: * At the top layer there is a custom ->submit_bio function that forwards
+drivers/block/pktcdvd.c:		submit_bio_noacct(bio);
+drivers/block/pktcdvd.c:static void pkt_submit_bio(struct bio *bio)
+drivers/block/pktcdvd.c:	.submit_bio =		pkt_submit_bio,
+drivers/block/drbd/drbd.ko 바이너리 파일 일치함
+drivers/block/drbd/drbd_debugfs.o 바이너리 파일 일치함
+drivers/block/drbd/drbd.o 바이너리 파일 일치함
+drivers/block/drbd/drbd_worker.c:	submit_bio_noacct(req->private_bio);
+drivers/block/drbd/drbd_main.o 바이너리 파일 일치함
+drivers/block/drbd/drbd_worker.o 바이너리 파일 일치함
+drivers/block/drbd/drbd_req.c:			submit_bio_noacct(bio);
+drivers/block/drbd/drbd_req.c:void drbd_submit_bio(struct bio *bio)
+drivers/block/drbd/drbd_nl.o 바이너리 파일 일치함
+drivers/block/drbd/drbd_receiver.c:	submit_bio(bio);
+drivers/block/drbd/drbd_receiver.c:		drbd_submit_bio_noacct(device, fault_type, bio);
+drivers/block/drbd/drbd_actlog.c:		submit_bio(bio);
+drivers/block/drbd/drbd_actlog.o 바이너리 파일 일치함
+drivers/block/drbd/drbd_receiver.o 바이너리 파일 일치함
+drivers/block/drbd/drbd_bitmap.o 바이너리 파일 일치함
+drivers/block/drbd/drbd_proc.o 바이너리 파일 일치함
+drivers/block/drbd/drbd_bitmap.c:		submit_bio(bio);
+drivers/block/drbd/drbd_main.c:	.submit_bio	= drbd_submit_bio,
+drivers/block/drbd/drbd_main.c:		/* We are not just doing submit_bio_noacct(),
+drivers/block/drbd/drbd_req.o 바이너리 파일 일치함
+drivers/block/drbd/drbd_int.h:void drbd_submit_bio(struct bio *bio);
+drivers/block/drbd/drbd_int.h:static inline void drbd_submit_bio_noacct(struct drbd_device *device,
+drivers/block/drbd/drbd_int.h:		drbd_err(device, "drbd_submit_bio_noacct: bio->bi_bdev == NULL\n");
+drivers/block/drbd/drbd_int.h:		submit_bio_noacct(bio);
+drivers/block/drbd/drbd_state.o 바이너리 파일 일치함
+drivers/bluetooth/btmtksdio.ko 바이너리 파일 일치함
+drivers/bluetooth/btmtksdio.o 바이너리 파일 일치함
+drivers/bluetooth/btsdio.o 바이너리 파일 일치함
+drivers/bluetooth/btsdio.ko 바이너리 파일 일치함
+crypto/async_tx/async_pq.o 바이너리 파일 일치함
+crypto/async_tx/async_pq.ko 바이너리 파일 일치함
+crypto/async_tx/async_raid6_recov.o 바이너리 파일 일치함
+crypto/async_tx/async_raid6_recov.ko 바이너리 파일 일치함
+kernel/power/swap.c:		submit_bio(bio);
+kernel/power/swap.c:		error = submit_bio_wait(bio);
+kernel/power/swap.o 바이너리 파일 일치함
+kernel/exit.o 바이너리 파일 일치함
+kernel/trace/blktrace.o 바이너리 파일 일치함
+kernel/sched/core.o 바이너리 파일 일치함
+init/do_mounts.o 바이너리 파일 일치함
+init/main.o 바이너리 파일 일치함
+init/do_mounts_initrd.o 바이너리 파일 일치함
+include/linux/bio.h: * submit_bio(rw, bio);
+include/linux/bio.h: * without the bio_get(), it could potentially complete I/O before submit_bio
+include/linux/bio.h:void submit_bio(struct bio *bio);
+include/linux/bio.h:void jwgc_submit_bio(struct bio *bio, struct io_profiler *io_profiler);
+include/linux/bio.h:extern int submit_bio_wait(struct bio *bio);
+include/linux/device-mapper.h:	 * Set if the target will submit IO using dm_submit_bio_remap()
+include/linux/device-mapper.h:void dm_submit_bio_remap(struct bio *clone, struct bio *tgt_clone);
+include/linux/blkdev.h:void submit_bio_noacct(struct bio *bio);
+include/linux/blkdev.h:	void (*submit_bio)(struct bio *bio);
+include/linux/jw_trace.h:	/* called by jwgc_submit_bio() */
+include/linux/jw_trace.h:	unsigned long long submit_bio_noacct_nocheck_lat;
+include/linux/jw_trace.h:	/* called by submit_bio_noacct_nocheck_lat(). one of two following funcs are called. */
+include/linux/jw_trace.h:	unsigned long long __submit_bio_noacct_mq_lat;
+include/linux/jw_trace.h:	unsigned long long __submit_bio_noacct_lat; /* unlikely to be called */
+include/linux/jw_trace.h:	/* __submit_bio_noacct_mq() repeats __submit_bio->blk_mq_submit_bio() */
+include/linux/jw_trace.h:	/* in blk_mq_submit_bio() */
+include/linux/blk_types.h:	 * submit_bio() punt the actual issuing to a dedicated per-blkcg
+fs/btrfs/root-tree.o 바이너리 파일 일치함
+fs/btrfs/verity.o 바이너리 파일 일치함
+fs/btrfs/inode-item.o 바이너리 파일 일치함
+fs/btrfs/lzo.o 바이너리 파일 일치함
+fs/btrfs/extent_io.h:typedef void (submit_bio_hook_t)(struct inode *inode, struct bio *bio,
+fs/btrfs/extent_io.h:typedef blk_status_t (extent_submit_bio_start_t)(struct inode *inode,
+fs/btrfs/extent_io.h:			    submit_bio_hook_t *submit_bio_hook);
+fs/btrfs/relocation.o 바이너리 파일 일치함
+fs/btrfs/inode.c:static blk_status_t btrfs_submit_bio_start(struct inode *inode, struct bio *bio,
+fs/btrfs/inode.c:		    btrfs_wq_submit_bio(inode, bio, mirror_num, 0,
+fs/btrfs/inode.c:					btrfs_submit_bio_start))
+fs/btrfs/inode.c:	btrfs_submit_bio(fs_info, bio, mirror_num);
+fs/btrfs/inode.c:	btrfs_submit_bio(fs_info, bio, mirror_num);
+fs/btrfs/inode.c:	btrfs_submit_bio(fs_info, bio, mirror_num);
+fs/btrfs/inode.c:static blk_status_t btrfs_submit_bio_start_direct_io(struct inode *inode,
+fs/btrfs/inode.c:		    btrfs_wq_submit_bio(inode, bio, 0, file_offset,
+fs/btrfs/inode.c:					btrfs_submit_bio_start_direct_io))
+fs/btrfs/inode.c:	btrfs_submit_bio(fs_info, bio, 0);
+fs/btrfs/inode.c:	btrfs_submit_bio(fs_info, bio, mirror_num);
+fs/btrfs/compression.o 바이너리 파일 일치함
+fs/btrfs/super.o 바이너리 파일 일치함
+fs/btrfs/scrub.c:		if (submit_bio_wait(&bio)) {
+fs/btrfs/scrub.c:		ret = submit_bio_wait(&bio);
+fs/btrfs/scrub.c:	submit_bio(sbio->bio);
+fs/btrfs/scrub.c:	submit_bio(sbio->bio);
+fs/btrfs/ulist.o 바이너리 파일 일치함
+fs/btrfs/sysfs.o 바이너리 파일 일치함
+fs/btrfs/locking.o 바이너리 파일 일치함
+fs/btrfs/btrfs.ko 바이너리 파일 일치함
+fs/btrfs/tree-defrag.o 바이너리 파일 일치함
+fs/btrfs/scrub.o 바이너리 파일 일치함
+fs/btrfs/transaction.o 바이너리 파일 일치함
+fs/btrfs/acl.o 바이너리 파일 일치함
+fs/btrfs/check-integrity.c:	blk_opf_t submit_bio_bh_rw;
+fs/btrfs/check-integrity.c:	b->submit_bio_bh_rw = 0;
+fs/btrfs/check-integrity.c:		if (submit_bio_wait(bio)) {
+fs/btrfs/check-integrity.c:					  blk_opf_t submit_bio_bh_rw)
+fs/btrfs/check-integrity.c:		block->submit_bio_bh_rw = submit_bio_bh_rw;
+fs/btrfs/check-integrity.c:		block->submit_bio_bh_rw = submit_bio_bh_rw;
+fs/btrfs/check-integrity.c:		if (block->submit_bio_bh_rw & REQ_PREFLUSH) {
+fs/btrfs/check-integrity.c:		if (block->submit_bio_bh_rw & REQ_FUA)
+fs/btrfs/check-integrity.c:"btrfs: attempt to write M-block which contains logical bytenr that doesn't map to dev+physical bytenr of submit_bio, buffer->log_bytenr=%llu, submit_bio(bdev=%pg, phys_bytenr=%llu)!\n",
+fs/btrfs/check-integrity.c:"submit_bio(rw=%d,0x%x, bi_vcnt=%u, bi_sector=%llu (bytenr %llu), bi_bdev=%p)\n",
+fs/btrfs/check-integrity.c:		pr_info("submit_bio(rw=%d,0x%x FLUSH, bdev=%p)\n",
+fs/btrfs/check-integrity.c:		block->submit_bio_bh_rw = bio->bi_opf;
+fs/btrfs/check-integrity.c:"btrfsic_submit_bio(%pg) with FLUSH but dummy block already in use (ignored)!\n",
+fs/btrfs/volumes.c: * btrfs, and is used for all I/O submitted through btrfs_submit_bio.
+fs/btrfs/volumes.c:	submit_bio(bio);
+fs/btrfs/volumes.c:void btrfs_submit_bio(struct btrfs_fs_info *fs_info, struct bio *bio, int mirror_num)
+fs/btrfs/block-rsv.o 바이너리 파일 일치함
+fs/btrfs/zstd.o 바이너리 파일 일치함
+fs/btrfs/disk-io.o 바이너리 파일 일치함
+fs/btrfs/extent_map.o 바이너리 파일 일치함
+fs/btrfs/file.o 바이너리 파일 일치함
+fs/btrfs/struct-funcs.o 바이너리 파일 일치함
+fs/btrfs/extent-tree.o 바이너리 파일 일치함
+fs/btrfs/orphan.o 바이너리 파일 일치함
+fs/btrfs/compression.c:			btrfs_submit_bio(fs_info, bio, 0);
+fs/btrfs/compression.c:			btrfs_submit_bio(fs_info, comp_bio, mirror_num);
+fs/btrfs/volumes.o 바이너리 파일 일치함
+fs/btrfs/tree-log.o 바이너리 파일 일치함
+fs/btrfs/extent_io.o 바이너리 파일 일치함
+fs/btrfs/tree-checker.o 바이너리 파일 일치함
+fs/btrfs/block-group.o 바이너리 파일 일치함
+fs/btrfs/qgroup.o 바이너리 파일 일치함
+fs/btrfs/free-space-cache.o 바이너리 파일 일치함
+fs/btrfs/uuid-tree.o 바이너리 파일 일치함
+fs/btrfs/discard.o 바이너리 파일 일치함
+fs/btrfs/async-thread.o 바이너리 파일 일치함
+fs/btrfs/dir-item.o 바이너리 파일 일치함
+fs/btrfs/ctree.o 바이너리 파일 일치함
+fs/btrfs/backref.o 바이너리 파일 일치함
+fs/btrfs/inode.o 바이너리 파일 일치함
+fs/btrfs/delayed-ref.o 바이너리 파일 일치함
+fs/btrfs/file-item.o 바이너리 파일 일치함
+fs/btrfs/raid56.o 바이너리 파일 일치함
+fs/btrfs/delalloc-space.o 바이너리 파일 일치함
+fs/btrfs/extent_io.c:	/* tells the submit_bio code to use REQ_SYNC */
+fs/btrfs/extent_io.c: * submit_bio directly.
+fs/btrfs/extent_io.c:	ret = submit_bio_wait(&bio);
+fs/btrfs/extent_io.c:			    submit_bio_hook_t *submit_bio_hook)
+fs/btrfs/extent_io.c:	 * At this point we have a bio, so any errors from submit_bio_hook()
+fs/btrfs/extent_io.c:	submit_bio_hook(inode, repair_bio, failrec->this_mirror, 0);
+fs/btrfs/zoned.o 바이너리 파일 일치함
+fs/btrfs/delayed-inode.o 바이너리 파일 일치함
+fs/btrfs/send.o 바이너리 파일 일치함
+fs/btrfs/ctree.h:	 * A third pool does submit_bio to avoid deadlocking with the other
+fs/btrfs/ioctl.o 바이너리 파일 일치함
+fs/btrfs/tree-mod-log.o 바이너리 파일 일치함
+fs/btrfs/disk-io.h:bool btrfs_wq_submit_bio(struct inode *inode, struct bio *bio, int mirror_num,
+fs/btrfs/disk-io.h:			 extent_submit_bio_start_t *submit_bio_start);
+fs/btrfs/disk-io.h:blk_status_t btrfs_submit_bio_done(void *private_data, struct bio *bio,
+fs/btrfs/btrfs.o 바이너리 파일 일치함
+fs/btrfs/space-info.o 바이너리 파일 일치함
+fs/btrfs/subpage.o 바이너리 파일 일치함
+fs/btrfs/print-tree.o 바이너리 파일 일치함
+fs/btrfs/extent-io-tree.o 바이너리 파일 일치함
+fs/btrfs/ordered-data.o 바이너리 파일 일치함
+fs/btrfs/xattr.o 바이너리 파일 일치함
+fs/btrfs/free-space-tree.o 바이너리 파일 일치함
+fs/btrfs/dev-replace.o 바이너리 파일 일치함
+fs/btrfs/props.o 바이너리 파일 일치함
+fs/btrfs/disk-io.c:struct async_submit_bio {
+fs/btrfs/disk-io.c:	extent_submit_bio_start_t *submit_bio_start;
+fs/btrfs/disk-io.c:	/* Optional parameter for submit_bio_start used by direct io */
+fs/btrfs/disk-io.c:	struct async_submit_bio *async;
+fs/btrfs/disk-io.c:	async = container_of(work, struct  async_submit_bio, work);
+fs/btrfs/disk-io.c:	ret = async->submit_bio_start(async->inode, async->bio,
+fs/btrfs/disk-io.c:	struct async_submit_bio *async =
+fs/btrfs/disk-io.c:		container_of(work, struct  async_submit_bio, work);
+fs/btrfs/disk-io.c:	btrfs_submit_bio(btrfs_sb(inode->i_sb), async->bio, async->mirror_num);
+fs/btrfs/disk-io.c:	struct async_submit_bio *async;
+fs/btrfs/disk-io.c:	async = container_of(work, struct  async_submit_bio, work);
+fs/btrfs/disk-io.c:bool btrfs_wq_submit_bio(struct inode *inode, struct bio *bio, int mirror_num,
+fs/btrfs/disk-io.c:			 extent_submit_bio_start_t *submit_bio_start)
+fs/btrfs/disk-io.c:	struct async_submit_bio *async;
+fs/btrfs/disk-io.c:	async->submit_bio_start = submit_bio_start;
+fs/btrfs/disk-io.c:static blk_status_t btree_submit_bio_start(struct inode *inode, struct bio *bio,
+fs/btrfs/disk-io.c:	 * submission context.  Just jump into btrfs_submit_bio.
+fs/btrfs/disk-io.c:		btrfs_submit_bio(fs_info, bio, mirror_num);
+fs/btrfs/disk-io.c:	    btrfs_wq_submit_bio(inode, bio, mirror_num, 0, btree_submit_bio_start))
+fs/btrfs/disk-io.c:	btrfs_submit_bio(fs_info, bio, mirror_num);
+fs/btrfs/disk-io.c:		submit_bio(bio);
+fs/btrfs/disk-io.c:	submit_bio(bio);
+fs/btrfs/reflink.o 바이너리 파일 일치함
+fs/btrfs/raid56.c:		submit_bio(bio);
+fs/btrfs/raid56.c:		submit_bio(bio);
+fs/btrfs/raid56.c:		submit_bio(bio);
+fs/btrfs/raid56.c:		submit_bio(bio);
+fs/btrfs/raid56.c:		submit_bio(bio);
+fs/btrfs/volumes.h:void btrfs_submit_bio(struct btrfs_fs_info *fs_info, struct bio *bio, int mirror_num);
+fs/btrfs/export.o 바이너리 파일 일치함
+fs/ntfs/super.o 바이너리 파일 일치함
+fs/ntfs/dir.o 바이너리 파일 일치함
+fs/ntfs/ntfs.ko 바이너리 파일 일치함
+fs/ntfs/file.o 바이너리 파일 일치함
+fs/ntfs/compress.o 바이너리 파일 일치함
+fs/ntfs/ntfs.o 바이너리 파일 일치함
+fs/cscope.in.out 바이너리 파일 일치함
+fs/direct-io.o 바이너리 파일 일치함
+fs/dax.o 바이너리 파일 일치함
+fs/fat/file.o 바이너리 파일 일치함
+fs/fat/inode.o 바이너리 파일 일치함
+fs/fat/fatent.o 바이너리 파일 일치함
+fs/udf/udf.o 바이너리 파일 일치함
+fs/udf/udf.ko 바이너리 파일 일치함
+fs/udf/super.o 바이너리 파일 일치함
+fs/udf/lowlevel.o 바이너리 파일 일치함
+fs/super.o 바이너리 파일 일치함
+fs/quota/quota.o 바이너리 파일 일치함
+fs/quota/dquot.o 바이너리 파일 일치함
+fs/romfs/super.o 바이너리 파일 일치함
+fs/romfs/romfs.ko 바이너리 파일 일치함
+fs/romfs/romfs.o 바이너리 파일 일치함
+fs/buffer.o 바이너리 파일 일치함
+fs/affs/super.o 바이너리 파일 일치함
+fs/affs/affs.o 바이너리 파일 일치함
+fs/affs/file.o 바이너리 파일 일치함
+fs/affs/affs.ko 바이너리 파일 일치함
+fs/jfs/super.o 바이너리 파일 일치함
+fs/jfs/jfs_mount.o 바이너리 파일 일치함
+fs/jfs/jfs_logmgr.o 바이너리 파일 일치함
+fs/jfs/jfs_discard.o 바이너리 파일 일치함
+fs/jfs/jfs_metapage.o 바이너리 파일 일치함
+fs/jfs/resize.o 바이너리 파일 일치함
+fs/jfs/jfs.ko 바이너리 파일 일치함
+fs/jfs/jfs.o 바이너리 파일 일치함
+fs/jfs/jfs_logmgr.c:		submit_bio(bio);
+fs/jfs/jfs_logmgr.c:		submit_bio(bio);
+fs/jfs/jfs_metapage.c:			submit_bio(bio);
+fs/jfs/jfs_metapage.c:		submit_bio(bio);
+fs/jfs/jfs_metapage.c:				submit_bio(bio);
+fs/jfs/jfs_metapage.c:		submit_bio(bio);
+fs/jfs/ioctl.o 바이너리 파일 일치함
+fs/hfs/super.o 바이너리 파일 일치함
+fs/hfs/hfs.ko 바이너리 파일 일치함
+fs/hfs/mdb.o 바이너리 파일 일치함
+fs/hfs/inode.o 바이너리 파일 일치함
+fs/hfs/hfs.o 바이너리 파일 일치함
+fs/ntfs3/fsntfs.c:			submit_bio(bio);
+fs/ntfs3/fsntfs.c:			err = submit_bio_wait(bio);
+fs/ntfs3/fsntfs.c:			submit_bio(bio);
+fs/ntfs3/fsntfs.c:		err = submit_bio_wait(bio);
+fs/ext4/verity.o 바이너리 파일 일치함
+fs/ext4/fsmap.o 바이너리 파일 일치함
+fs/ext4/xattr_hurd.o 바이너리 파일 일치함
+fs/ext4/xattr_user.o 바이너리 파일 일치함
+fs/ext4/super.o 바이너리 파일 일치함
+fs/ext4/hash.o 바이너리 파일 일치함
+fs/ext4/fast_commit.o 바이너리 파일 일치함
+fs/ext4/extents_status.o 바이너리 파일 일치함
+fs/ext4/sysfs.o 바이너리 파일 일치함
+fs/ext4/fsync.o 바이너리 파일 일치함
+fs/ext4/dir.o 바이너리 파일 일치함
+fs/ext4/mballoc.o 바이너리 파일 일치함
+fs/ext4/inline.o 바이너리 파일 일치함
+fs/ext4/extents.o 바이너리 파일 일치함
+fs/ext4/balloc.o 바이너리 파일 일치함
+fs/ext4/acl.o 바이너리 파일 일치함
+fs/ext4/readpage.o 바이너리 파일 일치함
+fs/ext4/page-io.o 바이너리 파일 일치함
+fs/ext4/block_validity.o 바이너리 파일 일치함
+fs/ext4/file.o 바이너리 파일 일치함
+fs/ext4/ialloc.o 바이너리 파일 일치함
+fs/ext4/crypto.o 바이너리 파일 일치함
+fs/ext4/orphan.o 바이너리 파일 일치함
+fs/ext4/resize.o 바이너리 파일 일치함
+fs/ext4/symlink.o 바이너리 파일 일치함
+fs/ext4/xattr_trusted.o 바이너리 파일 일치함
+fs/ext4/indirect.o 바이너리 파일 일치함
+fs/ext4/ext4_jbd2.o 바이너리 파일 일치함
+fs/ext4/move_extent.o 바이너리 파일 일치함
+fs/ext4/readpage.c:			submit_bio(bio);
+fs/ext4/readpage.c:			submit_bio(bio);
+fs/ext4/readpage.c:			submit_bio(bio);
+fs/ext4/readpage.c:		submit_bio(bio);
+fs/ext4/xattr_security.o 바이너리 파일 일치함
+fs/ext4/inode.o 바이너리 파일 일치함
+fs/ext4/bitmap.o 바이너리 파일 일치함
+fs/ext4/migrate.o 바이너리 파일 일치함
+fs/ext4/ioctl.o 바이너리 파일 일치함
+fs/ext4/mmp.o 바이너리 파일 일치함
+fs/ext4/page-io.c:		submit_bio(io->io_bio);
+fs/ext4/xattr.o 바이너리 파일 일치함
+fs/ext4/namei.o 바이너리 파일 일치함
+fs/hfsplus/super.c:	error2 = hfsplus_submit_bio(sb,
+fs/hfsplus/super.c:	error2 = hfsplus_submit_bio(sb,
+fs/hfsplus/hfsplus.o 바이너리 파일 일치함
+fs/hfsplus/xattr_user.o 바이너리 파일 일치함
+fs/hfsplus/super.o 바이너리 파일 일치함
+fs/hfsplus/btree.o 바이너리 파일 일치함
+fs/hfsplus/attributes.o 바이너리 파일 일치함
+fs/hfsplus/dir.o 바이너리 파일 일치함
+fs/hfsplus/hfsplus.ko 바이너리 파일 일치함
+fs/hfsplus/bfind.o 바이너리 파일 일치함
+fs/hfsplus/extents.o 바이너리 파일 일치함
+fs/hfsplus/hfsplus_fs.h:int hfsplus_submit_bio(struct super_block *sb, sector_t sector, void *buf,
+fs/hfsplus/wrapper.c: * hfsplus_submit_bio - Perform block I/O
+fs/hfsplus/wrapper.c: * read using hfsplus_submit_bio() and the same buffer is used things
+fs/hfsplus/wrapper.c:int hfsplus_submit_bio(struct super_block *sb, sector_t sector,
+fs/hfsplus/wrapper.c:	ret = submit_bio_wait(bio);
+fs/hfsplus/wrapper.c:	error = hfsplus_submit_bio(sb, part_start + HFSPLUS_VOLHEAD_SECTOR,
+fs/hfsplus/wrapper.c:	error = hfsplus_submit_bio(sb, part_start + part_size - 2,
+fs/hfsplus/tables.o 바이너리 파일 일치함
+fs/hfsplus/xattr_trusted.o 바이너리 파일 일치함
+fs/hfsplus/xattr_security.o 바이너리 파일 일치함
+fs/hfsplus/inode.o 바이너리 파일 일치함
+fs/hfsplus/brec.o 바이너리 파일 일치함
+fs/hfsplus/unicode.o 바이너리 파일 일치함
+fs/hfsplus/bitmap.o 바이너리 파일 일치함
+fs/hfsplus/ioctl.o 바이너리 파일 일치함
+fs/hfsplus/options.o 바이너리 파일 일치함
+fs/hfsplus/xattr.o 바이너리 파일 일치함
+fs/hfsplus/wrapper.o 바이너리 파일 일치함
+fs/hfsplus/part_tbl.o 바이너리 파일 일치함
+fs/hfsplus/bnode.o 바이너리 파일 일치함
+fs/hfsplus/part_tbl.c:			res = hfsplus_submit_bio(sb,
+fs/hfsplus/part_tbl.c:	res = hfsplus_submit_bio(sb, *part_start + HFS_PMAP_BLK,
+fs/hfsplus/catalog.o 바이너리 파일 일치함
+fs/freevxfs/vxfs_super.o 바이너리 파일 일치함
+fs/freevxfs/freevxfs.ko 바이너리 파일 일치함
+fs/freevxfs/freevxfs.o 바이너리 파일 일치함
+fs/stat.o 바이너리 파일 일치함
+fs/libfs.o 바이너리 파일 일치함
+fs/iomap/direct-io.o 바이너리 파일 일치함
+fs/iomap/direct-io.c:static void iomap_dio_submit_bio(const struct iomap_iter *iter,
+fs/iomap/direct-io.c:		submit_bio(bio);
+fs/iomap/direct-io.c:	iomap_dio_submit_bio(iter, dio, bio, pos);
+fs/iomap/direct-io.c:		iomap_dio_submit_bio(iter, dio, bio, pos);
+fs/iomap/iter.o 바이너리 파일 일치함
+fs/iomap/buffered-io.c:			submit_bio(ctx->bio);
+fs/iomap/buffered-io.c:		submit_bio(ctx.bio);
+fs/iomap/buffered-io.c:		submit_bio(ctx.bio);
+fs/iomap/buffered-io.c:	return submit_bio_wait(&bio);
+fs/iomap/buffered-io.c:	submit_bio(ioend->io_bio);
+fs/iomap/buffered-io.c:	submit_bio(prev);
+fs/iomap/seek.o 바이너리 파일 일치함
+fs/iomap/fiemap.o 바이너리 파일 일치함
+fs/iomap/swapfile.o 바이너리 파일 일치함
+fs/iomap/trace.o 바이너리 파일 일치함
+fs/iomap/buffered-io.o 바이너리 파일 일치함
+fs/efs/super.o 바이너리 파일 일치함
+fs/efs/efs.ko 바이너리 파일 일치함
+fs/efs/efs.o 바이너리 파일 일치함
+fs/tags:async_submit_bio	btrfs/disk-io.c	/^struct async_submit_bio {$/;"	s	file:
+fs/tags:bio	btrfs/disk-io.c	/^	struct bio *bio;$/;"	m	struct:async_submit_bio	typeref:struct:async_submit_bio::bio	file:
+fs/tags:bl_submit_bio	nfs/blocklayout/blocklayout.c	/^bl_submit_bio(struct bio *bio)$/;"	f	file:
+fs/tags:btree_submit_bio_start	btrfs/disk-io.c	/^static blk_status_t btree_submit_bio_start(struct inode *inode, struct bio *bio,$/;"	f	file:
+fs/tags:btrfs_submit_bio	btrfs/volumes.c	/^void btrfs_submit_bio(struct btrfs_fs_info *fs_info, struct bio *bio, int mirror_num)$/;"	f
+fs/tags:btrfs_submit_bio_start	btrfs/inode.c	/^static blk_status_t btrfs_submit_bio_start(struct inode *inode, struct bio *bio,$/;"	f	file:
+fs/tags:btrfs_submit_bio_start_direct_io	btrfs/inode.c	/^static blk_status_t btrfs_submit_bio_start_direct_io(struct inode *inode,$/;"	f	file:
+fs/tags:btrfs_wq_submit_bio	btrfs/disk-io.c	/^bool btrfs_wq_submit_bio(struct inode *inode, struct bio *bio, int mirror_num,$/;"	f
+fs/tags:dio_file_offset	btrfs/disk-io.c	/^	u64 dio_file_offset;$/;"	m	struct:async_submit_bio	file:
+fs/tags:extent_submit_bio_start_t	btrfs/extent_io.h	/^typedef blk_status_t (extent_submit_bio_start_t)(struct inode *inode,$/;"	t
+fs/tags:gfs2_log_submit_bio	gfs2/lops.c	/^void gfs2_log_submit_bio(struct bio **biop, blk_opf_t opf)$/;"	f
+fs/tags:hfsplus_submit_bio	hfsplus/wrapper.c	/^int hfsplus_submit_bio(struct super_block *sb, sector_t sector,$/;"	f
+fs/tags:inode	btrfs/disk-io.c	/^	struct inode *inode;$/;"	m	struct:async_submit_bio	typeref:struct:async_submit_bio::inode	file:
+fs/tags:iomap_dio_submit_bio	iomap/direct-io.c	/^static void iomap_dio_submit_bio(const struct iomap_iter *iter,$/;"	f	file:
+fs/tags:mirror_num	btrfs/disk-io.c	/^	int mirror_num;$/;"	m	struct:async_submit_bio	file:
+fs/tags:nilfs_segbuf_submit_bio	nilfs2/segbuf.c	/^static int nilfs_segbuf_submit_bio(struct nilfs_segment_buffer *segbuf,$/;"	f	file:
+fs/tags:status	btrfs/disk-io.c	/^	blk_status_t status;$/;"	m	struct:async_submit_bio	file:
+fs/tags:submit_bio_bh_rw	btrfs/check-integrity.c	/^	blk_opf_t submit_bio_bh_rw;$/;"	m	struct:btrfsic_block	file:
+fs/tags:submit_bio_hook_t	btrfs/extent_io.h	/^typedef void (submit_bio_hook_t)(struct inode *inode, struct bio *bio,$/;"	t
+fs/tags:submit_bio_start	btrfs/disk-io.c	/^	extent_submit_bio_start_t *submit_bio_start;$/;"	m	struct:async_submit_bio	file:
+fs/tags:work	btrfs/disk-io.c	/^	struct btrfs_work work;$/;"	m	struct:async_submit_bio	typeref:struct:async_submit_bio::btrfs_work	file:
+fs/isofs/isofs.o 바이너리 파일 일치함
+fs/isofs/isofs.ko 바이너리 파일 일치함
+fs/isofs/inode.o 바이너리 파일 일치함
+fs/nfs/blocklayout/extent_tree.o 바이너리 파일 일치함
+fs/nfs/blocklayout/blocklayoutdriver.o 바이너리 파일 일치함
+fs/nfs/blocklayout/blocklayoutdriver.ko 바이너리 파일 일치함
+fs/nfs/blocklayout/rpc_pipefs.o 바이너리 파일 일치함
+fs/nfs/blocklayout/blocklayout.o 바이너리 파일 일치함
+fs/nfs/blocklayout/blocklayout.c:bl_submit_bio(struct bio *bio)
+fs/nfs/blocklayout/blocklayout.c:		submit_bio(bio);
+fs/nfs/blocklayout/blocklayout.c:		bio = bl_submit_bio(bio);
+fs/nfs/blocklayout/blocklayout.c:		bio = bl_submit_bio(bio);
+fs/nfs/blocklayout/blocklayout.c:			bio = bl_submit_bio(bio);
+fs/nfs/blocklayout/blocklayout.c:			bio = bl_submit_bio(bio);
+fs/nfs/blocklayout/blocklayout.c:	bl_submit_bio(bio);
+fs/nfs/blocklayout/blocklayout.c:			bio = bl_submit_bio(bio);
+fs/nfs/blocklayout/blocklayout.c:	bl_submit_bio(bio);
+fs/nfs/blocklayout/dev.o 바이너리 파일 일치함
+fs/aio.o 바이너리 파일 일치함
+fs/f2fs/checkpoint.o 바이너리 파일 일치함
+fs/f2fs/verity.o 바이너리 파일 일치함
+fs/f2fs/recovery.o 바이너리 파일 일치함
+fs/f2fs/super.c:				  ________submit_bio_by_bio_add, 
+fs/f2fs/super.c:	submit_bio_noacct_nocheck_lat, 
+fs/f2fs/super.c:	__submit_bio_noacct_lat, 
+fs/f2fs/super.c:	__submit_bio_noacct_mq_lat, 
+fs/f2fs/super.c:	submit_bio_noacct_nocheck_lat = gciop->submit_bio_noacct_nocheck_lat / 1000;
+fs/f2fs/super.c:	__submit_bio_noacct_lat = gciop->__submit_bio_noacct_lat / 1000;
+fs/f2fs/super.c:	__submit_bio_noacct_mq_lat = gciop->__submit_bio_noacct_mq_lat / 1000;
+fs/f2fs/super.c:		________submit_bio_by_bio_add = gcp->________submit_bio_by_bio_add / 1000;  
+fs/f2fs/super.c:		printk( "outplace_detail_gc_profiler: do_gc_cnt: %llu __do_write_page_lat: %llu (order_lock: %llu aloc_block: %llu inv_cache: %llu submit_pg: %llu (io_rwsem: %llu zone_wait: %llu other: %llu submit_prev_io: %llu bio_alloc: %llu bio_add: %llu submit_by_bio_add: %llu (finish_plug: %llu submit_bio: %llu) cur_zone_write: %llu end_write: %llu)) __update_data_blkaddr_lat: %llu ", 
+fs/f2fs/super.c:			________submit_bio_by_bio_add, 
+fs/f2fs/super.c:		printk("io_profiler: do_gc_cnt: %llu submit_bio: %llu sbio_noacctcheck: %llu__sbio_noacct: %llu __sbio_noacct_mq: %llu [bounce: %llu split: %llu prep: %llu get_req: %llu init_req: %llu mq_sched_insert: %llu]", 
+fs/f2fs/super.c:			________submit_bio_by_bio_add, 	
+fs/f2fs/super.c:			submit_bio_noacct_nocheck_lat, 
+fs/f2fs/super.c:			__submit_bio_noacct_lat, 
+fs/f2fs/super.c:			__submit_bio_noacct_mq_lat, 
+fs/f2fs/super.c:	gcp->________submit_bio_by_bio_add = 0;
+fs/f2fs/super.c:	gciop->submit_bio_noacct_nocheck_lat = 0;
+fs/f2fs/super.c:	gciop->__submit_bio_noacct_mq_lat = 0;
+fs/f2fs/super.c:	gciop->__submit_bio_noacct_lat = 0;
+fs/f2fs/cscope.in.out 바이너리 파일 일치함
+fs/f2fs/f2fs.o 바이너리 파일 일치함
+fs/f2fs/super.o 바이너리 파일 일치함
+fs/f2fs/hash.o 바이너리 파일 일치함
+fs/f2fs/sysfs.o 바이너리 파일 일치함
+fs/f2fs/dir.o 바이너리 파일 일치함
+fs/f2fs/shrinker.o 바이너리 파일 일치함
+fs/f2fs/f2fs.h: * The below are the page types of bios used in submit_bio().
+fs/f2fs/f2fs.h:	unsigned long long ________submit_bio_by_bio_add;
+fs/f2fs/file.c:	submit_bio(bio);
+fs/f2fs/inline.o 바이너리 파일 일치함
+fs/f2fs/gc.o 바이너리 파일 일치함
+fs/f2fs/acl.o 바이너리 파일 일치함
+fs/f2fs/data.o 바이너리 파일 일치함
+fs/f2fs/file.o 바이너리 파일 일치함
+fs/f2fs/segment.c:	submit_bio(bio);
+fs/f2fs/segment.c:		submit_bio(bio);
+fs/f2fs/extent_cache.o 바이너리 파일 일치함
+fs/f2fs/segment.o 바이너리 파일 일치함
+fs/f2fs/inode.o 바이너리 파일 일치함
+fs/f2fs/debug.o 바이너리 파일 일치함
+fs/f2fs/f2fs.ko 바이너리 파일 일치함
+fs/f2fs/xattr.o 바이너리 파일 일치함
+fs/f2fs/iostat.o 바이너리 파일 일치함
+fs/f2fs/node.o 바이너리 파일 일치함
+fs/f2fs/namei.o 바이너리 파일 일치함
+fs/f2fs/data.c:	submit_bio(bio);
+fs/f2fs/data.c:	submit_bio(bio);
+fs/f2fs/data.c:	jwgc_submit_bio(bio, sbi->cur_gc_io_profiler);
+fs/f2fs/data.c:	submit_bio(bio);
+fs/f2fs/data.c:	cur_gcp->________submit_bio_by_bio_add += read_end_t - read_start_t;
+fs/direct-io.c: * bios hold a dio reference between submit_bio and ->end_io.
+fs/direct-io.c:		submit_bio(bio);
+fs/direct-io.c:		 * Read accounting is performed in submit_bio()
+fs/sync.o 바이너리 파일 일치함
+fs/nilfs2/recovery.o 바이너리 파일 일치함
+fs/nilfs2/segbuf.o 바이너리 파일 일치함
+fs/nilfs2/super.o 바이너리 파일 일치함
+fs/nilfs2/btree.o 바이너리 파일 일치함
+fs/nilfs2/sysfs.o 바이너리 파일 일치함
+fs/nilfs2/ifile.o 바이너리 파일 일치함
+fs/nilfs2/dir.o 바이너리 파일 일치함
+fs/nilfs2/direct.o 바이너리 파일 일치함
+fs/nilfs2/file.o 바이너리 파일 일치함
+fs/nilfs2/page.o 바이너리 파일 일치함
+fs/nilfs2/segbuf.c:static int nilfs_segbuf_submit_bio(struct nilfs_segment_buffer *segbuf,
+fs/nilfs2/segbuf.c:	submit_bio(bio);
+fs/nilfs2/segbuf.c:	err = nilfs_segbuf_submit_bio(segbuf, wi);
+fs/nilfs2/segbuf.c:		res = nilfs_segbuf_submit_bio(segbuf, &wi);
+fs/nilfs2/sufile.o 바이너리 파일 일치함
+fs/nilfs2/gcinode.o 바이너리 파일 일치함
+fs/nilfs2/segment.o 바이너리 파일 일치함
+fs/nilfs2/inode.o 바이너리 파일 일치함
+fs/nilfs2/mdt.o 바이너리 파일 일치함
+fs/nilfs2/nilfs2.o 바이너리 파일 일치함
+fs/nilfs2/bmap.o 바이너리 파일 일치함
+fs/nilfs2/cpfile.o 바이너리 파일 일치함
+fs/nilfs2/ioctl.o 바이너리 파일 일치함
+fs/nilfs2/btnode.o 바이너리 파일 일치함
+fs/nilfs2/the_nilfs.o 바이너리 파일 일치함
+fs/nilfs2/dat.o 바이너리 파일 일치함
+fs/nilfs2/alloc.o 바이너리 파일 일치함
+fs/nilfs2/nilfs2.ko 바이너리 파일 일치함
+fs/nilfs2/namei.o 바이너리 파일 일치함
+fs/hpfs/hpfs.o 바이너리 파일 일치함
+fs/hpfs/super.o 바이너리 파일 일치함
+fs/hpfs/anode.o 바이너리 파일 일치함
+fs/hpfs/buffer.o 바이너리 파일 일치함
+fs/hpfs/dentry.o 바이너리 파일 일치함
+fs/hpfs/dir.o 바이너리 파일 일치함
+fs/hpfs/map.o 바이너리 파일 일치함
+fs/hpfs/file.o 바이너리 파일 일치함
+fs/hpfs/name.o 바이너리 파일 일치함
+fs/hpfs/inode.o 바이너리 파일 일치함
+fs/hpfs/dnode.o 바이너리 파일 일치함
+fs/hpfs/hpfs.ko 바이너리 파일 일치함
+fs/hpfs/ea.o 바이너리 파일 일치함
+fs/hpfs/alloc.o 바이너리 파일 일치함
+fs/hpfs/namei.o 바이너리 파일 일치함
+fs/xfs/xfs_log_cil.c:		submit_bio(bio);
+fs/xfs/xfs_buf_item_recover.o 바이너리 파일 일치함
+fs/xfs/xfs_iwalk.o 바이너리 파일 일치함
+fs/xfs/xfs_attr_item.o 바이너리 파일 일치함
+fs/xfs/xfs_inode_item_recover.o 바이너리 파일 일치함
+fs/xfs/xfs_dquot.o 바이너리 파일 일치함
+fs/xfs/xfs_icreate_item.o 바이너리 파일 일치함
+fs/xfs/xfs_fsops.o 바이너리 파일 일치함
+fs/xfs/xfs_dquot_item.o 바이너리 파일 일치함
+fs/xfs/xfs_qm.o 바이너리 파일 일치함
+fs/xfs/xfs_inode_item.o 바이너리 파일 일치함
+fs/xfs/xfs_rtalloc.o 바이너리 파일 일치함
+fs/xfs/xfs_itable.o 바이너리 파일 일치함
+fs/xfs/xfs_fsmap.o 바이너리 파일 일치함
+fs/xfs/xfs_log.o 바이너리 파일 일치함
+fs/xfs/xfs_mru_cache.o 바이너리 파일 일치함
+fs/xfs/xfs_ioctl.o 바이너리 파일 일치함
+fs/xfs/xfs_reflink.o 바이너리 파일 일치함
+fs/xfs/xfs_dquot_item_recover.o 바이너리 파일 일치함
+fs/xfs/xfs_discard.o 바이너리 파일 일치함
+fs/xfs/xfs_attr_list.o 바이너리 파일 일치함
+fs/xfs/xfs_symlink.o 바이너리 파일 일치함
+fs/xfs/xfs_iops.o 바이너리 파일 일치함
+fs/xfs/xfs_sysctl.o 바이너리 파일 일치함
+fs/xfs/xfs_inode.o 바이너리 파일 일치함
+fs/xfs/xfs_pnfs.o 바이너리 파일 일치함
+fs/xfs/xfs_sysfs.o 바이너리 파일 일치함
+fs/xfs/libxfs/xfs_trans_inode.o 바이너리 파일 일치함
+fs/xfs/libxfs/xfs_dir2_leaf.o 바이너리 파일 일치함
+fs/xfs/libxfs/xfs_dir2_block.o 바이너리 파일 일치함
+fs/xfs/libxfs/xfs_rtbitmap.o 바이너리 파일 일치함
+fs/xfs/libxfs/xfs_ialloc_btree.o 바이너리 파일 일치함
+fs/xfs/libxfs/xfs_dir2_sf.o 바이너리 파일 일치함
+fs/xfs/libxfs/xfs_trans_resv.o 바이너리 파일 일치함
+fs/xfs/libxfs/xfs_dir2.o 바이너리 파일 일치함
+fs/xfs/libxfs/xfs_dir2_node.o 바이너리 파일 일치함
+fs/xfs/libxfs/xfs_refcount.o 바이너리 파일 일치함
+fs/xfs/libxfs/xfs_inode_buf.o 바이너리 파일 일치함
+fs/xfs/libxfs/xfs_iext_tree.o 바이너리 파일 일치함
+fs/xfs/libxfs/xfs_btree_staging.o 바이너리 파일 일치함
+fs/xfs/libxfs/xfs_types.o 바이너리 파일 일치함
+fs/xfs/libxfs/xfs_rmap.o 바이너리 파일 일치함
+fs/xfs/libxfs/xfs_bit.o 바이너리 파일 일치함
+fs/xfs/libxfs/xfs_bmap_btree.o 바이너리 파일 일치함
+fs/xfs/libxfs/xfs_dquot_buf.o 바이너리 파일 일치함
+fs/xfs/libxfs/xfs_refcount_btree.o 바이너리 파일 일치함
+fs/xfs/libxfs/xfs_inode_fork.o 바이너리 파일 일치함
+fs/xfs/libxfs/xfs_sb.o 바이너리 파일 일치함
+fs/xfs/libxfs/xfs_defer.o 바이너리 파일 일치함
+fs/xfs/libxfs/xfs_alloc_btree.o 바이너리 파일 일치함
+fs/xfs/libxfs/xfs_ag_resv.o 바이너리 파일 일치함
+fs/xfs/libxfs/xfs_btree.o 바이너리 파일 일치함
+fs/xfs/libxfs/xfs_attr_remote.o 바이너리 파일 일치함
+fs/xfs/libxfs/xfs_ag.o 바이너리 파일 일치함
+fs/xfs/libxfs/xfs_log_rlimit.o 바이너리 파일 일치함
+fs/xfs/libxfs/xfs_bmap.o 바이너리 파일 일치함
+fs/xfs/libxfs/xfs_alloc.o 바이너리 파일 일치함
+fs/xfs/libxfs/xfs_dir2_data.o 바이너리 파일 일치함
+fs/xfs/libxfs/xfs_da_btree.o 바이너리 파일 일치함
+fs/xfs/libxfs/xfs_attr.o 바이너리 파일 일치함
+fs/xfs/libxfs/xfs_symlink_remote.o 바이너리 파일 일치함
+fs/xfs/libxfs/xfs_attr_leaf.o 바이너리 파일 일치함
+fs/xfs/libxfs/xfs_rmap_btree.o 바이너리 파일 일치함
+fs/xfs/libxfs/xfs_ialloc.o 바이너리 파일 일치함
+fs/xfs/xfs_filestream.o 바이너리 파일 일치함
+fs/xfs/xfs_extent_busy.o 바이너리 파일 일치함
+fs/xfs/xfs_trans_dquot.o 바이너리 파일 일치함
+fs/xfs/xfs.o 바이너리 파일 일치함
+fs/xfs/kmem.o 바이너리 파일 일치함
+fs/xfs/xfs_buf.o 바이너리 파일 일치함
+fs/xfs/xfs_pwork.o 바이너리 파일 일치함
+fs/xfs/xfs_bio_io.o 바이너리 파일 일치함
+fs/xfs/xfs_bmap_util.o 바이너리 파일 일치함
+fs/xfs/xfs_log_recover.o 바이너리 파일 일치함
+fs/xfs/xfs_buf_item.o 바이너리 파일 일치함
+fs/xfs/xfs_mount.o 바이너리 파일 일치함
+fs/xfs/xfs_trans_ail.o 바이너리 파일 일치함
+fs/xfs/xfs_qm_bhv.o 바이너리 파일 일치함
+fs/xfs/xfs_rmap_item.o 바이너리 파일 일치함
+fs/xfs/xfs_extfree_item.o 바이너리 파일 일치함
+fs/xfs/xfs_file.o 바이너리 파일 일치함
+fs/xfs/xfs_icache.o 바이너리 파일 일치함
+fs/xfs/xfs_bio_io.c:			submit_bio(prev);
+fs/xfs/xfs_bio_io.c:	error = submit_bio_wait(bio);
+fs/xfs/xfs_message.o 바이너리 파일 일치함
+fs/xfs/xfs_log.c:		submit_bio(split);
+fs/xfs/xfs_log.c:	submit_bio(&iclog->ic_bio);
+fs/xfs/xfs_trans.o 바이너리 파일 일치함
+fs/xfs/xfs_iomap.o 바이너리 파일 일치함
+fs/xfs/xfs_ioctl32.o 바이너리 파일 일치함
+fs/xfs/xfs_globals.o 바이너리 파일 일치함
+fs/xfs/xfs_error.o 바이너리 파일 일치함
+fs/xfs/xfs_aops.o 바이너리 파일 일치함
+fs/xfs/xfs_buf.c:		submit_bio(bio);
+fs/xfs/xfs_quotaops.o 바이너리 파일 일치함
+fs/xfs/xfs_dir2_readdir.o 바이너리 파일 일치함
+fs/xfs/xfs_attr_inactive.o 바이너리 파일 일치함
+fs/xfs/xfs_super.o 바이너리 파일 일치함
+fs/xfs/xfs.ko 바이너리 파일 일치함
+fs/xfs/xfs_bmap_item.o 바이너리 파일 일치함
+fs/xfs/xfs_qm_syscalls.o 바이너리 파일 일치함
+fs/xfs/xfs_trans_buf.o 바이너리 파일 일치함
+fs/xfs/xfs_export.o 바이너리 파일 일치함
+fs/xfs/xfs_iunlink_item.o 바이너리 파일 일치함
+fs/xfs/xfs_xattr.o 바이너리 파일 일치함
+fs/xfs/xfs_acl.o 바이너리 파일 일치함
+fs/xfs/xfs_health.o 바이너리 파일 일치함
+fs/xfs/xfs_log_cil.o 바이너리 파일 일치함
+fs/xfs/xfs_trace.o 바이너리 파일 일치함
+fs/xfs/xfs_refcount_item.o 바이너리 파일 일치함
+fs/xfs/xfs_notify_failure.o 바이너리 파일 일치함
+fs/xfs/xfs_stats.o 바이너리 파일 일치함
+fs/reiserfs/super.o 바이너리 파일 일치함
+fs/reiserfs/file.o 바이너리 파일 일치함
+fs/reiserfs/reiserfs.ko 바이너리 파일 일치함
+fs/reiserfs/reiserfs.o 바이너리 파일 일치함
+fs/reiserfs/journal.o 바이너리 파일 일치함
+fs/gfs2/log.o 바이너리 파일 일치함
+fs/gfs2/recovery.o 바이너리 파일 일치함
+fs/gfs2/ops_fstype.o 바이너리 파일 일치함
+fs/gfs2/quota.o 바이너리 파일 일치함
+fs/gfs2/super.o 바이너리 파일 일치함
+fs/gfs2/trans.o 바이너리 파일 일치함
+fs/gfs2/ops_fstype.c:	submit_bio(bio);
+fs/gfs2/aops.o 바이너리 파일 일치함
+fs/gfs2/glock.o 바이너리 파일 일치함
+fs/gfs2/dir.o 바이너리 파일 일치함
+fs/gfs2/sys.o 바이너리 파일 일치함
+fs/gfs2/file.o 바이너리 파일 일치함
+fs/gfs2/lops.h:extern void gfs2_log_submit_bio(struct bio **biop, blk_opf_t opf);
+fs/gfs2/lops.c: * gfs2_log_submit_bio - Submit any pending log bio
+fs/gfs2/lops.c:void gfs2_log_submit_bio(struct bio **biop, blk_opf_t opf)
+fs/gfs2/lops.c:		submit_bio(bio);
+fs/gfs2/lops.c:		gfs2_log_submit_bio(biop, op);
+fs/gfs2/lops.c:	submit_bio(prev);
+fs/gfs2/lops.c:				submit_bio(bio);
+fs/gfs2/lops.c:		submit_bio(bio);
+fs/gfs2/gfs2.ko 바이너리 파일 일치함
+fs/gfs2/gfs2.o 바이너리 파일 일치함
+fs/gfs2/meta_io.o 바이너리 파일 일치함
+fs/gfs2/inode.o 바이너리 파일 일치함
+fs/gfs2/meta_io.c:		submit_bio(bio);
+fs/gfs2/bmap.o 바이너리 파일 일치함
+fs/gfs2/lops.o 바이너리 파일 일치함
+fs/gfs2/lock_dlm.o 바이너리 파일 일치함
+fs/gfs2/log.c:	gfs2_log_submit_bio(&jd->jd_log_bio, REQ_OP_WRITE | op_flags);
+fs/gfs2/log.c:	gfs2_log_submit_bio(&sdp->sd_jdesc->jd_log_bio, REQ_OP_WRITE);
+fs/gfs2/rgrp.o 바이너리 파일 일치함
+fs/gfs2/glops.o 바이너리 파일 일치함
+fs/exfat/super.o 바이너리 파일 일치함
+fs/exfat/exfat.ko 바이너리 파일 일치함
+fs/exfat/balloc.o 바이너리 파일 일치함
+fs/exfat/file.o 바이너리 파일 일치함
+fs/exfat/inode.o 바이너리 파일 일치함
+fs/exfat/exfat.o 바이너리 파일 일치함
+fs/exfat/fatent.o 바이너리 파일 일치함
+fs/adfs/super.o 바이너리 파일 일치함
+fs/adfs/adfs.ko 바이너리 파일 일치함
+fs/adfs/adfs.o 바이너리 파일 일치함
+fs/crypto/bio.c:			err = submit_bio_wait(bio);
+fs/crypto/bio.c:		err = submit_bio_wait(bio);
+fs/crypto/fname.o 바이너리 파일 일치함
+fs/crypto/bio.o 바이너리 파일 일치함
+fs/crypto/hooks.o 바이너리 파일 일치함
+fs/crypto/keyring.o 바이너리 파일 일치함
+fs/crypto/crypto.o 바이너리 파일 일치함
+fs/crypto/keysetup_v1.o 바이너리 파일 일치함
+fs/crypto/policy.o 바이너리 파일 일치함
+fs/crypto/keysetup.o 바이너리 파일 일치함
+fs/crypto/hkdf.o 바이너리 파일 일치함
+fs/mpage.c:	submit_bio(bio);
+fs/jbd2/checkpoint.o 바이너리 파일 일치함
+fs/jbd2/recovery.o 바이너리 파일 일치함
+fs/jbd2/transaction.o 바이너리 파일 일치함
+fs/jbd2/revoke.o 바이너리 파일 일치함
+fs/jbd2/commit.o 바이너리 파일 일치함
+fs/jbd2/journal.o 바이너리 파일 일치함
+fs/ufs/super.o 바이너리 파일 일치함
+fs/ufs/ufs.ko 바이너리 파일 일치함
+fs/ufs/ufs.o 바이너리 파일 일치함
+fs/erofs/super.o 바이너리 파일 일치함
+fs/erofs/zdata.o 바이너리 파일 일치함
+fs/erofs/sysfs.o 바이너리 파일 일치함
+fs/erofs/dir.o 바이너리 파일 일치함
+fs/erofs/zmap.o 바이너리 파일 일치함
+fs/erofs/decompressor.o 바이너리 파일 일치함
+fs/erofs/data.o 바이너리 파일 일치함
+fs/erofs/pcpubuf.o 바이너리 파일 일치함
+fs/erofs/utils.o 바이너리 파일 일치함
+fs/erofs/inode.o 바이너리 파일 일치함
+fs/erofs/erofs.o 바이너리 파일 일치함
+fs/erofs/xattr.o 바이너리 파일 일치함
+fs/erofs/zdata.c:submit_bio_retry:
+fs/erofs/zdata.c:				submit_bio(bio);
+fs/erofs/zdata.c:				goto submit_bio_retry;
+fs/erofs/zdata.c:		submit_bio(bio);
+fs/erofs/erofs.ko 바이너리 파일 일치함
+fs/erofs/namei.o 바이너리 파일 일치함
+fs/nfsd/blocklayoutxdr.o 바이너리 파일 일치함
+fs/nfsd/nfsd.ko 바이너리 파일 일치함
+fs/nfsd/blocklayout.o 바이너리 파일 일치함
+fs/nfsd/nfs4layouts.o 바이너리 파일 일치함
+fs/nfsd/nfsd.o 바이너리 파일 일치함
+fs/befs/linuxvfs.o 바이너리 파일 일치함
+fs/befs/befs.ko 바이너리 파일 일치함
+fs/befs/befs.o 바이너리 파일 일치함
+fs/fs-writeback.o 바이너리 파일 일치함
+fs/cramfs/cramfs.o 바이너리 파일 일치함
+fs/cramfs/inode.o 바이너리 파일 일치함
+fs/cramfs/cramfs.ko 바이너리 파일 일치함
+fs/ocfs2/dlm/ocfs2_dlm.o 바이너리 파일 일치함
+fs/ocfs2/dlm/dlmmaster.o 바이너리 파일 일치함
+fs/ocfs2/dlm/dlmunlock.o 바이너리 파일 일치함
+fs/ocfs2/dlm/dlmthread.o 바이너리 파일 일치함
+fs/ocfs2/dlm/dlmast.o 바이너리 파일 일치함
+fs/ocfs2/dlm/dlmrecovery.o 바이너리 파일 일치함
+fs/ocfs2/dlm/ocfs2_dlm.ko 바이너리 파일 일치함
+fs/ocfs2/dlm/dlmlock.o 바이너리 파일 일치함
+fs/ocfs2/dlm/dlmconvert.o 바이너리 파일 일치함
+fs/ocfs2/super.o 바이너리 파일 일치함
+fs/ocfs2/slot_map.o 바이너리 파일 일치함
+fs/ocfs2/sysfile.o 바이너리 파일 일치함
+fs/ocfs2/ocfs2.ko 바이너리 파일 일치함
+fs/ocfs2/reservations.o 바이너리 파일 일치함
+fs/ocfs2/aops.o 바이너리 파일 일치함
+fs/ocfs2/dir.o 바이너리 파일 일치함
+fs/ocfs2/cluster/heartbeat.c:		submit_bio(bio);
+fs/ocfs2/cluster/heartbeat.c:	submit_bio(bio);
+fs/ocfs2/cluster/ocfs2_nodemanager.ko 바이너리 파일 일치함
+fs/ocfs2/cluster/ocfs2_nodemanager.o 바이너리 파일 일치함
+fs/ocfs2/cluster/heartbeat.o 바이너리 파일 일치함
+fs/ocfs2/dcache.o 바이너리 파일 일치함
+fs/ocfs2/dlmglue.o 바이너리 파일 일치함
+fs/ocfs2/mmap.o 바이너리 파일 일치함
+fs/ocfs2/acl.o 바이너리 파일 일치함
+fs/ocfs2/uptodate.o 바이너리 파일 일치함
+fs/ocfs2/extent_map.o 바이너리 파일 일치함
+fs/ocfs2/file.o 바이너리 파일 일치함
+fs/ocfs2/move_extents.o 바이너리 파일 일치함
+fs/ocfs2/quota_global.o 바이너리 파일 일치함
+fs/ocfs2/resize.o 바이너리 파일 일치함
+fs/ocfs2/symlink.o 바이너리 파일 일치함
+fs/ocfs2/blockcheck.o 바이너리 파일 일치함
+fs/ocfs2/suballoc.o 바이너리 파일 일치함
+fs/ocfs2/locks.o 바이너리 파일 일치함
+fs/ocfs2/inode.o 바이너리 파일 일치함
+fs/ocfs2/refcounttree.o 바이너리 파일 일치함
+fs/ocfs2/ioctl.o 바이너리 파일 일치함
+fs/ocfs2/quota_local.o 바이너리 파일 일치함
+fs/ocfs2/buffer_head_io.o 바이너리 파일 일치함
+fs/ocfs2/filecheck.o 바이너리 파일 일치함
+fs/ocfs2/xattr.o 바이너리 파일 일치함
+fs/ocfs2/heartbeat.o 바이너리 파일 일치함
+fs/ocfs2/journal.o 바이너리 파일 일치함
+fs/ocfs2/localalloc.o 바이너리 파일 일치함
+fs/ocfs2/alloc.o 바이너리 파일 일치함
+fs/ocfs2/ocfs2.o 바이너리 파일 일치함
+fs/ocfs2/namei.o 바이너리 파일 일치함
+fs/ocfs2/export.o 바이너리 파일 일치함
+fs/squashfs/super.o 바이너리 파일 일치함
+fs/squashfs/block.c:	error = submit_bio_wait(bio);
+fs/squashfs/block.o 바이너리 파일 일치함
+fs/proc/devices.o 바이너리 파일 일치함
+fs/cscope.out: = submit_bio_bh_rw;
+fs/cscope.out: = submit_bio_bh_rw;
+fs/cscope.out:("submit_bio(rw=%d,0x%x FLUSH, bdev=%p)\n",
+fs/cscope.out: = submit_bio_start;
+fs/buffer.c:	submit_bio(bio);
+fs/fuse/dax.o 바이너리 파일 일치함
+fs/orangefs/orangefs.o 바이너리 파일 일치함
+fs/orangefs/inode.o 바이너리 파일 일치함
+fs/orangefs/orangefs.ko 바이너리 파일 일치함
+fs/zonefs/super.c:	ret = submit_bio_wait(bio);
+fs/zonefs/super.c:	ret = submit_bio_wait(&bio);
+fs/mpage.o 바이너리 파일 일치함
+cscope.out:, "drbd_submit_bio_noacct: bio->bi_bdev == NULL\n");
+cscope.out: = submit_bio_bh_rw;
+cscope.out: = submit_bio_bh_rw;
+cscope.out:("submit_bio(rw=%d,0x%x FLUSH, bdev=%p)\n",
+cscope.out: = submit_bio_start;
+vmlinux 바이너리 파일 일치함
+System.map:ffffffff8140b260 t iomap_dio_submit_bio
+System.map:ffffffff815ba9c0 T submit_bio_wait
+System.map:ffffffff815baa80 t submit_bio_wait_endio
+System.map:ffffffff815c13a0 t __submit_bio
+System.map:ffffffff815c14d0 t __submit_bio_noacct
+System.map:ffffffff815c19f0 T submit_bio_noacct_nocheck
+System.map:ffffffff815c1b10 T submit_bio_noacct
+System.map:ffffffff815c2000 T submit_bio
+System.map:ffffffff815c2080 T jwgc_submit_bio_noacct_nocheck
+System.map:ffffffff815c2360 T jwgc_submit_bio_noacct
+System.map:ffffffff815c28b0 T jwgc_submit_bio
+System.map:ffffffff815d1b40 T blk_mq_submit_bio
+System.map:ffffffff815d1f50 T jwgc_blk_mq_submit_bio
+System.map:ffffffff819c0f30 t md_submit_bio
+System.map:ffffffff819d1a50 T dm_submit_bio_remap
+System.map:ffffffff819d3b70 t dm_submit_bio
+System.map:ffffffff81c8e538 t submit_bio_noacct.cold
+System.map:ffffffff81c8e587 t jwgc_submit_bio_noacct.cold
+System.map:ffffffff81c8e831 t jwgc_blk_mq_submit_bio.cold
+System.map:ffffffff826c980c r __ksymtab_jwgc_submit_bio
+System.map:ffffffff826c9818 r __ksymtab_jwgc_submit_bio_noacct
+System.map:ffffffff826cfa34 r __ksymtab_submit_bio
+System.map:ffffffff826cfa40 r __ksymtab_submit_bio_noacct
+System.map:ffffffff826cfa4c r __ksymtab_submit_bio_wait
+System.map:ffffffff826d8b54 r __ksymtab_dm_submit_bio_remap
+vmlinux.o 바이너리 파일 일치함
+cscope.out.in 바이너리 파일 일치함
+.tmp_vmlinux.kallsyms1 바이너리 파일 일치함
+mm/madvise.o 바이너리 파일 일치함
+mm/page-writeback.o 바이너리 파일 일치함
+mm/page_io.c:	submit_bio(bio);
+mm/page_io.c:	submit_bio(bio);
+mm/backing-dev.o 바이너리 파일 일치함
+mm/readahead.o 바이너리 파일 일치함
+mm/page_io.o 바이너리 파일 일치함
+mm/swap_state.o 바이너리 파일 일치함
+mm/swapfile.o 바이너리 파일 일치함
+mm/page_alloc.o 바이너리 파일 일치함
+mm/vmscan.o 바이너리 파일 일치함
+block/fops.c:	submit_bio_wait(&bio);
+block/fops.c:			submit_bio(bio);
+block/fops.c:		submit_bio(bio);
+block/fops.c:		submit_bio(bio);
+block/fops.c:		submit_bio(bio);
+block/kyber-iosched.ko 바이너리 파일 일치함
+block/kyber-iosched.o 바이너리 파일 일치함
+block/blk-integrity.o 바이너리 파일 일치함
+block/bfq-iosched.o 바이너리 파일 일치함
+block/blk-lib.o 바이너리 파일 일치함
+block/blk-stat.o 바이너리 파일 일치함
+block/blk-mq-cpumap.o 바이너리 파일 일치함
+block/bio.c:		submit_bio(bio);
+block/bio.c:		submit_bio_noacct(bio);
+block/bio.c: * Note that when running under submit_bio_noacct() (i.e. any block driver),
+block/bio.c: * submit_bio_noacct() that converts recursion into iteration, to prevent
+block/bio.c: * This would normally mean allocating multiple bios under submit_bio_noacct()
+block/bio.c: * submit_bio_noacct() should be avoided - instead, use bio_set's front_pad
+block/bio.c:	 * submit_bio_noacct() converts recursion to iteration; this means if
+block/bio.c:	 * from the same bio_set() while running underneath submit_bio_noacct().
+block/bio.c:static void submit_bio_wait_endio(struct bio *bio)
+block/bio.c: * submit_bio_wait - submit a bio, and wait until it completes
+block/bio.c: * Simple wrapper around submit_bio(). Returns 0 on success, or the error from
+block/bio.c: * WARNING: Unlike to how submit_bio() is usually used, this function does not
+block/bio.c:int submit_bio_wait(struct bio *bio)
+block/bio.c:	bio->bi_end_io = submit_bio_wait_endio;
+block/bio.c:	submit_bio(bio);
+block/bio.c:EXPORT_SYMBOL(submit_bio_wait);
+block/blk-mq-tag.o 바이너리 파일 일치함
+block/bio-integrity.o 바이너리 파일 일치함
+block/mq-deadline.o 바이너리 파일 일치함
+block/elevator.o 바이너리 파일 일치함
+block/blk-cgroup.c:		submit_bio(bio);
+block/blk-crypto-fallback.c:		submit_bio_noacct(bio);
+block/bio.o 바이너리 파일 일치함
+block/blk-mq-sched.o 바이너리 파일 일치함
+block/blk-flush.o 바이너리 파일 일치함
+block/bsg-lib.o 바이너리 파일 일치함
+block/blk-throttle.c:			submit_bio_noacct_nocheck(bio);
+block/blk-merge.o 바이너리 파일 일치함
+block/blk-mq-sysfs.o 바이너리 파일 일치함
+block/blk-cgroup.o 바이너리 파일 일치함
+block/blk-mq-debugfs-zoned.o 바이너리 파일 일치함
+block/sed-opal.o 바이너리 파일 일치함
+block/bfq.ko 바이너리 파일 일치함
+block/blk-flush.c:	return submit_bio_wait(&bio);
+block/blk-timeout.o 바이너리 파일 일치함
+block/bfq.o 바이너리 파일 일치함
+block/blk-core.c: *     that its ->submit_bio will not re-add plugging prior to calling
+block/blk-core.c:static void __submit_bio(struct bio *bio)
+block/blk-core.c:	if (!disk->fops->submit_bio) {
+block/blk-core.c:		blk_mq_submit_bio(bio);
+block/blk-core.c:		disk->fops->submit_bio(bio);
+block/blk-core.c:static void __jwgc_submit_bio(struct bio *bio, struct io_profiler *io_profiler)
+block/blk-core.c:	if (!disk->fops->submit_bio) {
+block/blk-core.c:		jwgc_blk_mq_submit_bio(bio, io_profiler);
+block/blk-core.c:		disk->fops->submit_bio(bio);
+block/blk-core.c: *    bio_list of new bios to be added.  ->submit_bio() may indeed add some more
+block/blk-core.c: *    bios through a recursive call to submit_bio_noacct.  If it did, we find a
+block/blk-core.c: *    pretending) and so remove it from bio_list, and call into ->submit_bio()
+block/blk-core.c: * bio_list_on_stack[0] contains bios submitted by the current ->submit_bio.
+block/blk-core.c: *	->submit_bio, but that haven't been processed yet.
+block/blk-core.c:static void __submit_bio_noacct(struct bio *bio)
+block/blk-core.c:		__submit_bio(bio);
+block/blk-core.c:static void __submit_bio_noacct_mq(struct bio *bio)
+block/blk-core.c:		__submit_bio(bio);
+block/blk-core.c:static void __jwgc_submit_bio_noacct_mq(struct bio *bio, struct io_profiler *io_profiler)
+block/blk-core.c:		__jwgc_submit_bio(bio, io_profiler);
+block/blk-core.c:void submit_bio_noacct_nocheck(struct bio *bio)
+block/blk-core.c:	 * We only want one ->submit_bio to be active at a time, else stack
+block/blk-core.c:	 * to collect a list of requests submited by a ->submit_bio method while
+block/blk-core.c:	else if (!bio->bi_bdev->bd_disk->fops->submit_bio)
+block/blk-core.c:		__submit_bio_noacct_mq(bio);
+block/blk-core.c:		__submit_bio_noacct(bio);
+block/blk-core.c:void jwgc_submit_bio_noacct_nocheck(struct bio *bio, struct io_profiler *io_profiler)
+block/blk-core.c:	 * We only want one ->submit_bio to be active at a time, else stack
+block/blk-core.c:	 * to collect a list of requests submited by a ->submit_bio method while
+block/blk-core.c:	else if (!bio->bi_bdev->bd_disk->fops->submit_bio) {
+block/blk-core.c:		__jwgc_submit_bio_noacct_mq(bio, io_profiler);
+block/blk-core.c:   		io_profiler->__submit_bio_noacct_mq_lat += read_end_t - read_start_t;
+block/blk-core.c:		__submit_bio_noacct(bio);
+block/blk-core.c:   		io_profiler->__submit_bio_noacct_lat += read_end_t - read_start_t;
+block/blk-core.c: * submit_bio_noacct - re-submit a bio to the block device layer for I/O
+block/blk-core.c: * This is a version of submit_bio() that shall only be used for I/O that is
+block/blk-core.c: * submit_bio() instead.
+block/blk-core.c:void submit_bio_noacct(struct bio *bio)
+block/blk-core.c:	submit_bio_noacct_nocheck(bio);
+block/blk-core.c:EXPORT_SYMBOL(submit_bio_noacct);
+block/blk-core.c:void jwgc_submit_bio_noacct(struct bio *bio, struct io_profiler *io_profiler)
+block/blk-core.c:	jwgc_submit_bio_noacct_nocheck(bio, io_profiler);
+block/blk-core.c:   	io_profiler->submit_bio_noacct_nocheck_lat += read_end_t - read_start_t;
+block/blk-core.c:EXPORT_SYMBOL(jwgc_submit_bio_noacct);
+block/blk-core.c: * submit_bio - submit a bio to the block device layer for I/O
+block/blk-core.c: * submit_bio() is used to submit I/O requests to block devices.  It is passed a
+block/blk-core.c:void submit_bio(struct bio *bio)
+block/blk-core.c:	submit_bio_noacct(bio);
+block/blk-core.c:EXPORT_SYMBOL(submit_bio);
+block/blk-core.c:void jwgc_submit_bio(struct bio *bio, struct io_profiler *io_profiler)
+block/blk-core.c:	jwgc_submit_bio_noacct(bio, io_profiler);
+block/blk-core.c:EXPORT_SYMBOL(jwgc_submit_bio);
+block/bsg.o 바이너리 파일 일치함
+block/blk-sysfs.o 바이너리 파일 일치함
+block/holder.o 바이너리 파일 일치함
+block/blk-cgroup-rwstat.o 바이너리 파일 일치함
+block/blk-zoned.o 바이너리 파일 일치함
+block/blk-zoned.c:		ret = submit_bio_wait(bio);
+block/blk-zoned.c:	return submit_bio_wait(&bio);
+block/blk-zoned.c:	ret = submit_bio_wait(bio);
+block/blk-crypto.c: * submit_bio_noacct. A bounce bio will be allocated to encrypt the contents
+block/genhd.o 바이너리 파일 일치함
+block/blk-iocost.o 바이너리 파일 일치함
+block/blk-ia-ranges.o 바이너리 파일 일치함
+block/blk-settings.o 바이너리 파일 일치함
+block/blk-ioc.o 바이너리 파일 일치함
+block/blk-mq-debugfs.o 바이너리 파일 일치함
+block/bounce.c:		submit_bio_noacct(bio_orig);
+block/blk-mq.c: * blk_mq_submit_bio - Create and send a request to block device.
+block/blk-mq.c:void blk_mq_submit_bio(struct bio *bio)
+block/blk-mq.c:void jwgc_blk_mq_submit_bio(struct bio *bio, struct io_profiler *io_profiler)
+block/t10-pi.o 바이너리 파일 일치함
+block/fops.o 바이너리 파일 일치함
+block/blk-mq-rdma.o 바이너리 파일 일치함
+block/blk-merge.c:		submit_bio_noacct(bio);
+block/blk-wbt.o 바이너리 파일 일치함
+block/blk-lib.c:		ret = submit_bio_wait(bio);
+block/blk-lib.c:		ret = submit_bio_wait(bio);
+block/blk-lib.c:			ret = submit_bio_wait(bio);
+block/blk-mq-pci.o 바이너리 파일 일치함
+block/partitions/core.o 바이너리 파일 일치함
+block/partitions/atari.o 바이너리 파일 일치함
+block/partitions/sysv68.o 바이너리 파일 일치함
+block/partitions/karma.o 바이너리 파일 일치함
+block/partitions/aix.o 바이너리 파일 일치함
+block/partitions/ldm.o 바이너리 파일 일치함
+block/partitions/msdos.o 바이너리 파일 일치함
+block/partitions/osf.o 바이너리 파일 일치함
+block/partitions/sgi.o 바이너리 파일 일치함
+block/partitions/cmdline.o 바이너리 파일 일치함
+block/partitions/ultrix.o 바이너리 파일 일치함
+block/partitions/efi.o 바이너리 파일 일치함
+block/partitions/amiga.o 바이너리 파일 일치함
+block/partitions/sun.o 바이너리 파일 일치함
+block/partitions/mac.o 바이너리 파일 일치함
+block/ioctl.o 바이너리 파일 일치함
+block/ioprio.o 바이너리 파일 일치함
+block/bdev.o 바이너리 파일 일치함
+block/blk.h:void submit_bio_noacct_nocheck(struct bio *bio);
+block/blk-core.o 바이너리 파일 일치함
+block/blk-mq.h:void blk_mq_submit_bio(struct bio *bio);
+block/blk-mq.h:void jwgc_blk_mq_submit_bio(struct bio *bio, struct io_profiler *io_profiler);
+block/blk-mq.h: * insertion order to change from the order in which submit_bio() is being
+block/bfq-cgroup.o 바이너리 파일 일치함
+block/blk-mq-virtio.o 바이너리 파일 일치함
+block/blk-throttle.o 바이너리 파일 일치함
+block/bfq-wf2q.o 바이너리 파일 일치함
+block/blk-mq.o 바이너리 파일 일치함
+block/blk-map.o 바이너리 파일 일치함
+block/blk-rq-qos.o 바이너리 파일 일치함
+block/blk-pm.o 바이너리 파일 일치함
+block/disk-events.o 바이너리 파일 일치함
