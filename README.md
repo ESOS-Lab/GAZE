@@ -197,6 +197,8 @@ results first. We recommend following them in order.
 
 ## 3. GAZE (no reboot)
 
+### 3.1 FIO (required)
+
 GAZE runs on the base kernel you built in [§1.4](#14-installation-and-build). The commands below select
 GAZE, run it on FIO (the fastest core result), and open the figure:
 
@@ -206,6 +208,7 @@ printf 'gaze\nn\n' | ./select_fs.sh       # gaze, profiling n (skip if already s
 printf '1\ny\n'    | ./run_experiment.sh  # FIO (~23 min)
 ./view_results.sh gaze fio                # FIO throughput (paper Fig 17): your GAZE curve
 ```
+### 3.2 Macrobenchmark (optional)
 
 You can also run the macro benchmarks if you want; they feed the
 macrobenchmark figure (paper Fig 18). Run all five back to back with
@@ -226,6 +229,8 @@ Fileserver need none). On the provided server they are already in place,
 so you can skip this; if you use your own server or PC, generate them once
 before the first YCSB-A / YCSB-F / TPC-C run with
 `experiment_script/make_cold_data.sh` (about 220 GB, hours).
+
+### 3.3 Viewing Results (required)
 
 `./view_results.sh` opens the figures with your fresh GAZE runs drawn on
 top of the paper's recorded data for every filesystem you have not run
@@ -253,7 +258,7 @@ cd ~/GAZE/kernel
 # ./build_all_modules.sh        # no argument: every base mode, ~1 h
 ```
 
-### 4.1 Zoned F2FS
+### 4.1 Zoned F2FS (required)
 
 With the `f2fs` module built (above), the commands below select `f2fs` and
 run it on FIO:
