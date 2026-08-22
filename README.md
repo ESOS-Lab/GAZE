@@ -424,6 +424,8 @@ kernel or emulator.
 
 Budget ~20 min for setup, then up to ~3.5 h for the experiments.
 
+Note that switching between `main` and `iplfs` via `git checkout` will invalidate the kernel build tree and emulator configuration (e.g., `auto.conf` and NVMeVirt module state). If you have uncommitted changes or active build artifacts, please commit/stash them before switching, and ensure you rebuild the kernel/tools as instructed below.
+
 The commands below switch to the `iplfs` branch, build its kernel and
 mkfs, and reboot into it:
 
