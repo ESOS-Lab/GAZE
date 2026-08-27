@@ -3,7 +3,7 @@
 Source code and artifact of **GAZE: Rearchitecting Log-Structured Filesystem
 for Garbage Collection on Zoned Namespace Flash Storage** (SOSP '26).
 
-GAZE is developed by Juwon Kim @ OSLAB-KAIST (joo97508@gmail.com).
+GAZE is developed by Juwon Kim @ OSLAB-KAIST (joo97508 at gmail.com).
 
 Table of contents:
 
