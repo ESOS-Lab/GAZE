@@ -1,7 +1,7 @@
 # GAZE: SOSP '26 Artifact
 
-Source code and artifact of **GAZE: Rearchitecting Log-Structured Filesystem
-for Garbage Collection on Zoned Namespace Flash Storage** (SOSP '26).
+Source code and artifact of the paper [**GAZE: Rearchitecting Log-Structured Filesystem
+for Garbage Collection on Zoned Namespace Flash Storage**](https://dl.acm.org/doi/10.1145/3830418.3843870) (SOSP '26).
 
 GAZE is developed by [Juwon Kim](https://juwonkim97.github.io/) @ [OSLAB-KAIST](https://oslab.kaist.ac.kr/) (joo97508 at gmail.com).
 
@@ -9,6 +9,18 @@ GAZE has received all SOSP Artifact Evaluation badges.
 The version evaluated during the SOSP Artifact Evaluation is archived on Zenodo:
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22119686.svg)](https://doi.org/10.5281/zenodo.22119686)
+
+
+We encourage you to cite our paper as follows:
+```
+@inproceedings{kim2026gaze,
+  title={GAZE: Rearchitecting Log-Structured Filesystem for Garbage Collection on Zoned Namespace Flash Storage},
+  author={Kim, Juwon and Yoo, Hwanseok and Yoo, Seung Won and Won, Youjip},
+  booktitle={Proceedings of the ACM SIGOPS 32nd Symposium on Operating Systems Principles},
+  pages={321--336},
+  year={2026}
+}
+```
 
 
 Table of contents:
